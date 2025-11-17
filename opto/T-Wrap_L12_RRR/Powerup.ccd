@@ -1,0 +1,50 @@
+: 0_0
+0 JUMP ;
+: 0_1
+
+1 LINE.NUM
+  &Act_Output   START.T
+  ^Status_Trashcan @! 
+
+2 LINE.NUM
+  &Head_Temp_Control   START.T
+  ^Status_Trashcan @! 
+
+3 LINE.NUM
+  &BW_Profile_86   START.T
+  ^Status_Trashcan @! 
+
+4 LINE.NUM
+  &Scan   START.T
+  ^Status_Trashcan @! 
+
+5 LINE.NUM
+  &Coutner_inputs   START.T
+  ^Status_Trashcan @! 
+
+6 LINE.NUM
+  &Utility   START.T
+  ^Status_Trashcan @! 
+
+7 LINE.NUM
+  &Shutter_Indication   START.T
+  ^Status_Trashcan @! 
+
+8 LINE.NUM
+  &EOS_Data   START.T
+  ^Status_Trashcan @! 
+
+9 LINE.NUM
+  &Stretcher_Ctrl   START.T
+  ^Status_Trashcan @! 
+
+10 LINE.NUM
+  &Scratchpad   START.T
+  ^Status_Trashcan @! 
+0 JUMP ;
+T: T0
+DUMMY
+0_0
+0_1
+T;
+&Powerup ' T0 SETTASK

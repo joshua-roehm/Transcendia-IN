@@ -1,0 +1,416 @@
+: 15_0
+15 JUMP ;
+: 15_10
+5 JUMP ;
+: 15_23
+33 JUMP ;
+: 15_25
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^Awaiting_Corr_Flag @! 
+-2 JUMP ;
+: 15_30
+
+1 LINE.NUM
+  1.0    FDELAY
+24 JUMP ;
+: 15_58
+
+1 LINE.NUM
+  ^Awaiting_Corr_Timer   StartTimer
+26 JUMP ;
+: 15_66
+1 LINE.NUM 0 ^Awaiting_Corr_Flag @! 
+2 LINE.NUM ^Comp_Avg @@ ^Weight_TGT @@ F- ^Weight_Error @! 
+3 LINE.NUM ^Weight_Error @@ 100 I>F F/ ^Weight_Error_Percent @! 
+5 LINE.NUM ^Weight_Error @@ 0 I>F F> IF 
+6 LINE.NUM ^Weight_Error @@ 0 I>F F> ^Weight_Error @@ ^Max_Error_Limit @@ F> LAND  IF 
+8 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+9 LINE.NUM ELSE 
+10 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+12 LINE.NUM THEN 
+13 LINE.NUM ELSE 
+14 LINE.NUM THEN 
+16 LINE.NUM ^Weight_Error @@ 0 I>F F< IF 
+17 LINE.NUM ^Weight_Error @@ 0 I>F F< ^Weight_Error @@ -1 I>F F* ^Max_Error_Limit @@ F> LAND  IF 
+19 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+20 LINE.NUM ELSE 
+21 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+23 LINE.NUM THEN 
+24 LINE.NUM ELSE 
+25 LINE.NUM THEN 
+28 LINE.NUM ^Weight_Error @@ ^Gain_Pro @@ F* ^On_Time_Gain @@ F* ^Integral_Time @@ F* ^Weight_Corr @! 
+31 LINE.NUM ^Weight_Corr @@ 0 I>F F> IF 
+32 LINE.NUM ^Weight_Corr @@ 0 I>F F> ^Weight_Corr @@ ^Max_Corr_Limit @@ F> LAND  IF 
+34 LINE.NUM 1 I>F ^Max_Corr_Limit_Flag @! 
+35 LINE.NUM ELSE 
+36 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+37 LINE.NUM THEN 
+38 LINE.NUM ELSE 
+39 LINE.NUM THEN 
+41 LINE.NUM ^Weight_Corr @@ 0 I>F F< IF 
+42 LINE.NUM ^Weight_Corr @@ 0 I>F F< ^Weight_Corr @@ -1 I>F F* ^Max_Corr_Limit @@ F> LAND  IF 
+44 LINE.NUM 1 I>F ^Max_Corr_Limit_Flag @! 
+45 LINE.NUM ELSE 
+46 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+47 LINE.NUM THEN 
+48 LINE.NUM ELSE 
+49 LINE.NUM THEN 
+32 JUMP ;
+: 15_69
+
+1 LINE.NUM
+  ^THREE @@   ABS
+  ^Ctrl_Status I@! 
+0 JUMP ;
+: 15_70
+
+1 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+
+3 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+
+4 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+
+5 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+-3 JUMP ;
+: 15_76
+1 LINE.NUM ^Weight_Error @@ ^Gain_Pro @@ F* ^On_Time_Gain @@ F* ^Integral_Time @@ F* ^Weight_Corr @! 
+3 LINE.NUM ^Weight_Corr @@ 0 I>F F> IF 
+4 LINE.NUM ^Weight_Corr @@ 0 I>F F> ^Weight_Corr @@ ^Max_Corr_Limit @@ F> LAND  IF 
+6 LINE.NUM 1 I>F ^Max_Corr_Limit_Flag @! 
+7 LINE.NUM ELSE 
+8 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+9 LINE.NUM THEN 
+10 LINE.NUM ELSE 
+11 LINE.NUM THEN 
+13 LINE.NUM ^Weight_Corr @@ 0 I>F F< IF 
+14 LINE.NUM ^Weight_Corr @@ 0 I>F F< ^Weight_Corr @@ -1 I>F F* ^Max_Corr_Limit @@ F> LAND  IF 
+16 LINE.NUM 1 I>F ^Max_Corr_Limit_Flag @! 
+17 LINE.NUM ELSE 
+18 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+19 LINE.NUM THEN 
+20 LINE.NUM ELSE 
+21 LINE.NUM THEN 
+31 JUMP ;
+: 15_84
+
+1 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+4 JUMP ;
+: 15_92
+1 LINE.NUM ^Comp_Avg @@ ^Weight_TGT @@ F- ^Weight_Error @! 
+2 LINE.NUM ^Weight_Error @@ 100 I>F F/ ^Weight_Error_Percent @! 
+4 LINE.NUM ^Weight_Error @@ 0 I>F F> IF 
+5 LINE.NUM ^Weight_Error @@ 0 I>F F> ^Weight_Error @@ ^Max_Error_Limit @@ F> LAND  IF 
+7 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+8 LINE.NUM ELSE 
+9 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+11 LINE.NUM THEN 
+12 LINE.NUM ELSE 
+13 LINE.NUM THEN 
+15 LINE.NUM ^Weight_Error @@ 0 I>F F< IF 
+16 LINE.NUM ^Weight_Error @@ 0 I>F F< ^Weight_Error @@ -1 I>F F* ^Max_Error_Limit @@ F> LAND  IF 
+18 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+19 LINE.NUM ELSE 
+20 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+22 LINE.NUM THEN 
+23 LINE.NUM ELSE 
+24 LINE.NUM THEN 
+26 LINE.NUM ^Weight_Error @@ 0 I>F F< IF 
+27 LINE.NUM ^Weight_Error @@ -1 I>F F* ^Weight_Error_1 @! 
+28 LINE.NUM ELSE 
+28 LINE.NUM ^Weight_Error @@ ^Weight_Error_1 @! 
+29 LINE.NUM THEN 
+21 JUMP ;
+: 15_103
+
+1 LINE.NUM
+  ^TEN_mSec_Delay @@   DELAY
+19 JUMP ;
+: 15_119
+
+1 LINE.NUM
+  ^TEN_mSec_Delay @@   DELAY
+17 JUMP ;
+: 15_158
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^Awaiting_Corr_Flag @! 
+21 JUMP ;
+: 15_169
+1 LINE.NUM ^Comp_Avg @@ ^Weight_TGT @@ F- ^Weight_Error @! 
+20 JUMP ;
+: 15_184
+1 LINE.NUM 0 ^Awaiting_Corr_Flag @! 
+2 LINE.NUM ^Comp_Avg @@ ^Weight_TGT @@ F- ^Weight_Error @! 
+3 LINE.NUM ^Weight_Error @@ 100 I>F F/ ^Weight_Error_Percent @! 
+5 LINE.NUM ^Weight_Error @@ 0 I>F F> IF 
+6 LINE.NUM ^Weight_Error @@ 0 I>F F> ^Weight_Error @@ ^Max_Error_Limit @@ F> LAND  IF 
+8 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+9 LINE.NUM ELSE 
+10 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+11 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+12 LINE.NUM THEN 
+13 LINE.NUM ELSE 
+14 LINE.NUM THEN 
+16 LINE.NUM ^Weight_Error @@ 0 I>F F< IF 
+17 LINE.NUM ^Weight_Error @@ 0 I>F F< ^Weight_Error @@ -1 I>F F* ^Max_Error_Limit @@ F> LAND  IF 
+19 LINE.NUM 1 I>F ^Max_Error_Limit_Flag @! 
+20 LINE.NUM ELSE 
+21 LINE.NUM 0 I>F ^Max_Error_Limit_Flag @! 
+22 LINE.NUM 0 I>F ^Max_Corr_Limit_Flag @! 
+23 LINE.NUM THEN 
+24 LINE.NUM ELSE 
+25 LINE.NUM THEN 
+22 JUMP ;
+: 15_198
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^EOS_Flag2 @! 
+13 JUMP ;
+: 15_217
+
+1 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+-3 JUMP ;
+: 15_243
+1 LINE.NUM ^Lag_Dist @@ ^Stretcher_Spd @@ F/ 60 I>F F* ^Lag_Time @@ F+ ^Lag_MD @! 
+2 LINE.NUM ^Lag_MD @@ ^Awaiting_Corr_Timer  SetTimer 
+20 JUMP ;
+: 15_244
+1 LINE.NUM ^Lag_Dist @@ ^Stretcher_Spd @@ F/ 60 I>F F* ^Lag_Time @@ F+ ^Lag_MD @! 
+2 LINE.NUM ^Lag_MD @@ ^Awaiting_Corr_Timer  SetTimer 
+6 JUMP ;
+: 15_250
+3 LINE.NUM 1 ^Awaiting_Corr_Flag @! 
+4 LINE.NUM ^Lag_Scans @@ ^Lag_Scans_1 @! 
+-17 JUMP ;
+: 15_256
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^Max_Corr_Limit_Flag I@! 
+-22 JUMP ;
+: 15_283
+
+1 LINE.NUM
+  ~Line_Speed_DEC   OFF
+-3 JUMP ;
+: 15_284
+
+1 LINE.NUM
+  ~Line_Speed_INC   OFF
+-4 JUMP ;
+: 15_285
+
+1 LINE.NUM
+  ~Line_Speed_DEC   ON
+
+2 LINE.NUM
+  ^Awaiting_Corr_Timer   StartTimer
+
+3 LINE.NUM
+  ^Weight_Corr_Timer   StartTimer
+16 JUMP ;
+: 15_286
+
+1 LINE.NUM
+  ~Line_Speed_INC   ON
+
+2 LINE.NUM
+  ^Awaiting_Corr_Timer   StartTimer
+
+3 LINE.NUM
+  ^Weight_Corr_Timer   StartTimer
+16 JUMP ;
+: 15_15
+TRUE
+
+1 LINE.NUM
+  ^Max_Corr_Limit_Flag @@ 
+  ^ONE @@F   F=
+LAND
+IF -6 ELSE -3 THEN JUMP ;
+: 15_31
+TRUE
+
+1 LINE.NUM
+  ^EOS_Flag2 @@F 
+  ^Lag_Scans_1 @@   F>=
+LAND
+IF -26 ELSE -25 THEN JUMP ;
+: 15_33
+TRUE
+
+1 LINE.NUM
+  ^Ctrl_Status @@ 
+  ^ONE @@F   F=
+LAND
+IF -2 ELSE 1 THEN JUMP ;
+: 15_36
+TRUE
+
+1 LINE.NUM
+  ^EOS_Flag2 @@ 
+  ^ONE @@   =
+LAND
+IF -2 ELSE 6 THEN JUMP ;
+: 15_40
+TRUE
+
+1 LINE.NUM
+  ^Ctrl_Status @@ 
+  ^ONE @@F   F=
+LAND
+IF -2 ELSE -18 THEN JUMP ;
+: 15_46
+TRUE
+
+1 LINE.NUM
+  ^Awaiting_Corr_Timer   T0=
+LAND
+IF -16 ELSE 5 THEN JUMP ;
+: 15_62
+TRUE
+
+1 LINE.NUM
+  ^Max_Error_Limit_Flag @@ 
+  ^ONE @@F   F=
+LAND
+IF -27 ELSE 0 THEN JUMP ;
+: 15_93
+TRUE
+
+1 LINE.NUM
+  ^Weight_Error_1 @@ 
+  ^Weight_DB @@   F>
+LAND
+IF -26 ELSE -25 THEN JUMP ;
+: 15_94
+TRUE
+
+1 LINE.NUM
+  ^Number_Of_Comp_Scans @@ 
+  ^Scans_In_Comp @@   F>=
+LAND
+IF -25 ELSE -26 THEN JUMP ;
+: 15_95
+TRUE
+
+1 LINE.NUM
+  ^Ctrl_Status @@ 
+  ^ONE @@F   F=
+LAND
+IF -2 ELSE -31 THEN JUMP ;
+: 15_160
+TRUE
+
+1 LINE.NUM
+  ^Ctrl_Status @@ 
+  ^ONE @@F   F=
+LAND
+IF -25 ELSE -9 THEN JUMP ;
+: 15_161
+TRUE
+
+1 LINE.NUM
+  ^Ctrl_Status @@ 
+  ^ONE @@F   F=
+LAND
+IF -27 ELSE -22 THEN JUMP ;
+: 15_172
+TRUE
+
+1 LINE.NUM
+  ^Control_Requested @@ 
+  1    =
+LAND
+IF -4 ELSE -22 THEN JUMP ;
+: 15_187
+TRUE
+
+1 LINE.NUM
+  ^Max_Corr_Limit_Flag @@ 
+  ^ONE @@F   F=
+LAND
+IF -19 ELSE -15 THEN JUMP ;
+: 15_188
+TRUE
+
+1 LINE.NUM
+  ^Weight_Corr @@ 
+  ^ZERO @@F   F>=
+LAND
+IF -23 ELSE -22 THEN JUMP ;
+: 15_278
+TRUE
+
+1 LINE.NUM
+  ^Weight_Corr_Timer   T0=
+LAND
+IF -20 ELSE -1 THEN JUMP ;
+: 15_279
+TRUE
+
+1 LINE.NUM
+  ^Weight_Corr_Timer   T0=
+LAND
+IF -20 ELSE -1 THEN JUMP ;
+T: T15
+DUMMY
+15_0
+15_10
+15_23
+15_25
+15_30
+15_58
+15_66
+15_69
+15_70
+15_76
+15_84
+15_92
+15_103
+15_119
+15_158
+15_169
+15_184
+15_198
+15_217
+15_243
+15_244
+15_250
+15_256
+15_283
+15_284
+15_285
+15_286
+15_15
+15_31
+15_33
+15_36
+15_40
+15_46
+15_62
+15_93
+15_94
+15_95
+15_160
+15_161
+15_172
+15_187
+15_188
+15_278
+15_279
+T;
+&Stretcher_Ctrl ' T15 SETTASK

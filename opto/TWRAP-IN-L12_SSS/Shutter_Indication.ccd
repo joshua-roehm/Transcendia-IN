@@ -1,0 +1,191 @@
+: 12_0
+12 JUMP ;
+: 12_226
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^Shutter_Fault_Alarm I@! 
+4 JUMP ;
+: 12_230
+
+1 LINE.NUM
+  ^FIVEhundred_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ~Red_Lamp   OFF
+
+3 LINE.NUM
+  ~Green_Lamp   ON
+13 JUMP ;
+: 12_233
+
+1 LINE.NUM
+  ^FIVEhundred_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ~Red_Lamp   ON
+
+3 LINE.NUM
+  ~Green_Lamp   OFF
+10 JUMP ;
+: 12_234
+
+1 LINE.NUM
+  ^FIVEhundred_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ~Red_Lamp   ON
+
+3 LINE.NUM
+  ~Green_Lamp   OFF
+10 JUMP ;
+: 12_235
+
+1 LINE.NUM
+  ^FIVEhundred_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ~Red_Lamp   OFF
+
+3 LINE.NUM
+  ~Green_Lamp   ON
+14 JUMP ;
+: 12_244
+
+1 LINE.NUM
+  ^HUNDRED_mSec_Delay @@   DELAY
+10 JUMP ;
+: 12_251
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^Shutter_Fault_Alarm I@! 
+4 JUMP ;
+: 12_261
+
+1 LINE.NUM
+  ^HUNDRED_mSec_Delay @@   DELAY
+
+2 LINE.NUM
+  ~Red_Lamp   OFF
+
+3 LINE.NUM
+  ~Green_Lamp   ON
+10 JUMP ;
+: 12_266
+3 JUMP ;
+: 12_268
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^Shutter_Fault_Alarm I@! 
+
+2 LINE.NUM
+  ~Red_Lamp   ON
+
+3 LINE.NUM
+  ~Green_Lamp   OFF
+0 JUMP ;
+: 12_272
+1 LINE.NUM ^Scanner_Status @@ 3 = ^Scanner_Status @@ 4 = LOR  ^Scanner_Status @@ 0 = LOR  IF 
+2 LINE.NUM ELSE 
+2 LINE.NUM 3 ^Scanner_Status @! 
+3 LINE.NUM THEN 
+7 JUMP ;
+: 12_275
+1 LINE.NUM ^Scanner_Status @@ 3 = ^Scanner_Status @@ 4 = LOR  ^Scanner_Status @@ 0 = LOR  IF 
+2 LINE.NUM ELSE 
+2 LINE.NUM 3 ^Scanner_Status @! 
+3 LINE.NUM THEN 
+-7 JUMP ;
+: 12_225
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?ON
+LAND
+IF -10 ELSE -12 THEN JUMP ;
+: 12_227
+TRUE
+
+1 LINE.NUM
+  ~Basis_Weight @@ 
+  ^STDZ_Open_Min @@   F>=
+LAND
+IF -14 ELSE 3 THEN JUMP ;
+: 12_236
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?ON
+LAND
+IF -13 ELSE -3 THEN JUMP ;
+: 12_237
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?OFF
+LAND
+IF -12 ELSE -4 THEN JUMP ;
+: 12_238
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?ON
+LAND
+IF -4 ELSE -5 THEN JUMP ;
+: 12_239
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?ON
+LAND
+IF -12 ELSE -17 THEN JUMP ;
+: 12_257
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?OFF
+LAND
+IF 0 ELSE -7 THEN JUMP ;
+: 12_259
+TRUE
+
+1 LINE.NUM
+  ~Basis_Weight @@ 
+  ^STDZ_Closed_Max @@   F<=
+LAND
+IF -13 ELSE 0 THEN JUMP ;
+: 12_260
+TRUE
+
+1 LINE.NUM
+  ~Shutter_Insert   ?OFF
+LAND
+IF -12 ELSE -13 THEN JUMP ;
+T: T12
+DUMMY
+12_0
+12_226
+12_230
+12_233
+12_234
+12_235
+12_244
+12_251
+12_261
+12_266
+12_268
+12_272
+12_275
+12_225
+12_227
+12_236
+12_237
+12_238
+12_239
+12_257
+12_259
+12_260
+T;
+&Shutter_Indication ' T12 SETTASK

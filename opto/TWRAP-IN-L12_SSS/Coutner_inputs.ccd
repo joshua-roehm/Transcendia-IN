@@ -1,0 +1,42 @@
+: 8_0
+3 JUMP ;
+: 8_9
+
+1 LINE.NUM
+  ~Basis_Weight @@ 
+  ^Basis_Weight_Raw @!   
+1 JUMP ;
+: 8_12
+2 LINE.NUM ~Head_Encoder  CNTR@I I>F  ^Encoder_Raw @! 
+3 LINE.NUM ^Encoder_Raw @@ ^Encoder_Offset @@ F+ ^Encoder_Now @! 
+4 LINE.NUM ^Encoder_Now @@ ^Encoder_Conv @@ F/ ^Encoder_Now_Inches @! 
+9 LINE.NUM ^Basis_Weight_Raw @@ ^Basis_Weight_Now_1 @@ F- ^Basis_Weight_Filter @@ F/ ^Basis_Weight_Now_1 @@ F+ ^Basis_Weight_Now_1 @! 
+11 LINE.NUM ^Basis_Weight_Now_1 @@ 1.000000e-002 F< ^Basis_Weight_Now_1 @@ 10 I>F F> LOR  IF 
+12 LINE.NUM ^Basis_Weight_Now_3 @@ ^Basis_Weight_Now_1 @! 
+13 LINE.NUM ^Basis_Weight_Failed @@ 1 +  ^Basis_Weight_Failed @! 
+14 LINE.NUM ^Profile_Y_3 @@ ^Basis_Weight_Now @! 
+15 LINE.NUM ELSE 
+16 LINE.NUM ^A1 @@ ^Basis_Weight_Now_1 @@ ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* F* ^A2 @@ ^Basis_Weight_Now_1 @@ ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* F* F+ ^A3 @@ ^Basis_Weight_Now_1 @@ ^Basis_Weight_Now_1 @@ F* ^Basis_Weight_Now_1 @@ F* F* F+ ^A4 @@ ^Basis_Weight_Now_1 @@ ^Basis_Weight_Now_1 @@ F* F* F+ ^A5 @@ ^Basis_Weight_Now_1 @@ F* F+ ^A6 @@ F+ ^BW_Corr @@ F- ^Temp_Corr @@ F+ ^Basis_Weight_Now_2 @! 
+18 LINE.NUM ^Basis_Weight_Now_1 @@ ^Basis_Weight_Now_3 @! 
+19 LINE.NUM THEN 
+37 LINE.NUM ^Basis_Weight_Now_2 @@ ^BW_Spec_Gravity @@ F/ ^BW_Conv @@ F* ^BW_KCM @@ F* ^BW_Dyn_Offset @@ F+ ^Basis_Weight_Now @! 
+-2 JUMP ;
+: 8_31
+
+1 LINE.NUM
+  ^FIVE @@   DELAY
+-2 JUMP ;
+: 8_35
+
+1 LINE.NUM
+  ^Thousand_mSec_Delay @@   DELAY
+-4 JUMP ;
+T: T8
+DUMMY
+8_0
+8_9
+8_12
+8_31
+8_35
+T;
+&Coutner_inputs ' T8 SETTASK

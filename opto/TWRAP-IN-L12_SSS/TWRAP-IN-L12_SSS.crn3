@@ -1,0 +1,3582 @@
+CREATE T.ARRAY
+&Act_Output ,
+&BW_Profile_86 ,
+&Coutner_inputs ,
+&EOS_Data ,
+&Head_Temp_Control ,
+&Powerup ,
+&Scan ,
+&Scratchpad ,
+&Shutter_Indication ,
+&Stretcher_Ctrl ,
+&Utility ,
+ 0 ,
+CREATE V.ARRAY
+^A1 ,
+^A2 ,
+^A3 ,
+^A4 ,
+^A5 ,
+^A6 ,
+^Act_2sig ,
+^Act_Auto_Ctrl ,
+^Act_Avg ,
+^Act_Counter ,
+^Act_Delta ,
+^Act_Gain ,
+^Act_Gain_Now ,
+^Act_Lag ,
+^Act_Max ,
+^Act_Min ,
+^Act_Timer ,
+^Actuator_Mode ,
+^Air_Sw_Press ,
+^AirGap_Conv1 ,
+^AirGap_Conv2 ,
+^AirGap_RX ,
+^AirGap_RX_C ,
+^AirGap_SX ,
+^AirGap_SX_C ,
+^AP_Conv ,
+^AP_Conv_1 ,
+^AP_Conv_2 ,
+^AP_Float ,
+^AP_Int ,
+^AP_Scan_Avg ,
+^AP_Scan_Temp_1 ,
+^apc_AutoLoad ,
+^apc_AutoSave ,
+^apc_Bolt_Avg ,
+^apc_Bolt_Avg_Max ,
+^apc_Bolt_High ,
+^apc_Bolt_Low ,
+^apc_BoltHi_Alm ,
+^apc_BoltLo_Alm ,
+^apc_TG57 ,
+^apc_TGT1 ,
+^apc_TGT10 ,
+^apc_TGT11 ,
+^apc_TGT12 ,
+^apc_TGT13 ,
+^apc_TGT14 ,
+^apc_TGT15 ,
+^apc_TGT16 ,
+^apc_TGT17 ,
+^apc_TGT18 ,
+^apc_TGT19 ,
+^apc_TGT2 ,
+^apc_TGT20 ,
+^apc_TGT21 ,
+^apc_TGT22 ,
+^apc_TGT23 ,
+^apc_TGT24 ,
+^apc_TGT25 ,
+^apc_TGT26 ,
+^apc_TGT27 ,
+^apc_TGT28 ,
+^apc_TGT29 ,
+^apc_TGT3 ,
+^apc_TGT30 ,
+^apc_TGT31 ,
+^apc_TGT32 ,
+^apc_TGT33 ,
+^apc_TGT34 ,
+^apc_TGT35 ,
+^apc_TGT36 ,
+^apc_TGT37 ,
+^apc_TGT38 ,
+^apc_TGT39 ,
+^apc_TGT4 ,
+^apc_TGT40 ,
+^apc_TGT41 ,
+^apc_TGT42 ,
+^apc_TGT43 ,
+^apc_TGT44 ,
+^apc_TGT45 ,
+^apc_TGT46 ,
+^apc_TGT47 ,
+^apc_TGT48 ,
+^apc_TGT49 ,
+^apc_TGT5 ,
+^apc_TGT50 ,
+^apc_TGT51 ,
+^apc_TGT52 ,
+^apc_TGT53 ,
+^apc_TGT54 ,
+^apc_TGT55 ,
+^apc_TGT56 ,
+^apc_TGT57 ,
+^apc_TGT58 ,
+^apc_TGT6 ,
+^apc_TGT7 ,
+^apc_TGT8 ,
+^apc_TGT9 ,
+^Auto_Ctrl_Req ,
+^Auto_Edge ,
+^Auto_STDZ ,
+^Awaiting_Corr_Flag ,
+^Bad_STDZ_Alarm ,
+^Basis_Weight_Failed ,
+^Basis_Weight_Filter ,
+^Basis_Weight_Filter_AP ,
+^Basis_Weight_Filter_Edge ,
+^Basis_Weight_Filter_Sample ,
+^Basis_Weight_Filter_Scan ,
+^Basis_Weight_Filter_SP ,
+^Basis_Weight_Filter_STDZ ,
+^Basis_Weight_Now ,
+^Basis_Weight_Now_1 ,
+^Basis_Weight_Now_2 ,
+^Basis_Weight_Now_3 ,
+^Basis_Weight_Raw ,
+^Basis_Weight_TGT ,
+^Beginning ,
+^Bend_Factor_1 ,
+^Bend_Factor_2 ,
+^Bolt_Width ,
+^Bucket_Data_SC ,
+^BW_Bucket_Avg ,
+^BW_Conv ,
+^BW_Corr ,
+^BW_Corr_1 ,
+^BW_Corr_2 ,
+^BW_Corr_3 ,
+^BW_Dyn_Offset ,
+^BW_KCM ,
+^BW_N11 ,
+^BW_Now_Inch ,
+^BW_Prof_AVG ,
+^BW_Prof_DIS ,
+^BW_Spec_Gravity ,
+^BW_Spec_Gravity_MIS ,
+^Carrier_Thickness ,
+^Chart_ContactIP_Fail ,
+^Chart_Control_Fail ,
+^Chart_CounterIP_Fail ,
+^Chart_MIS_Fail ,
+^Chart_OnOff_Fail ,
+^Chart_SCAN_Fail ,
+^Chart_Status ,
+^Check_Sam_STDZ ,
+^Coat_Filter_Avg ,
+^Comm_Counter ,
+^Comp_2Sig ,
+^Comp_Avg ,
+^Comp_Avg_1 ,
+^Comp_Avg_CD ,
+^Comp_Max ,
+^Comp_Mean ,
+^Comp_Mean_1 ,
+^Comp_Mean_Avg ,
+^Comp_Min ,
+^Comp_Range ,
+^Comp_Scans_C ,
+^Comp_Scans_D ,
+^Comp_Sqrt ,
+^Control_Requested ,
+^Control_Status ,
+^Coord_Scan ,
+^Ctrl_Comm_Alarm ,
+^Ctrl_Comm_Counter ,
+^Ctrl_Request ,
+^Ctrl_Status ,
+^Cycle_Factor ,
+^Cycle_Seconds ,
+^CZD_1 ,
+^CZD_10 ,
+^CZD_11 ,
+^CZD_12 ,
+^CZD_13 ,
+^CZD_14 ,
+^CZD_15 ,
+^CZD_16 ,
+^CZD_17 ,
+^CZD_18 ,
+^CZD_19 ,
+^CZD_2 ,
+^CZD_20 ,
+^CZD_21 ,
+^CZD_22 ,
+^CZD_23 ,
+^CZD_24 ,
+^CZD_25 ,
+^CZD_26 ,
+^CZD_27 ,
+^CZD_28 ,
+^CZD_29 ,
+^CZD_3 ,
+^CZD_30 ,
+^CZD_31 ,
+^CZD_32 ,
+^CZD_33 ,
+^CZD_34 ,
+^CZD_35 ,
+^CZD_36 ,
+^CZD_37 ,
+^CZD_38 ,
+^CZD_39 ,
+^CZD_4 ,
+^CZD_40 ,
+^CZD_41 ,
+^CZD_42 ,
+^CZD_43 ,
+^CZD_47 ,
+^CZD_48 ,
+^CZD_49 ,
+^CZD_5 ,
+^CZD_50 ,
+^CZD_51 ,
+^CZD_52 ,
+^CZD_53 ,
+^CZD_54 ,
+^CZD_55 ,
+^CZD_56 ,
+^CZD_57 ,
+^CZD_58 ,
+^CZD_59 ,
+^CZD_6 ,
+^CZD_60 ,
+^CZD_7 ,
+^CZD_8 ,
+^CZD_9 ,
+^CZDT_1 ,
+^CZDT_10 ,
+^CZDT_11 ,
+^CZDT_12 ,
+^CZDT_13 ,
+^CZDT_14 ,
+^CZDT_15 ,
+^CZDT_16 ,
+^CZDT_17 ,
+^CZDT_18 ,
+^CZDT_19 ,
+^CZDT_2 ,
+^CZDT_20 ,
+^CZDT_21 ,
+^CZDT_22 ,
+^CZDT_23 ,
+^CZDT_24 ,
+^CZDT_25 ,
+^CZDT_26 ,
+^CZDT_27 ,
+^CZDT_28 ,
+^CZDT_29 ,
+^CZDT_3 ,
+^CZDT_30 ,
+^CZDT_31 ,
+^CZDT_32 ,
+^CZDT_33 ,
+^CZDT_34 ,
+^CZDT_35 ,
+^CZDT_36 ,
+^CZDT_37 ,
+^CZDT_38 ,
+^CZDT_39 ,
+^CZDT_4 ,
+^CZDT_40 ,
+^CZDT_41 ,
+^CZDT_42 ,
+^CZDT_43 ,
+^CZDT_44 ,
+^CZDT_45 ,
+^CZDT_46 ,
+^CZDT_47 ,
+^CZDT_48 ,
+^CZDT_49 ,
+^CZDT_5 ,
+^CZDT_50 ,
+^CZDT_51 ,
+^CZDT_52 ,
+^CZDT_53 ,
+^CZDT_54 ,
+^CZDT_55 ,
+^CZDT_56 ,
+^CZDT_57 ,
+^CZDT_58 ,
+^CZDT_59 ,
+^CZDT_6 ,
+^CZDT_60 ,
+^CZDT_61 ,
+^CZDT_62 ,
+^CZDT_63 ,
+^CZDT_64 ,
+^CZDT_65 ,
+^CZDT_66 ,
+^CZDT_67 ,
+^CZDT_68 ,
+^CZDT_69 ,
+^CZDT_7 ,
+^CZDT_70 ,
+^CZDT_71 ,
+^CZDT_72 ,
+^CZDT_73 ,
+^CZDT_74 ,
+^CZDT_75 ,
+^CZDT_76 ,
+^CZDT_77 ,
+^CZDT_78 ,
+^CZDT_79 ,
+^CZDT_8 ,
+^CZDT_80 ,
+^CZDT_81 ,
+^CZDT_82 ,
+^CZDT_83 ,
+^CZDT_84 ,
+^CZDT_85 ,
+^CZDT_86 ,
+^CZDT_9 ,
+^D1 ,
+^D2 ,
+^D3 ,
+^D4 ,
+^Data_Boxes ,
+^Data_Width ,
+^Data_Width_Half ,
+^Data_Width_Reel ,
+^Data_Width_Temp ,
+^DB_Feedback_Avg ,
+^DB_Feedback_Flag ,
+^DB_Feedback_Tgt ,
+^DB_Position_Avg ,
+^DB_Position_Avg_Temp ,
+^DB_Position_Change ,
+^Die_Blower_Clear_Fault ,
+^Die_Blower_Drive_Fault ,
+^Die_Blower_Pressure_SW ,
+^Die_Blower_Run ,
+^Die_Blower_Running ,
+^Die_Blower_SP ,
+^Die_Blower_Speed_PV ,
+^Die_Blower_Stop ,
+^Die_Width_Error ,
+^Die_Width_Inches ,
+^Door_Sw_Bot ,
+^Door_Sw_Top ,
+^E_Stop_Alarm ,
+^E_Stop_Mach ,
+^Edge_1 ,
+^Edge_2 ,
+^Edge_3 ,
+^Edge_4 ,
+^Edge_5 ,
+^Edge_6 ,
+^Edge_Offset_Inches ,
+^Edge_Percent ,
+^Edge_Percent_Factor ,
+^Edge_Percent_Factor_A ,
+^Edge_Scans ,
+^Edge_Scans_1 ,
+^Edge_STDZ ,
+^Edge_Trim_L_Inch ,
+^Edge_Trim_L_Pix ,
+^Edge_Trim_L_Stat ,
+^Edge_Trim_L_Stat_Int ,
+^Edge_Trim_Left ,
+^Edge_Trim_R_Inch ,
+^Edge_Trim_R_Pix ,
+^Edge_Trim_R_Stat ,
+^Edge_Trim_R_Stat_Int ,
+^Edge_Trim_Right ,
+^Edge_Trim_Stat_No ,
+^EIGHT ,
+^Eleven ,
+^Encoder_Conv ,
+^Encoder_Conv_1 ,
+^Encoder_Conv_Float ,
+^Encoder_Conversion ,
+^Encoder_Now ,
+^Encoder_Now_Inches ,
+^Encoder_Offset ,
+^Encoder_PSet ,
+^Encoder_Pset_Offset ,
+^Encoder_Raw ,
+^EOS_Data_Number ,
+^EOS_EEN_A ,
+^EOS_EEN_L ,
+^EOS_EES_A ,
+^EOS_EES_L ,
+^EOS_EN_A ,
+^EOS_EN_L ,
+^EOS_ES_A ,
+^EOS_ES_L ,
+^EOS_Flag ,
+^EOS_Flag1 ,
+^EOS_Flag2 ,
+^EOS_Flag_1 ,
+^EOS_Flag_2 ,
+^Eos_Flag_3 ,
+^EOS_Flag_4 ,
+^EOS_Flag_CD ,
+^EOS_Flag_EOS ,
+^EOS_Flag_MIS_AB ,
+^EOS_M_A ,
+^EOS_M_L ,
+^EOS_N_A ,
+^EOS_N_L ,
+^EOS_S_A ,
+^EOS_S_L ,
+^FIFTY_mSec_Delay ,
+^FIVE ,
+^FIVEhundred_mSec_Delay ,
+^Flat_Roll ,
+^FOUR ,
+^FWD_Crawl_Speed ,
+^FWD_Edge ,
+^FWD_Edge_1 ,
+^FWD_Edge_2 ,
+^FWD_Edge_Inches ,
+^Fwd_Edge_Inches_Temp ,
+^FWD_Edge_MM ,
+^FWD_Half_Speed ,
+^FWD_Prox_Alarm ,
+^Gain_Pro ,
+^Head_RX ,
+^Head_Sx ,
+^Home_POS ,
+^Home_POS_1 ,
+^Home_POS_2 ,
+^HUNDRED_mSec_Delay ,
+^HVPS_I ,
+^HVPS_V ,
+^Integral_Time ,
+^L0 ,
+^L1 ,
+^L10 ,
+^L100 ,
+^L101 ,
+^L102 ,
+^L103 ,
+^L104 ,
+^L105 ,
+^L11 ,
+^L12 ,
+^L2 ,
+^L20 ,
+^L200 ,
+^L201 ,
+^L202 ,
+^L203 ,
+^L301 ,
+^L302 ,
+^L303 ,
+^L304 ,
+^L305 ,
+^L306 ,
+^L307 ,
+^L308 ,
+^L309 ,
+^L310 ,
+^L311 ,
+^L312 ,
+^L313 ,
+^L314 ,
+^L315 ,
+^L316 ,
+^L317 ,
+^L318 ,
+^L319 ,
+^L320 ,
+^L321 ,
+^L322 ,
+^L323 ,
+^L324 ,
+^L325 ,
+^L326 ,
+^L327 ,
+^L328 ,
+^L329 ,
+^L330 ,
+^L331 ,
+^L332 ,
+^L333 ,
+^L334 ,
+^L335 ,
+^L336 ,
+^L337 ,
+^L338 ,
+^L339 ,
+^L340 ,
+^L341 ,
+^L342 ,
+^L343 ,
+^L344 ,
+^L345 ,
+^L346 ,
+^L347 ,
+^L348 ,
+^L349 ,
+^L350 ,
+^L351 ,
+^L352 ,
+^L353 ,
+^L354 ,
+^L355 ,
+^L356 ,
+^L357 ,
+^L358 ,
+^L359 ,
+^L360 ,
+^L361 ,
+^L362 ,
+^L363 ,
+^L364 ,
+^L365 ,
+^L366 ,
+^L367 ,
+^L368 ,
+^L369 ,
+^L370 ,
+^L371 ,
+^L372 ,
+^L373 ,
+^L374 ,
+^L375 ,
+^L376 ,
+^L377 ,
+^L378 ,
+^L379 ,
+^L380 ,
+^L381 ,
+^L382 ,
+^L383 ,
+^L384 ,
+^L385 ,
+^L386 ,
+^L4 ,
+^L7 ,
+^L8 ,
+^L9 ,
+^L_Max ,
+^L_Min ,
+^Lag_CD ,
+^Lag_Dist ,
+^Lag_Dist_CD ,
+^Lag_MD ,
+^Lag_Scans ,
+^Lag_Scans_1 ,
+^Lag_Scans_2 ,
+^Lag_Scans_CD ,
+^Lag_Time ,
+^Lag_Time_CD ,
+^Lane_1 ,
+^Lane_10 ,
+^Lane_2 ,
+^Lane_3 ,
+^Lane_4 ,
+^Lane_5 ,
+^Lane_6 ,
+^Lane_7 ,
+^Lane_8 ,
+^Lane_9 ,
+^Lane_Max ,
+^Lane_Min ,
+^Lane_Number ,
+^Last_2Sig ,
+^Last_Mean ,
+^Last_Mean_1 ,
+^Last_Mean_Avg ,
+^Last_Scan_2Sig ,
+^Last_Scan_Avg ,
+^Last_Scan_Avg_1 ,
+^Last_Scan_Avg_Avg ,
+^Last_Scan_Avg_Roll ,
+^Last_Scan_Filter_Avg ,
+^Last_Scan_Filtering ,
+^Last_Scan_Max ,
+^Last_Scan_Min ,
+^Last_Scan_Now ,
+^Last_Scan_Range ,
+^Last_Sqrt ,
+^Left_Deckle ,
+^Left_Deckle_Bolt ,
+^Left_Deckle_Bolt_Int ,
+^Left_Deckle_Trim_Inches ,
+^Line_Speed_Now ,
+^Loop_Counter ,
+^Loop_Counter_1 ,
+^Loop_Counter_2 ,
+^Loop_Counter_3 ,
+^Loop_Counter_4 ,
+^Loop_Counter_5 ,
+^Loop_Counter_6 ,
+^Loop_Counter_7 ,
+^Loop_Counter_8 ,
+^Loop_Counter_9 ,
+^Loop_Counter_AP ,
+^Loop_Counter_CD ,
+^Loop_Counter_CD_1 ,
+^Loop_Counter_EOS ,
+^Loop_Counter_EOS_1 ,
+^Loop_Counter_EOS_2 ,
+^Loop_Counter_MIS ,
+^Loop_Counter_MIS_1 ,
+^Loop_Counter_MIS_2 ,
+^Loop_Counter_MIS_3 ,
+^Loop_Counter_MIS_4 ,
+^Loop_Counter_Sample ,
+^Loop_Counter_Scan ,
+^Loop_Counter_SP ,
+^Loop_Counter_STDZ ,
+^M_101 ,
+^M_102 ,
+^M_103 ,
+^M_104 ,
+^M_105 ,
+^M_106 ,
+^M_107 ,
+^M_108 ,
+^M_109 ,
+^M_11 ,
+^M_110 ,
+^M_111 ,
+^M_112 ,
+^M_113 ,
+^M_114 ,
+^M_115 ,
+^M_116 ,
+^M_117 ,
+^M_118 ,
+^M_119 ,
+^M_12 ,
+^M_120 ,
+^M_121 ,
+^M_122 ,
+^M_123 ,
+^M_124 ,
+^M_125 ,
+^M_126 ,
+^M_127 ,
+^M_128 ,
+^M_129 ,
+^M_13 ,
+^M_130 ,
+^M_131 ,
+^M_132 ,
+^M_133 ,
+^M_134 ,
+^M_135 ,
+^M_136 ,
+^M_137 ,
+^M_138 ,
+^M_139 ,
+^M_14 ,
+^M_140 ,
+^M_141 ,
+^M_142 ,
+^M_143 ,
+^M_144 ,
+^M_145 ,
+^M_146 ,
+^M_147 ,
+^M_148 ,
+^M_149 ,
+^M_15 ,
+^M_150 ,
+^M_151 ,
+^M_152 ,
+^M_153 ,
+^M_154 ,
+^M_155 ,
+^M_156 ,
+^M_157 ,
+^M_158 ,
+^M_159 ,
+^M_16 ,
+^M_160 ,
+^M_17 ,
+^M_18 ,
+^M_19 ,
+^M_2 ,
+^M_20 ,
+^M_21 ,
+^M_22 ,
+^M_23 ,
+^M_24 ,
+^M_25 ,
+^M_26 ,
+^M_27 ,
+^M_28 ,
+^M_29 ,
+^M_3 ,
+^M_30 ,
+^M_31 ,
+^M_32 ,
+^M_33 ,
+^M_34 ,
+^M_35 ,
+^M_36 ,
+^M_37 ,
+^M_38 ,
+^M_39 ,
+^M_4 ,
+^M_40 ,
+^M_41 ,
+^M_42 ,
+^M_43 ,
+^M_44 ,
+^M_45 ,
+^M_46 ,
+^M_47 ,
+^M_48 ,
+^M_49 ,
+^M_5 ,
+^M_50 ,
+^M_51 ,
+^M_52 ,
+^M_53 ,
+^M_54 ,
+^M_55 ,
+^M_56 ,
+^M_57 ,
+^M_58 ,
+^M_59 ,
+^M_6 ,
+^M_60 ,
+^M_61 ,
+^M_62 ,
+^M_63 ,
+^M_64 ,
+^M_65 ,
+^M_66 ,
+^M_67 ,
+^M_68 ,
+^M_69 ,
+^M_7 ,
+^M_70 ,
+^M_71 ,
+^M_72 ,
+^M_73 ,
+^M_74 ,
+^M_75 ,
+^M_76 ,
+^M_77 ,
+^M_78 ,
+^M_79 ,
+^M_8 ,
+^M_80 ,
+^M_81 ,
+^M_82 ,
+^M_83 ,
+^M_84 ,
+^M_85 ,
+^M_86 ,
+^M_87 ,
+^M_88 ,
+^M_89 ,
+^M_9 ,
+^M_90 ,
+^M_91 ,
+^M_92 ,
+^M_93 ,
+^M_94 ,
+^M_95 ,
+^M_96 ,
+^M_97 ,
+^M_98 ,
+^M_99 ,
+^Map_Width ,
+^Mapped_Bolt_Center ,
+^Mapped_Bolt_Selected ,
+^Mapped_Bolt_Width ,
+^Max_Corr_Limit ,
+^Max_Corr_Limit_Flag ,
+^Max_Edge ,
+^Max_Error_Limit ,
+^Max_Error_Limit_Flag ,
+^Max_Frame_Length ,
+^Max_Frame_Length_1 ,
+^MD_Control_On ,
+^MD_Mean ,
+^MD_Mean_Avg ,
+^MD_Sqrt ,
+^Min_Error_Limit_Flag ,
+^Min_Frame_Length ,
+^Min_Frame_Length_1 ,
+^Min_Lane_Limit ,
+^Min_Lane_Limit_Flag ,
+^Min_Lane_Override ,
+^Min_Lane_Override_Flag ,
+^Min_Line_Speed ,
+^Min_Line_Speed_Flag ,
+^MIS_Latch ,
+^MIS_ON ,
+^MIS_Roll_Avg ,
+^MIS_Roll_Max ,
+^MIS_Roll_Min ,
+^MIS_Roll_Number ,
+^MIS_Roll_Range ,
+^MIS_Roll_StdDev ,
+^MIS_Shift_End ,
+^MIS_Y_1 ,
+^MIS_Y_2 ,
+^MIS_Y_3 ,
+^Motor_Control_1 ,
+^Motor_Control_Error ,
+^Motor_Fwd ,
+^Motor_Rev ,
+^NINE ,
+^nIO_EnableInterval_Index ,
+^nIO_EnablerIndex ,
+^nIO_UnitsTableLastIndex ,
+^No_Edge_Found ,
+^Number_Of_Bolts ,
+^Number_of_Bolts_1 ,
+^Number_Of_Bolts_Active ,
+^Number_Of_Bolts_Active_1 ,
+^Number_Of_Bolts_Active_F ,
+^Number_Of_Comp_Scans ,
+^Number_Of_Scans ,
+^OffSheet_Latch ,
+^OK_For_Control ,
+^On_Time_Gain ,
+^ONE ,
+^One_mSec_Delay ,
+^OnSheet_Latch ,
+^Print_Report_Flag ,
+^Proc_Var_Type ,
+^Prod_Change_Flag ,
+^Prof_Ctr ,
+^Prof_Rev ,
+^Profile_Display_Avg ,
+^Profile_X_1 ,
+^Profile_X_2 ,
+^Profile_X_3 ,
+^Profile_X_4 ,
+^Profile_X_5 ,
+^Profile_X_6 ,
+^Profile_X_7 ,
+^Profile_X_8 ,
+^Profile_X_9 ,
+^Profile_Y ,
+^Profile_Y_1 ,
+^Profile_Y_1_C ,
+^Profile_Y_1_D ,
+^Profile_Y_2 ,
+^Profile_Y_2_C ,
+^Profile_Y_2_D ,
+^Profile_Y_3 ,
+^Profile_Y_3_C ,
+^Profile_Y_3_D ,
+^Profile_Y_4 ,
+^Profile_Y_4_C ,
+^Profile_Y_4_D ,
+^Profile_Y_5 ,
+^Profile_Y_5_C ,
+^Profile_Y_5_D ,
+^Profile_Y_Factor ,
+^Remote_Comm ,
+^REV_Crawl_Speed ,
+^REV_Edge ,
+^REV_Edge_1 ,
+^Rev_Edge_2 ,
+^REV_Edge_Inches ,
+^Rev_Edge_Inches_Temp ,
+^REV_Edge_MM ,
+^REV_Half_Speed ,
+^REV_Prox_Alarm ,
+^Right_Deckle ,
+^Right_Deckle_Bolt ,
+^Right_Deckle_Bolt_Int ,
+^Right_Deckle_Trim_Inches ,
+^Roll_End ,
+^Roll_End_HRS ,
+^Roll_End_MIN ,
+^Roll_GSM_MIS ,
+^Roll_Length ,
+^Roll_Length_MIS ,
+^Roll_Start_HRS ,
+^Roll_Start_Hrs_A ,
+^Roll_Start_MIN ,
+^Roll_Start_Min_A ,
+^Roll_Weight_MIS ,
+^RX_AirGap_LN ,
+^RX_Head_LN ,
+^RX_Head_Temp_SP ,
+^RX_Head_Temp_SP_FF ,
+^RX_Head_Temp_Time ,
+^Safety_Mat_Alm ,
+^Safety_Mat_Bypass ,
+^Sample_Actual ,
+^Sample_STD ,
+^Sample_Timer ,
+^Sample_Value ,
+^Sample_Value_1 ,
+^Sample_Value_Temp ,
+^Sample_Voltage ,
+^Scan_Count ,
+^Scan_Number ,
+^Scan_Number_DIS ,
+^Scan_Number_Temp ,
+^Scan_Number_WW ,
+^Scan_SPD_FWD ,
+^Scan_SPD_High_REV ,
+^Scan_SPD_REV ,
+^Scan_Weighting ,
+^Scanned_Time ,
+^Scanner_Failure ,
+^Scanner_Status ,
+^Scanner_Status_Speed ,
+^Scans_2_STDZ ,
+^Scans_In_Comp ,
+^Scans_In_Comp_AirP ,
+^Scans_In_Roll ,
+^Screw_Spd ,
+^SEVEN ,
+^Sheet_Break ,
+^Sheet_Det_Alm ,
+^Sheet_Temp ,
+^Sheet_Temp_INT ,
+^Sheet_Temp_SL ,
+^Shrinkage_Factor_1 ,
+^Shrinkage_Factor_2 ,
+^Shutter_Fault_Alarm ,
+^Shutter_Open ,
+^Sim_Roll_Flag ,
+^Sim_Roll_Interval ,
+^Sim_Roll_Interval_Sec ,
+^Single_Point_Position ,
+^Single_Point_Position_1 ,
+^Single_Point_Reading ,
+^Single_Point_Time ,
+^Single_Point_Value_1 ,
+^Single_Point_Value_Temp ,
+^Single_Point_Voltage ,
+^SIX ,
+^Spd_Ctrl_Factor ,
+^Speed_Avg ,
+^Speed_Conv ,
+^Speed_Conv_1 ,
+^Speed_Conv_2 ,
+^Speed_Filter ,
+^Speed_Now ,
+^Speed_Raw ,
+^Speed_Sum ,
+^Spread_CD ,
+^Spread_CD1 ,
+^Spread_CD_MIS ,
+^Spread_MD ,
+^Spread_MD1 ,
+^Spread_MD_1 ,
+^Spread_MD_MIS ,
+^Spread_Reset ,
+^Spread_Scans ,
+^Spread_Total ,
+^Spread_Total_MIS ,
+^Stat_Comp_Avg ,
+^Stat_Last_Scan_Avg ,
+^Status_Scratchpad_IN ,
+^Status_Scratchpad_Out ,
+^Status_Trashcan ,
+^Std_Dev_Comp ,
+^Std_Dev_Last ,
+^STDZ_Closed_Max ,
+^STDZ_Closed_Temp ,
+^STDZ_Closed_Volts ,
+^STDZ_Closed_Volts_Cal ,
+^STDZ_Interval ,
+^Stdz_Mode ,
+^STDZ_Open_Min ,
+^STDZ_Open_Temp ,
+^STDZ_Open_Temp_1 ,
+^STDZ_Open_Volts ,
+^STDZ_Open_Volts_Cal ,
+^Stdz_Required ,
+^Stretcher_Spd ,
+^Stretcher_Spd_Filter ,
+^Stretcher_SPD_Filtered ,
+^Stretcher_Spd_PV ,
+^SX_AirGap_LN ,
+^SX_Head_LN ,
+^table_length ,
+^Target_Profile ,
+^Temp_AGRX_C_STDZ ,
+^Temp_AGRX_C_STDZ_1 ,
+^Temp_AGRX_C_STDZ_2 ,
+^Temp_AGSX_C_STDZ ,
+^Temp_AGSX_C_STDZ_1 ,
+^Temp_AGSX_C_STDZ_2 ,
+^Temp_Control_Override ,
+^Temp_Corr ,
+^Temp_Corr_Factor ,
+^Temp_RCVR ,
+^Temp_RX ,
+^Temp_RX_Gap ,
+^Temp_RX_Head ,
+^Temp_RX_Head_DB ,
+^Temp_RX_Head_SP ,
+^Temp_RX_STDZ ,
+^Temp_SX ,
+^Temp_SX_Gap ,
+^Temp_SX_Head ,
+^TEN ,
+^TEN_mSec_Delay ,
+^TGT_Prof_Avg ,
+^Thousand_mSec_Delay ,
+^THREE ,
+^Threshold_Low ,
+^Threshold_Low_Alm ,
+^Total_Mean_Avg ,
+^Total_Sqrt ,
+^transmit_success ,
+^Turn_Up_IP ,
+^TWELVE ,
+^TWENTY ,
+^TWO ,
+^Watchdog ,
+^Web_Width ,
+^Web_Width_Inches ,
+^Web_Width_MIS ,
+^Web_Width_Stat ,
+^Weight_Alarm ,
+^Weight_Alarm_Ack ,
+^Weight_Comp ,
+^Weight_Corr ,
+^Weight_Corr_1 ,
+^Weight_DB ,
+^Weight_Error ,
+^Weight_Error_1 ,
+^Weight_Error_Percent ,
+^Weight_Offset ,
+^Weight_TGT ,
+^Weight_Tgt_1_MIS ,
+^Weight_TGT_Ctrl ,
+^Xray_On ,
+^Z1 ,
+^Z10 ,
+^Z100 ,
+^Z10_AM ,
+^Z10_C ,
+^Z10_T ,
+^Z11 ,
+^Z11_AM ,
+^Z11_C ,
+^Z11_T ,
+^Z12 ,
+^Z12_AM ,
+^Z12_C ,
+^Z12_T ,
+^Z13 ,
+^Z13_AM ,
+^Z13_C ,
+^Z13_T ,
+^Z14 ,
+^Z14_AM ,
+^Z14_C ,
+^Z14_T ,
+^Z15 ,
+^Z15_AM ,
+^Z15_C ,
+^Z15_T ,
+^Z16 ,
+^Z16_AM ,
+^Z16_C ,
+^Z16_T ,
+^Z17 ,
+^Z17_AM ,
+^Z17_C ,
+^Z17_T ,
+^Z18 ,
+^Z18_AM ,
+^Z18_C ,
+^Z18_T ,
+^Z19 ,
+^Z19_AM ,
+^Z19_C ,
+^Z19_T ,
+^Z1_AM ,
+^Z1_C ,
+^Z1_T ,
+^Z2 ,
+^Z20 ,
+^Z20_AM ,
+^Z20_C ,
+^Z20_T ,
+^Z21 ,
+^Z21_AM ,
+^Z21_C ,
+^Z21_T ,
+^Z22 ,
+^Z22_AM ,
+^Z22_C ,
+^Z22_T ,
+^Z23 ,
+^Z23_AM ,
+^Z23_C ,
+^Z23_T ,
+^Z24 ,
+^Z24_AM ,
+^Z24_C ,
+^Z24_T ,
+^Z25 ,
+^Z25_AM ,
+^Z25_C ,
+^Z25_T ,
+^Z26 ,
+^Z26_AM ,
+^Z26_C ,
+^Z26_T ,
+^Z27 ,
+^Z27_AM ,
+^Z27_C ,
+^Z27_T ,
+^Z28 ,
+^Z28_AM ,
+^Z28_C ,
+^Z28_T ,
+^Z29 ,
+^Z29_AM ,
+^Z29_C ,
+^Z29_T ,
+^Z2_AM ,
+^Z2_C ,
+^Z2_T ,
+^Z3 ,
+^Z30 ,
+^Z30_AM ,
+^Z30_C ,
+^Z30_T ,
+^Z31 ,
+^Z31_AM ,
+^Z31_C ,
+^Z31_T ,
+^Z32 ,
+^Z32_AM ,
+^Z32_C ,
+^Z32_T ,
+^Z33 ,
+^Z33_AM ,
+^Z33_C ,
+^Z33_T ,
+^Z34 ,
+^Z34_AM ,
+^Z34_C ,
+^Z34_T ,
+^Z35 ,
+^Z35_AM ,
+^Z35_C ,
+^Z35_T ,
+^Z36 ,
+^Z36_AM ,
+^Z36_C ,
+^Z36_T ,
+^Z37 ,
+^Z37_AM ,
+^Z37_C ,
+^Z37_T ,
+^Z38 ,
+^Z38_AM ,
+^Z38_C ,
+^Z38_T ,
+^Z39 ,
+^Z39_AM ,
+^Z39_C ,
+^Z39_T ,
+^Z3_AM ,
+^Z3_C ,
+^Z3_T ,
+^Z4 ,
+^Z40 ,
+^Z40_AM ,
+^Z40_C ,
+^Z40_T ,
+^Z41 ,
+^Z41_AM ,
+^Z41_C ,
+^Z41_T ,
+^Z42 ,
+^Z42_AM ,
+^Z42_C ,
+^Z42_T ,
+^Z43 ,
+^Z43_AM ,
+^Z43_C ,
+^Z43_T ,
+^Z44 ,
+^Z44_AM ,
+^Z44_C ,
+^Z44_T ,
+^Z45 ,
+^Z45_AM ,
+^Z45_C ,
+^Z45_T ,
+^Z46 ,
+^Z46_AM ,
+^Z46_C ,
+^Z46_T ,
+^Z47 ,
+^Z47_AM ,
+^Z47_C ,
+^Z47_T ,
+^Z48 ,
+^Z48_AM ,
+^Z48_C ,
+^Z48_T ,
+^Z49 ,
+^Z49_AM ,
+^Z49_C ,
+^Z49_T ,
+^Z4_AM ,
+^Z4_C ,
+^Z4_T ,
+^Z5 ,
+^Z50 ,
+^Z50_AM ,
+^Z50_C ,
+^Z50_T ,
+^Z51 ,
+^Z51_AM ,
+^Z51_C ,
+^Z51_T ,
+^Z52 ,
+^Z52_AM ,
+^Z52_C ,
+^Z52_T ,
+^Z53 ,
+^Z53_AM ,
+^Z53_C ,
+^Z53_T ,
+^Z54 ,
+^Z54_AM ,
+^Z54_C ,
+^Z54_T ,
+^Z55 ,
+^Z55_AM ,
+^Z55_C ,
+^Z55_T ,
+^Z56 ,
+^Z56_AM ,
+^Z56_C ,
+^Z56_T ,
+^Z57 ,
+^Z57_AM ,
+^Z57_C ,
+^Z57_T ,
+^Z58 ,
+^Z58_AM ,
+^Z58_C ,
+^Z58_T ,
+^Z59 ,
+^Z59_AM ,
+^Z59_C ,
+^Z59_T ,
+^Z5_AM ,
+^Z5_C ,
+^Z5_T ,
+^Z6 ,
+^Z60 ,
+^Z60_AM ,
+^Z60_C ,
+^Z60_T ,
+^Z61 ,
+^Z61_AM ,
+^Z61_C ,
+^Z61_T ,
+^Z62 ,
+^Z62_AM ,
+^Z62_C ,
+^Z62_T ,
+^Z63 ,
+^Z63__C ,
+^Z63_AM ,
+^Z63_C ,
+^Z63_T ,
+^Z64 ,
+^Z64_AM ,
+^Z64_C ,
+^Z64_T ,
+^Z65 ,
+^Z65_AM ,
+^Z65_C ,
+^Z65_T ,
+^Z66 ,
+^Z66_AM ,
+^Z66_C ,
+^Z66_T ,
+^Z67 ,
+^Z67_AM ,
+^Z67_C ,
+^Z67_T ,
+^Z68 ,
+^Z68_AM ,
+^Z68_C ,
+^Z68_T ,
+^Z69 ,
+^Z69_AM ,
+^Z69_C ,
+^Z69_T ,
+^Z6_AM ,
+^Z6_C ,
+^Z6_T ,
+^Z7 ,
+^Z70 ,
+^Z70_AM ,
+^Z70_C ,
+^Z70_T ,
+^Z71 ,
+^Z71_AM ,
+^Z71_C ,
+^Z71_T ,
+^Z72 ,
+^Z72_AM ,
+^Z72_C ,
+^Z72_T ,
+^Z73 ,
+^Z73_AM ,
+^Z73_C ,
+^Z73_T ,
+^Z74 ,
+^Z74_AM ,
+^Z74_C ,
+^Z74_T ,
+^Z75 ,
+^Z75_AM ,
+^Z75_C ,
+^Z75_T ,
+^Z76 ,
+^Z76_AM ,
+^Z76_C ,
+^Z76_T ,
+^Z77 ,
+^Z77_AM ,
+^Z77_C ,
+^Z77_T ,
+^Z78 ,
+^Z78_AM ,
+^Z78_C ,
+^Z78_T ,
+^Z79 ,
+^Z79_AM ,
+^Z79_C ,
+^Z79_T ,
+^Z7_AM ,
+^Z7_C ,
+^Z7_T ,
+^Z8 ,
+^Z80 ,
+^Z80_AM ,
+^Z80_C ,
+^Z80_T ,
+^Z81 ,
+^Z81_AM ,
+^Z81_C ,
+^Z81_T ,
+^Z82 ,
+^Z82_AM ,
+^Z82_C ,
+^Z82_T ,
+^Z83 ,
+^Z83_AM ,
+^Z83_C ,
+^Z83_T ,
+^Z84 ,
+^Z84_AM ,
+^Z84_C ,
+^Z84_T ,
+^Z85 ,
+^Z85_AM ,
+^Z85_C ,
+^Z85_T ,
+^Z86 ,
+^Z86_AM ,
+^Z86_C ,
+^Z86_T ,
+^Z87 ,
+^Z88 ,
+^Z89 ,
+^Z8_AM ,
+^Z8_C ,
+^Z8_T ,
+^Z9 ,
+^Z90 ,
+^Z91 ,
+^Z92 ,
+^Z93 ,
+^Z94 ,
+^Z95 ,
+^Z96 ,
+^Z97 ,
+^Z98 ,
+^Z99 ,
+^Z9_AM ,
+^Z9_C ,
+^Z9_T ,
+^Z_Left_Avg ,
+^Z_Right_Avg ,
+^ZAVG ,
+^ZAVG_MAX ,
+^ZD2_1 ,
+^ZD2_10 ,
+^ZD2_11 ,
+^ZD2_12 ,
+^ZD2_13 ,
+^ZD2_14 ,
+^ZD2_15 ,
+^ZD2_16 ,
+^ZD2_17 ,
+^ZD2_18 ,
+^ZD2_19 ,
+^ZD2_2 ,
+^ZD2_20 ,
+^ZD2_21 ,
+^ZD2_22 ,
+^ZD2_23 ,
+^ZD2_24 ,
+^ZD2_25 ,
+^ZD2_26 ,
+^ZD2_27 ,
+^ZD2_28 ,
+^ZD2_29 ,
+^ZD2_3 ,
+^ZD2_30 ,
+^ZD2_31 ,
+^ZD2_32 ,
+^ZD2_33 ,
+^ZD2_34 ,
+^ZD2_35 ,
+^ZD2_4 ,
+^ZD2_5 ,
+^ZD2_6 ,
+^ZD2_7 ,
+^ZD2_8 ,
+^ZD2_9 ,
+^ZD2_Mean ,
+^ZD2_Sqrt ,
+^ZD2_Sum ,
+^ZD_1 ,
+^ZD_10 ,
+^ZD_11 ,
+^ZD_12 ,
+^ZD_13 ,
+^ZD_14 ,
+^ZD_15 ,
+^ZD_16 ,
+^ZD_17 ,
+^ZD_18 ,
+^ZD_19 ,
+^ZD_2 ,
+^ZD_20 ,
+^ZD_21 ,
+^ZD_22 ,
+^ZD_23 ,
+^ZD_24 ,
+^ZD_25 ,
+^ZD_26 ,
+^ZD_27 ,
+^ZD_28 ,
+^ZD_29 ,
+^ZD_3 ,
+^ZD_30 ,
+^ZD_31 ,
+^ZD_32 ,
+^ZD_33 ,
+^ZD_34 ,
+^ZD_35 ,
+^ZD_4 ,
+^ZD_5 ,
+^ZD_6 ,
+^ZD_7 ,
+^ZD_8 ,
+^ZD_9 ,
+^ZERO ,
+^Zero_Edge ,
+^Zero_Edge_i ,
+^Zero_Volts ,
+*MIS_Recipe ,
+*MIS_Recipe_1 ,
+*MIS_Recipe_10 ,
+*MIS_Recipe_2 ,
+*MIS_Recipe_3 ,
+*MIS_Recipe_4 ,
+*MIS_Recipe_5 ,
+*MIS_Recipe_6 ,
+*MIS_Recipe_7 ,
+*MIS_Recipe_8 ,
+*MIS_Recipe_9 ,
+*sIO_EnableCount ,
+*sIO_EnablerIndex ,
+*sMessageForQueue ,
+*_HSV_SEMA ,
+*_HSV_TEMP ,
+*TTROL25_35 ,
+ 0 ,
+CREATE TI.ARRAY
+^Awaiting_Corr_Timer ,
+^Awaiting_Corr_Timer_CD ,
+^Comm_Timer ,
+^Cycle_Timer ,
+^Cycle_Timer_1 ,
+^Cycle_Timer_2 ,
+^Cycle_Timer_3 ,
+^Cycle_Timer_4 ,
+^Cycle_Timer_5 ,
+^dtTimer1 ,
+^RX_Head_Cycle ,
+^RX_Head_Timer ,
+^Scanned_Length ,
+^Scanner_Moving ,
+^Sim_Roll_Timer ,
+^STDZ_Timer ,
+^Weight_Corr_Timer ,
+^Z10_TIMER ,
+^Z11_TIMER ,
+^Z12_TIMER ,
+^Z13_TIMER ,
+^Z14_TIMER ,
+^Z15_TIMER ,
+^Z16_TIMER ,
+^Z17_TIMER ,
+^Z18_TIMER ,
+^Z19_TIMER ,
+^Z1_TIMER ,
+^Z20_TIMER ,
+^Z21_TIMER ,
+^Z22_TIMER ,
+^Z23_TIMER ,
+^Z24_TIMER ,
+^Z25_Timer ,
+^Z26_Timer ,
+^Z27_Timer ,
+^Z28_Timer ,
+^Z29_Timer ,
+^Z2_TIMER ,
+^Z30_Timer ,
+^Z31_Timer ,
+^Z32_Timer ,
+^Z33_Timer ,
+^Z34_Timer ,
+^Z35_Timer ,
+^Z36_Timer ,
+^Z37_Timer ,
+^Z38_Timer ,
+^Z39_Timer ,
+^Z3_TIMER ,
+^Z40_Timer ,
+^Z41_Timer ,
+^Z42_Timer ,
+^Z43_Timer ,
+^Z44_Timer ,
+^Z45_Timer ,
+^Z46_Timer ,
+^Z47_TIMER ,
+^Z48_TIMER ,
+^Z49_TIMER ,
+^Z4_TIMER ,
+^Z50_TIMER ,
+^Z51_TIMER ,
+^Z52_Timer ,
+^Z53_Timer ,
+^Z54_Timer ,
+^Z55_Timer ,
+^Z56_Timer ,
+^Z57_TIMER ,
+^Z58_TIMER ,
+^Z59_TIMER ,
+^Z5_TIMER ,
+^Z60_TIMER ,
+^Z61_Timer ,
+^Z62_Timer ,
+^Z63_Timer ,
+^Z64_Timer ,
+^Z65_Timer ,
+^Z66_Timer ,
+^Z67_Timer ,
+^Z68_Timer ,
+^Z69_Timer ,
+^Z6_TIMER ,
+^Z70_Timer ,
+^Z71_Timer ,
+^Z72_Timer ,
+^Z73_Timer ,
+^Z74_Timer ,
+^Z75_Timer ,
+^Z76_Timer ,
+^Z77_Timer ,
+^Z78_Timer ,
+^Z79_TIMER ,
+^Z7_TIMER ,
+^Z80_TIMER ,
+^Z81_TIMER ,
+^Z82_TIMER ,
+^Z83_TIMER ,
+^Z84_TIMER ,
+^Z85_TIMER ,
+^Z86_TIMER ,
+^Z8_TIMER ,
+^Z9_TIMER ,
+ 0 ,
+CREATE PTR.ARRAY
+Ptr' PTR_pIO_Unit_IO_Enabler ,
+ 0 ,
+CREATE TA.ARRAY 
+}AP ,
+}AP_Bucket ,
+}AP_Bucket_Temp ,
+}AP_Corr ,
+}Avg_Bolt_Table ,
+}Bucket_Data ,
+}Bucket_Data_CD ,
+}Bucket_Data_Last_1 ,
+}Bucket_Data_Oriented ,
+}Bucket_Data_Raw ,
+}Bucket_Data_Raw_1 ,
+}Bucket_Data_Raw_2 ,
+}Bucket_Data_Raw_3 ,
+}Bucket_Data_Temp ,
+}CD_Spread ,
+}Comp_10_Bucket_Data ,
+}Comp_11_Bucket_Data ,
+}Comp_12_Bucket_Data ,
+}Comp_13_Bucket_Data ,
+}Comp_14_Bucket_Data ,
+}Comp_15_Bucket_Data ,
+}Comp_16_Bucket_Data ,
+}Comp_17_Bucket_Data ,
+}Comp_18_Bucket_Data ,
+}Comp_19_Bucket_Data ,
+}Comp_1_Bucket_Data ,
+}Comp_20_Bucket_Data ,
+}Comp_2_Bucket_Data ,
+}Comp_3_Bucket_Data ,
+}Comp_4_Bucket_Data ,
+}Comp_5_Bucket_Data ,
+}Comp_6_Bucket_Data ,
+}Comp_7_Bucket_Data ,
+}Comp_8_Bucket_Data ,
+}Comp_9_Bucket_Data ,
+}Comp_Bucket_Data ,
+}Comp_Bucket_Oriented ,
+}Comp_Bucket_Oriented_Coat_T ,
+}Comp_Scan_Raw ,
+}Comp_Scan_Scaled ,
+}DB_OUTPUT ,
+}Encoder_2_Buckets_Table ,
+}Last_Scan_Inches ,
+}Last_Scan_Raw ,
+}Last_Scan_Raw_1 ,
+}Last_Scan_Raw_2 ,
+}Last_Scan_Raw_3 ,
+}Last_Scan_Scaled ,
+}Mapped_Reel_Data ,
+}Mapping_Table_1 ,
+}Mapping_Table_1_Float ,
+}Mapping_Table_2 ,
+}Mapping_Table_Cast ,
+}Mapping_Table_F_DB ,
+}Mapping_Table_Profile ,
+}MD_Spread ,
+}Mean_Comp ,
+}Mean_Last ,
+}MIS_Data ,
+}MIS_Data_Last ,
+}MIS_Data_Last_AB ,
+}MIS_Data_Old ,
+}MIS_Scaled ,
+}ntIO_EnableIntervals ,
+}ntIO_UnitCommEnableStatus ,
+}ntIO_UnitDisableByUserQuantity ,
+}ntIO_UnitDisableOnErrorQuantity ,
+}ntIO_UnitEnableAttemptsCount ,
+}ntIO_UnitEnableQuantity ,
+}ntIO_UnitTimers ,
+}ntIO_UnitUserDisable ,
+}Opto_Table_In ,
+}Opto_Table_Out ,
+}Scan_Count_Table ,
+}Shrinkage_Table_1 ,
+}Shrinkage_Table_2 ,
+}Shrinkage_Table_3 ,
+}Shrinkage_Table_4 ,
+ 0 ,
+CREATE PTRTABLE.ARRAY 
+PTBL_ptIO_Units ,
+ 0 ,
+CREATE B.ARRAY
+%Line12_PCU_111 ,
+%Line12_SSIU_110 ,
+ 0 ,
+CREATE P.ARRAY
+~Auto_Man_FDBK ,
+~E_Stop ,
+~E_Stop_AB ,
+~Edge_Detect_IP ,
+~Flag_Insert ,
+~Fwd_Prox_Switch ,
+~Gauge_Auto_AB ,
+~Gauge_Splice_AB ,
+~Green_Lamp ,
+~Head_Encoder ,
+~Ion_Heater ,
+~Line_Speed_DEC ,
+~Line_Speed_INC ,
+~Motor_Brake ,
+~Motor_Comp_SW ,
+~Motor_Dir ,
+~Motor_FWD_SW ,
+~Motor_On_Off ,
+~Motor_On_SW ,
+~Off_Sheet ,
+~Off_Sheet_AB ,
+~On_Sheet ,
+~Red_Lamp ,
+~Reference_SW ,
+~Rev_Prox_Switch ,
+~Sample_SW ,
+~Shutter_Closed_Status ,
+~Shutter_Insert ,
+~Shutter_Insert_Pri ,
+~Shutter_Open_Status ,
+~Turn_Up_AB ,
+~Weight_Alarm_OP ,
+~Z10_SP ,
+~Z11_SP ,
+~Z12_SP ,
+~Z13_SP ,
+~Z14_SP ,
+~Z15_SP ,
+~Z16_SP ,
+~Z17_SP ,
+~Z18_SP ,
+~Z19_SP ,
+~Z1_SP ,
+~Z20_SP ,
+~Z21_SP ,
+~Z22_SP ,
+~Z23_SP ,
+~Z24_SP ,
+~Z25_SP ,
+~Z26_SP ,
+~Z27_SP ,
+~Z28_SP ,
+~Z29_SP ,
+~Z2_SP ,
+~Z30_SP ,
+~Z31_SP ,
+~Z32_SP ,
+~Z33_SP ,
+~Z34_SP ,
+~Z35_SP ,
+~Z36_SP ,
+~Z37_SP ,
+~Z38_SP ,
+~Z39_SP ,
+~Z3_SP ,
+~Z40_SP ,
+~Z41_SP ,
+~Z42_SP ,
+~Z43_SP ,
+~Z44_SP ,
+~Z45_SP ,
+~Z46_SP ,
+~Z47_SP ,
+~Z48_SP ,
+~Z49_SP ,
+~Z4_SP ,
+~Z50_SP ,
+~Z51_SP ,
+~Z52_SP ,
+~Z53_SP ,
+~Z54_SP ,
+~Z55_SP ,
+~Z56_SP ,
+~Z57_SP ,
+~Z58_SP ,
+~Z59_SP ,
+~Z5_SP ,
+~Z60_SP ,
+~Z61_SP ,
+~Z62_SP ,
+~Z63_SP ,
+~Z64_SP ,
+~Z6_SP ,
+~Z7_SP ,
+~Z8_SP ,
+~Z9_SP ,
+~Basis_Weight ,
+~DB10_FDBK ,
+~DB11_FDBK ,
+~DB12_FDBK ,
+~DB13_FDBK ,
+~DB14_FDBK ,
+~DB15_FDBK ,
+~DB16_FDBK ,
+~DB17_FDBK ,
+~DB18_FDBK ,
+~DB19_FDBK ,
+~DB1_FDBK ,
+~DB20_FDBK ,
+~DB21_FDBK ,
+~DB22_FDBK ,
+~DB23_FDBK ,
+~DB24_FDBK ,
+~DB25_FDBK ,
+~DB26_FDBK ,
+~DB27_FDBK ,
+~DB28_FDBK ,
+~DB29_FDBK ,
+~DB2_FDBK ,
+~DB30_FDBK ,
+~DB31_FDBK ,
+~DB32_FDBK ,
+~DB33_FDBK ,
+~DB34_FDBK ,
+~DB35_FDBK ,
+~DB36_FDBK ,
+~DB3_FDBK ,
+~DB4_FDBK ,
+~DB5_FDBK ,
+~DB6_FDBK ,
+~DB7_FDBK ,
+~DB8_FDBK ,
+~DB9_FDBK ,
+~Line_Speed_IP ,
+~Motor_Control ,
+~RX_Airgap_TMP ,
+~RX_Head_TMP ,
+~SX_Airgap_TMP ,
+~SX_Head_TMP ,
+~T1 ,
+~T10 ,
+~T11 ,
+~T12 ,
+~T13 ,
+~T14 ,
+~T15 ,
+~T16 ,
+~T17 ,
+~T18 ,
+~T19 ,
+~T2 ,
+~T20 ,
+~T21 ,
+~T22 ,
+~T23 ,
+~T24 ,
+~T25 ,
+~T26 ,
+~T27 ,
+~T28 ,
+~T29 ,
+~T3 ,
+~T30 ,
+~T31 ,
+~T32 ,
+~T33 ,
+~T34 ,
+~T35 ,
+~T36 ,
+~T4 ,
+~T5 ,
+~T6 ,
+~T7 ,
+~T8 ,
+~T9 ,
+ 0 ,
+CREATE PID.ARRAY
+ 0 ,
+CREATE E/R.ARRAY
+ 0 ,
+CREATE E/RGROUP.ARRAY
+ 0 ,
+: CONFIG_PORTS
+;
+: W_INIT_IO
+CONFIG_PORTS
+$0171FF1117BF8FFF.. %Line12_SSIU_110 ENABLES!
+" %Line12_PCU_111  (1/2)" *_HSV_INIT_IO $MOVE 1 ^_HNV_INIT_IO @!
+%Line12_PCU_111 ENABLE
+" %Line12_SSIU_110  (2/2)" *_HSV_INIT_IO $MOVE 0 ^_HNV_INIT_IO @!
+%Line12_SSIU_110 ENABLE
+%Line12_PCU_111 5 BRD.TRIES
+ " Initializing variables" *_HSV_INIT_IO $MOVE
+-0.081799999 ^A1 @!
+2.2505000 ^A2 @!
+-25.201000 ^A3 @!
+150.83000 ^A4 @!
+-549.07001 ^A5 @!
+1090.2000 ^A6 @!
+0.75000000 ^Act_2sig @!
+0 ^Act_Auto_Ctrl @!
+0.00000000 ^Act_Avg @!
+0 ^Act_Counter @!
+0.00000000 ^Act_Delta @!
+0.10000000 ^Act_Gain @!
+2.0000000 ^Act_Gain_Now @!
+0 ^Act_Lag @!
+0.00000000 ^Act_Max @!
+0.00000000 ^Act_Min @!
+0.00000000 ^Act_Timer @!
+0 ^Actuator_Mode @!
+0 ^Air_Sw_Press @!
+-42.700001 ^AirGap_Conv1 @!
+470.20001 ^AirGap_Conv2 @!
+0.00000000 ^AirGap_RX @!
+0.00000000 ^AirGap_RX_C @!
+0.00000000 ^AirGap_SX @!
+0.00000000 ^AirGap_SX_C @!
+0.00000000 ^AP_Conv @!
+0.00000000 ^AP_Conv_1 @!
+0 ^AP_Conv_2 @!
+0.00000000 ^AP_Float @!
+0 ^AP_Int @!
+0.00000000 ^AP_Scan_Avg @!
+0.00000000 ^AP_Scan_Temp_1 @!
+1 ^apc_AutoLoad @!
+0 ^apc_AutoSave @!
+0.00000000 ^apc_Bolt_Avg @!
+30.000000 ^apc_Bolt_Avg_Max @!
+0.00000000 ^apc_Bolt_High @!
+0.00000000 ^apc_Bolt_Low @!
+50.000000 ^apc_BoltHi_Alm @!
+5.0000000 ^apc_BoltLo_Alm @!
+0.00000000 ^apc_TG57 @!
+0.00000000 ^apc_TGT1 @!
+0.00000000 ^apc_TGT10 @!
+0.00000000 ^apc_TGT11 @!
+0.00000000 ^apc_TGT12 @!
+0.00000000 ^apc_TGT13 @!
+0.00000000 ^apc_TGT14 @!
+0.00000000 ^apc_TGT15 @!
+0.00000000 ^apc_TGT16 @!
+0.00000000 ^apc_TGT17 @!
+0.00000000 ^apc_TGT18 @!
+0.00000000 ^apc_TGT19 @!
+0.00000000 ^apc_TGT2 @!
+0.00000000 ^apc_TGT20 @!
+0.00000000 ^apc_TGT21 @!
+0.00000000 ^apc_TGT22 @!
+0.00000000 ^apc_TGT23 @!
+0.00000000 ^apc_TGT24 @!
+0.00000000 ^apc_TGT25 @!
+0.00000000 ^apc_TGT26 @!
+0.00000000 ^apc_TGT27 @!
+0.00000000 ^apc_TGT28 @!
+0.00000000 ^apc_TGT29 @!
+0.00000000 ^apc_TGT3 @!
+0.00000000 ^apc_TGT30 @!
+0.00000000 ^apc_TGT31 @!
+0.00000000 ^apc_TGT32 @!
+0.00000000 ^apc_TGT33 @!
+0.00000000 ^apc_TGT34 @!
+0.00000000 ^apc_TGT35 @!
+0.00000000 ^apc_TGT36 @!
+0.00000000 ^apc_TGT37 @!
+0.00000000 ^apc_TGT38 @!
+0.00000000 ^apc_TGT39 @!
+0.00000000 ^apc_TGT4 @!
+0.00000000 ^apc_TGT40 @!
+0.00000000 ^apc_TGT41 @!
+0.00000000 ^apc_TGT42 @!
+0.00000000 ^apc_TGT43 @!
+0.00000000 ^apc_TGT44 @!
+0.00000000 ^apc_TGT45 @!
+0.00000000 ^apc_TGT46 @!
+0.00000000 ^apc_TGT47 @!
+0.00000000 ^apc_TGT48 @!
+0.00000000 ^apc_TGT49 @!
+0.00000000 ^apc_TGT5 @!
+0.00000000 ^apc_TGT50 @!
+0.00000000 ^apc_TGT51 @!
+0.00000000 ^apc_TGT52 @!
+0.00000000 ^apc_TGT53 @!
+0.00000000 ^apc_TGT54 @!
+0.00000000 ^apc_TGT55 @!
+0.00000000 ^apc_TGT56 @!
+0.00000000 ^apc_TGT57 @!
+0.00000000 ^apc_TGT58 @!
+0.00000000 ^apc_TGT6 @!
+0.00000000 ^apc_TGT7 @!
+0.00000000 ^apc_TGT8 @!
+0.00000000 ^apc_TGT9 @!
+0 ^Auto_Ctrl_Req @!
+1.0000000 ^Auto_Edge @!
+0.00000000 ^Auto_STDZ @!
+0 ^Awaiting_Corr_Flag @!
+0.0 ^Awaiting_Corr_Timer @!
+0.0 ^Awaiting_Corr_Timer_CD @!
+0.00000000 ^Bad_STDZ_Alarm @!
+0 ^Basis_Weight_Failed @!
+10.000000 ^Basis_Weight_Filter @!
+1.0000000 ^Basis_Weight_Filter_AP @!
+1.0000000 ^Basis_Weight_Filter_Edge @!
+10.000000 ^Basis_Weight_Filter_Sample @!
+1.0000000 ^Basis_Weight_Filter_Scan @!
+10.000000 ^Basis_Weight_Filter_SP @!
+20.000000 ^Basis_Weight_Filter_STDZ @!
+0.10000000 ^Basis_Weight_Now @!
+0.10000000 ^Basis_Weight_Now_1 @!
+0.10000000 ^Basis_Weight_Now_2 @!
+0.00000000 ^Basis_Weight_Now_3 @!
+0.10000000 ^Basis_Weight_Raw @!
+0.00000000 ^Basis_Weight_TGT @!
+0 ^Beginning @!
+-0.10000000 ^Bend_Factor_1 @!
+-0.050000001 ^Bend_Factor_2 @!
+2.0000000 ^Bolt_Width @!
+0.00000000 ^Bucket_Data_SC @!
+0.00000000 ^BW_Bucket_Avg @!
+0.039370000 ^BW_Conv @!
+0.00000000 ^BW_Corr @!
+0.00000000 ^BW_Corr_1 @!
+0.00000000 ^BW_Corr_2 @!
+0.00000000 ^BW_Corr_3 @!
+0.00000000 ^BW_Dyn_Offset @!
+1.0000000 ^BW_KCM @!
+1 ^BW_N11 @!
+0.00000000 ^BW_Now_Inch @!
+26.000000 ^BW_Prof_AVG @!
+0.50000000 ^BW_Prof_DIS @!
+1.0000000 ^BW_Spec_Gravity @!
+0.00000000 ^BW_Spec_Gravity_MIS @!
+0.00000000 ^Carrier_Thickness @!
+0 ^Chart_ContactIP_Fail @!
+0 ^Chart_Control_Fail @!
+0 ^Chart_CounterIP_Fail @!
+0 ^Chart_MIS_Fail @!
+0 ^Chart_OnOff_Fail @!
+0 ^Chart_SCAN_Fail @!
+0 ^Chart_Status @!
+0.00000000 ^Check_Sam_STDZ @!
+0.00000000 ^Coat_Filter_Avg @!
+0 ^Comm_Counter @!
+0.0 ^Comm_Timer @!
+0.00000000 ^Comp_2Sig @!
+0.00000000 ^Comp_Avg @!
+0.00000000 ^Comp_Avg_1 @!
+0.00000000 ^Comp_Avg_CD @!
+0.00000000 ^Comp_Max @!
+0.00000000 ^Comp_Mean @!
+0.00000000 ^Comp_Mean_1 @!
+0.00000000 ^Comp_Mean_Avg @!
+0.00000000 ^Comp_Min @!
+0.00000000 ^Comp_Range @!
+5 ^Comp_Scans_C @!
+10 ^Comp_Scans_D @!
+0.00000000 ^Comp_Sqrt @!
+0 ^Control_Requested @!
+1 ^Control_Status @!
+0 ^Coord_Scan @!
+0 ^Ctrl_Comm_Alarm @!
+0 ^Ctrl_Comm_Counter @!
+0.00000000 ^Ctrl_Request @!
+2.0000000 ^Ctrl_Status @!
+0.059999999 ^Cycle_Factor @!
+6.0000000 ^Cycle_Seconds @!
+0.0 ^Cycle_Timer @!
+0.0 ^Cycle_Timer_1 @!
+0.0 ^Cycle_Timer_2 @!
+0.0 ^Cycle_Timer_3 @!
+0.0 ^Cycle_Timer_4 @!
+0.0 ^Cycle_Timer_5 @!
+0.00000000 ^CZD_1 @!
+0.00000000 ^CZD_10 @!
+0.00000000 ^CZD_11 @!
+0.00000000 ^CZD_12 @!
+0.00000000 ^CZD_13 @!
+0.00000000 ^CZD_14 @!
+0.00000000 ^CZD_15 @!
+0.00000000 ^CZD_16 @!
+0.00000000 ^CZD_17 @!
+0.00000000 ^CZD_18 @!
+0.00000000 ^CZD_19 @!
+0.00000000 ^CZD_2 @!
+0.00000000 ^CZD_20 @!
+0.00000000 ^CZD_21 @!
+0.00000000 ^CZD_22 @!
+0.00000000 ^CZD_23 @!
+0.00000000 ^CZD_24 @!
+0.00000000 ^CZD_25 @!
+0.00000000 ^CZD_26 @!
+0.00000000 ^CZD_27 @!
+0.00000000 ^CZD_28 @!
+0.00000000 ^CZD_29 @!
+0.00000000 ^CZD_3 @!
+0.00000000 ^CZD_30 @!
+0.00000000 ^CZD_31 @!
+0.00000000 ^CZD_32 @!
+0.00000000 ^CZD_33 @!
+0.00000000 ^CZD_34 @!
+0.00000000 ^CZD_35 @!
+0.00000000 ^CZD_36 @!
+0.00000000 ^CZD_37 @!
+0.00000000 ^CZD_38 @!
+0.00000000 ^CZD_39 @!
+0.00000000 ^CZD_4 @!
+0.00000000 ^CZD_40 @!
+0.00000000 ^CZD_41 @!
+0.00000000 ^CZD_42 @!
+0.00000000 ^CZD_43 @!
+0.00000000 ^CZD_47 @!
+0.00000000 ^CZD_48 @!
+0.00000000 ^CZD_49 @!
+0.00000000 ^CZD_5 @!
+0.00000000 ^CZD_50 @!
+0.00000000 ^CZD_51 @!
+0.00000000 ^CZD_52 @!
+0.00000000 ^CZD_53 @!
+0.00000000 ^CZD_54 @!
+0.00000000 ^CZD_55 @!
+0.00000000 ^CZD_56 @!
+0.00000000 ^CZD_57 @!
+0.00000000 ^CZD_58 @!
+0.00000000 ^CZD_59 @!
+0.00000000 ^CZD_6 @!
+0.00000000 ^CZD_60 @!
+0.00000000 ^CZD_7 @!
+0.00000000 ^CZD_8 @!
+0.00000000 ^CZD_9 @!
+0.00000000 ^CZDT_1 @!
+0.00000000 ^CZDT_10 @!
+0.00000000 ^CZDT_11 @!
+0.00000000 ^CZDT_12 @!
+0.00000000 ^CZDT_13 @!
+0.00000000 ^CZDT_14 @!
+0.00000000 ^CZDT_15 @!
+0.00000000 ^CZDT_16 @!
+0.00000000 ^CZDT_17 @!
+0.00000000 ^CZDT_18 @!
+0.00000000 ^CZDT_19 @!
+0.00000000 ^CZDT_2 @!
+0.00000000 ^CZDT_20 @!
+0.00000000 ^CZDT_21 @!
+0.00000000 ^CZDT_22 @!
+0.00000000 ^CZDT_23 @!
+0.00000000 ^CZDT_24 @!
+0.00000000 ^CZDT_25 @!
+0.00000000 ^CZDT_26 @!
+0.00000000 ^CZDT_27 @!
+0.00000000 ^CZDT_28 @!
+0.00000000 ^CZDT_29 @!
+0.00000000 ^CZDT_3 @!
+0.00000000 ^CZDT_30 @!
+0.00000000 ^CZDT_31 @!
+0.00000000 ^CZDT_32 @!
+0.00000000 ^CZDT_33 @!
+0.00000000 ^CZDT_34 @!
+0.00000000 ^CZDT_35 @!
+0.00000000 ^CZDT_36 @!
+0.00000000 ^CZDT_37 @!
+0.00000000 ^CZDT_38 @!
+0.00000000 ^CZDT_39 @!
+0.00000000 ^CZDT_4 @!
+0.00000000 ^CZDT_40 @!
+0.00000000 ^CZDT_41 @!
+0.00000000 ^CZDT_42 @!
+0.00000000 ^CZDT_43 @!
+0.00000000 ^CZDT_44 @!
+0.00000000 ^CZDT_45 @!
+0.00000000 ^CZDT_46 @!
+0.00000000 ^CZDT_47 @!
+0.00000000 ^CZDT_48 @!
+0.00000000 ^CZDT_49 @!
+0.00000000 ^CZDT_5 @!
+0.00000000 ^CZDT_50 @!
+0.00000000 ^CZDT_51 @!
+0.00000000 ^CZDT_52 @!
+0.00000000 ^CZDT_53 @!
+0.00000000 ^CZDT_54 @!
+0.00000000 ^CZDT_55 @!
+0.00000000 ^CZDT_56 @!
+0.00000000 ^CZDT_57 @!
+0.00000000 ^CZDT_58 @!
+0.00000000 ^CZDT_59 @!
+0.00000000 ^CZDT_6 @!
+0.00000000 ^CZDT_60 @!
+0.00000000 ^CZDT_61 @!
+0.00000000 ^CZDT_62 @!
+0.00000000 ^CZDT_63 @!
+0.00000000 ^CZDT_64 @!
+0.00000000 ^CZDT_65 @!
+0.00000000 ^CZDT_66 @!
+0.00000000 ^CZDT_67 @!
+0.00000000 ^CZDT_68 @!
+0.00000000 ^CZDT_69 @!
+0.00000000 ^CZDT_7 @!
+0.00000000 ^CZDT_70 @!
+0.00000000 ^CZDT_71 @!
+0.00000000 ^CZDT_72 @!
+0.00000000 ^CZDT_73 @!
+0.00000000 ^CZDT_74 @!
+0.00000000 ^CZDT_75 @!
+0.00000000 ^CZDT_76 @!
+0.00000000 ^CZDT_77 @!
+0.00000000 ^CZDT_78 @!
+0.00000000 ^CZDT_79 @!
+0.00000000 ^CZDT_8 @!
+0.00000000 ^CZDT_80 @!
+0.00000000 ^CZDT_81 @!
+0.00000000 ^CZDT_82 @!
+0.00000000 ^CZDT_83 @!
+0.00000000 ^CZDT_84 @!
+0.00000000 ^CZDT_85 @!
+0.00000000 ^CZDT_86 @!
+0.00000000 ^CZDT_9 @!
+-33.569000 ^D1 @!
+256.76999 ^D2 @!
+1.0000000 ^D3 @!
+1.0000000 ^D4 @!
+170.00000 ^Data_Boxes @!
+6.1999998 ^Data_Width @!
+0.00000000 ^Data_Width_Half @!
+32.799999 ^Data_Width_Reel @!
+0.00000000 ^Data_Width_Temp @!
+0.00000000 ^DB_Feedback_Avg @!
+0 ^DB_Feedback_Flag @!
+0.00000000 ^DB_Feedback_Tgt @!
+0.00000000 ^DB_Position_Avg @!
+0.00000000 ^DB_Position_Avg_Temp @!
+0.00000000 ^DB_Position_Change @!
+0.00000000 ^Die_Blower_Clear_Fault @!
+0.00000000 ^Die_Blower_Drive_Fault @!
+0.00000000 ^Die_Blower_Pressure_SW @!
+0.00000000 ^Die_Blower_Run @!
+0.00000000 ^Die_Blower_Running @!
+0.00000000 ^Die_Blower_SP @!
+0.00000000 ^Die_Blower_Speed_PV @!
+0.00000000 ^Die_Blower_Stop @!
+0 ^Die_Width_Error @!
+72.000000 ^Die_Width_Inches @!
+0 ^Door_Sw_Bot @!
+0 ^Door_Sw_Top @!
+0.0 ^dtTimer1 @!
+0.00000000 ^E_Stop_Alarm @!
+0 ^E_Stop_Mach @!
+0.13000000 ^Edge_1 @!
+0.41000000 ^Edge_2 @!
+0.63999999 ^Edge_3 @!
+0.83999997 ^Edge_4 @!
+1.0000000 ^Edge_5 @!
+1.0740000 ^Edge_6 @!
+0.25000000 ^Edge_Offset_Inches @!
+75.000000 ^Edge_Percent @!
+0.00000000 ^Edge_Percent_Factor @!
+0.00000000 ^Edge_Percent_Factor_A @!
+0 ^Edge_Scans @!
+0 ^Edge_Scans_1 @!
+0.00000000 ^Edge_STDZ @!
+0.00000000 ^Edge_Trim_L_Inch @!
+0 ^Edge_Trim_L_Pix @!
+1.0000000 ^Edge_Trim_L_Stat @!
+0 ^Edge_Trim_L_Stat_Int @!
+0.00000000 ^Edge_Trim_Left @!
+0.00000000 ^Edge_Trim_R_Inch @!
+0 ^Edge_Trim_R_Pix @!
+399.00000 ^Edge_Trim_R_Stat @!
+0 ^Edge_Trim_R_Stat_Int @!
+0.00000000 ^Edge_Trim_Right @!
+398.00000 ^Edge_Trim_Stat_No @!
+8 ^EIGHT @!
+11 ^Eleven @!
+7739.7002 ^Encoder_Conv @!
+5.0000000 ^Encoder_Conv_1 @!
+0.00000000 ^Encoder_Conv_Float @!
+0.00000000 ^Encoder_Conversion @!
+0.00000000 ^Encoder_Now @!
+0.00000000 ^Encoder_Now_Inches @!
+-59983.000 ^Encoder_Offset @!
+0.00000000 ^Encoder_PSet @!
+0.00000000 ^Encoder_Pset_Offset @!
+0.00000000 ^Encoder_Raw @!
+0 ^EOS_Data_Number @!
+1.0000000 ^EOS_EEN_A @!
+0.00000000 ^EOS_EEN_L @!
+0.00000000 ^EOS_EES_A @!
+0.00000000 ^EOS_EES_L @!
+0.00000000 ^EOS_EN_A @!
+0.00000000 ^EOS_EN_L @!
+0.00000000 ^EOS_ES_A @!
+0.00000000 ^EOS_ES_L @!
+0 ^EOS_Flag @!
+0 ^EOS_Flag1 @!
+0 ^EOS_Flag2 @!
+0 ^EOS_Flag_1 @!
+0 ^EOS_Flag_2 @!
+0 ^Eos_Flag_3 @!
+0 ^EOS_Flag_4 @!
+0 ^EOS_Flag_CD @!
+0 ^EOS_Flag_EOS @!
+0 ^EOS_Flag_MIS_AB @!
+0.00000000 ^EOS_M_A @!
+0.00000000 ^EOS_M_L @!
+0.00000000 ^EOS_N_A @!
+0.00000000 ^EOS_N_L @!
+0.00000000 ^EOS_S_A @!
+0.00000000 ^EOS_S_L @!
+50 ^FIFTY_mSec_Delay @!
+5 ^FIVE @!
+500 ^FIVEhundred_mSec_Delay @!
+1 ^Flat_Roll @!
+4 ^FOUR @!
+0.75000000 ^FWD_Crawl_Speed @!
+14425.000 ^FWD_Edge @!
+0.00000000 ^FWD_Edge_1 @!
+0.00000000 ^FWD_Edge_2 @!
+5.0000000 ^FWD_Edge_Inches @!
+0.00000000 ^Fwd_Edge_Inches_Temp @!
+0.00000000 ^FWD_Edge_MM @!
+1.0000000 ^FWD_Half_Speed @!
+0.00000000 ^FWD_Prox_Alarm @!
+0.00000000 ^Gain_Pro @!
+0.00000000 ^Head_RX @!
+0.00000000 ^Head_Sx @!
+-6.0000000 ^Home_POS @!
+-64800.000 ^Home_POS_1 @!
+-59400.000 ^Home_POS_2 @!
+100 ^HUNDRED_mSec_Delay @!
+0.00000000 ^HVPS_I @!
+0.00000000 ^HVPS_V @!
+1.0000000 ^Integral_Time @!
+0 ^L0 @!
+0 ^L1 @!
+0.00000000 ^L10 @!
+0 ^L100 @!
+0 ^L101 @!
+0 ^L102 @!
+0 ^L103 @!
+0 ^L104 @!
+0 ^L105 @!
+0.00000000 ^L11 @!
+0.00000000 ^L12 @!
+0 ^L2 @!
+0 ^L20 @!
+0.00000000 ^L200 @!
+0.00000000 ^L201 @!
+0.00000000 ^L202 @!
+0.00000000 ^L203 @!
+0.00000000 ^L301 @!
+0.00000000 ^L302 @!
+0.00000000 ^L303 @!
+0.00000000 ^L304 @!
+0.00000000 ^L305 @!
+0.00000000 ^L306 @!
+0.00000000 ^L307 @!
+0.00000000 ^L308 @!
+0.00000000 ^L309 @!
+0.00000000 ^L310 @!
+0.00000000 ^L311 @!
+0.00000000 ^L312 @!
+0.00000000 ^L313 @!
+0.00000000 ^L314 @!
+0.00000000 ^L315 @!
+0.00000000 ^L316 @!
+0.00000000 ^L317 @!
+0.00000000 ^L318 @!
+0.00000000 ^L319 @!
+0.00000000 ^L320 @!
+0.00000000 ^L321 @!
+0.00000000 ^L322 @!
+0.00000000 ^L323 @!
+0.00000000 ^L324 @!
+0.00000000 ^L325 @!
+0.00000000 ^L326 @!
+0.00000000 ^L327 @!
+0.00000000 ^L328 @!
+0.00000000 ^L329 @!
+0.00000000 ^L330 @!
+0.00000000 ^L331 @!
+0.00000000 ^L332 @!
+0.00000000 ^L333 @!
+0.00000000 ^L334 @!
+0.00000000 ^L335 @!
+0.00000000 ^L336 @!
+0.00000000 ^L337 @!
+0.00000000 ^L338 @!
+0.00000000 ^L339 @!
+0.00000000 ^L340 @!
+0.00000000 ^L341 @!
+0.00000000 ^L342 @!
+0.00000000 ^L343 @!
+0.00000000 ^L344 @!
+0.00000000 ^L345 @!
+0.00000000 ^L346 @!
+0.00000000 ^L347 @!
+0.00000000 ^L348 @!
+0.00000000 ^L349 @!
+0.00000000 ^L350 @!
+0.00000000 ^L351 @!
+0.00000000 ^L352 @!
+0.00000000 ^L353 @!
+0.00000000 ^L354 @!
+0.00000000 ^L355 @!
+0.00000000 ^L356 @!
+0.00000000 ^L357 @!
+0.00000000 ^L358 @!
+0.00000000 ^L359 @!
+0.00000000 ^L360 @!
+0.00000000 ^L361 @!
+0.00000000 ^L362 @!
+0.00000000 ^L363 @!
+0.00000000 ^L364 @!
+0.00000000 ^L365 @!
+0.00000000 ^L366 @!
+0.00000000 ^L367 @!
+0.00000000 ^L368 @!
+0.00000000 ^L369 @!
+0.00000000 ^L370 @!
+0.00000000 ^L371 @!
+0.00000000 ^L372 @!
+0.00000000 ^L373 @!
+0.00000000 ^L374 @!
+0.00000000 ^L375 @!
+0.00000000 ^L376 @!
+0.00000000 ^L377 @!
+0 ^L378 @!
+0.00000000 ^L379 @!
+0.00000000 ^L380 @!
+0.00000000 ^L381 @!
+0.00000000 ^L382 @!
+0.00000000 ^L383 @!
+0.00000000 ^L384 @!
+0.00000000 ^L385 @!
+0.00000000 ^L386 @!
+0 ^L4 @!
+0.00000000 ^L7 @!
+0 ^L8 @!
+0.00000000 ^L9 @!
+0.00000000 ^L_Max @!
+0.00000000 ^L_Min @!
+0.00000000 ^Lag_CD @!
+20.000000 ^Lag_Dist @!
+20.000000 ^Lag_Dist_CD @!
+0.00000000 ^Lag_MD @!
+0.00000000 ^Lag_Scans @!
+7.0000000 ^Lag_Scans_1 @!
+0.00000000 ^Lag_Scans_2 @!
+4.0000000 ^Lag_Scans_CD @!
+20.000000 ^Lag_Time @!
+45.000000 ^Lag_Time_CD @!
+0.00000000 ^Lane_1 @!
+0.00000000 ^Lane_10 @!
+0.00000000 ^Lane_2 @!
+0.00000000 ^Lane_3 @!
+0.00000000 ^Lane_4 @!
+0.00000000 ^Lane_5 @!
+0.00000000 ^Lane_6 @!
+0.00000000 ^Lane_7 @!
+0.00000000 ^Lane_8 @!
+0.00000000 ^Lane_9 @!
+0.00000000 ^Lane_Max @!
+0.00000000 ^Lane_Min @!
+6.0000000 ^Lane_Number @!
+0.00000000 ^Last_2Sig @!
+0.00000000 ^Last_Mean @!
+0.00000000 ^Last_Mean_1 @!
+0.00000000 ^Last_Mean_Avg @!
+0.00000000 ^Last_Scan_2Sig @!
+0.00000000 ^Last_Scan_Avg @!
+0.00000000 ^Last_Scan_Avg_1 @!
+0.00000000 ^Last_Scan_Avg_Avg @!
+0.00000000 ^Last_Scan_Avg_Roll @!
+0.00000000 ^Last_Scan_Filter_Avg @!
+1 ^Last_Scan_Filtering @!
+0.00000000 ^Last_Scan_Max @!
+0.00000000 ^Last_Scan_Min @!
+0.00000000 ^Last_Scan_Now @!
+0.00000000 ^Last_Scan_Range @!
+0.00000000 ^Last_Sqrt @!
+0.00000000 ^Left_Deckle @!
+1.0000000 ^Left_Deckle_Bolt @!
+1 ^Left_Deckle_Bolt_Int @!
+0.00000000 ^Left_Deckle_Trim_Inches @!
+0.00000000 ^Line_Speed_Now @!
+0.00000000 ^Loop_Counter @!
+0 ^Loop_Counter_1 @!
+0 ^Loop_Counter_2 @!
+0 ^Loop_Counter_3 @!
+0 ^Loop_Counter_4 @!
+0 ^Loop_Counter_5 @!
+0 ^Loop_Counter_6 @!
+0 ^Loop_Counter_7 @!
+0 ^Loop_Counter_8 @!
+0 ^Loop_Counter_9 @!
+0 ^Loop_Counter_AP @!
+0 ^Loop_Counter_CD @!
+0 ^Loop_Counter_CD_1 @!
+0 ^Loop_Counter_EOS @!
+0 ^Loop_Counter_EOS_1 @!
+0 ^Loop_Counter_EOS_2 @!
+0 ^Loop_Counter_MIS @!
+0 ^Loop_Counter_MIS_1 @!
+0 ^Loop_Counter_MIS_2 @!
+0 ^Loop_Counter_MIS_3 @!
+0 ^Loop_Counter_MIS_4 @!
+0 ^Loop_Counter_Sample @!
+0 ^Loop_Counter_Scan @!
+0 ^Loop_Counter_SP @!
+0 ^Loop_Counter_STDZ @!
+0.00000000 ^M_101 @!
+0.00000000 ^M_102 @!
+0.00000000 ^M_103 @!
+0.00000000 ^M_104 @!
+0.00000000 ^M_105 @!
+0.00000000 ^M_106 @!
+0.00000000 ^M_107 @!
+0.00000000 ^M_108 @!
+0.00000000 ^M_109 @!
+0.00000000 ^M_11 @!
+0.00000000 ^M_110 @!
+0.00000000 ^M_111 @!
+0.00000000 ^M_112 @!
+0.00000000 ^M_113 @!
+0.00000000 ^M_114 @!
+0.00000000 ^M_115 @!
+0.00000000 ^M_116 @!
+0.00000000 ^M_117 @!
+0.00000000 ^M_118 @!
+0.00000000 ^M_119 @!
+0.00000000 ^M_12 @!
+0.00000000 ^M_120 @!
+0.00000000 ^M_121 @!
+0.00000000 ^M_122 @!
+0.00000000 ^M_123 @!
+0.00000000 ^M_124 @!
+0.00000000 ^M_125 @!
+0.00000000 ^M_126 @!
+0.00000000 ^M_127 @!
+0.00000000 ^M_128 @!
+0.00000000 ^M_129 @!
+0.00000000 ^M_13 @!
+0.00000000 ^M_130 @!
+0.00000000 ^M_131 @!
+0.00000000 ^M_132 @!
+0.00000000 ^M_133 @!
+0.00000000 ^M_134 @!
+0.00000000 ^M_135 @!
+0.00000000 ^M_136 @!
+0.00000000 ^M_137 @!
+0.00000000 ^M_138 @!
+0.00000000 ^M_139 @!
+0.00000000 ^M_14 @!
+0.00000000 ^M_140 @!
+0.00000000 ^M_141 @!
+0.00000000 ^M_142 @!
+0.00000000 ^M_143 @!
+0.00000000 ^M_144 @!
+0.00000000 ^M_145 @!
+0.00000000 ^M_146 @!
+0.00000000 ^M_147 @!
+0.00000000 ^M_148 @!
+0.00000000 ^M_149 @!
+0.00000000 ^M_15 @!
+0.00000000 ^M_150 @!
+0.00000000 ^M_151 @!
+0.00000000 ^M_152 @!
+0.00000000 ^M_153 @!
+0.00000000 ^M_154 @!
+0.00000000 ^M_155 @!
+0.00000000 ^M_156 @!
+0.00000000 ^M_157 @!
+0.00000000 ^M_158 @!
+0.00000000 ^M_159 @!
+0.00000000 ^M_16 @!
+0.00000000 ^M_160 @!
+0.00000000 ^M_17 @!
+0.00000000 ^M_18 @!
+0.00000000 ^M_19 @!
+0.00000000 ^M_2 @!
+0.00000000 ^M_20 @!
+0.00000000 ^M_21 @!
+0.00000000 ^M_22 @!
+0.00000000 ^M_23 @!
+0.00000000 ^M_24 @!
+0.00000000 ^M_25 @!
+0.00000000 ^M_26 @!
+0.00000000 ^M_27 @!
+0.00000000 ^M_28 @!
+0.00000000 ^M_29 @!
+0.00000000 ^M_3 @!
+0.00000000 ^M_30 @!
+0.00000000 ^M_31 @!
+0.00000000 ^M_32 @!
+0.00000000 ^M_33 @!
+0.00000000 ^M_34 @!
+0.00000000 ^M_35 @!
+0.00000000 ^M_36 @!
+0.00000000 ^M_37 @!
+0.00000000 ^M_38 @!
+0.00000000 ^M_39 @!
+0.00000000 ^M_4 @!
+0.00000000 ^M_40 @!
+0.00000000 ^M_41 @!
+0.00000000 ^M_42 @!
+0.00000000 ^M_43 @!
+0.00000000 ^M_44 @!
+0.00000000 ^M_45 @!
+0.00000000 ^M_46 @!
+0.00000000 ^M_47 @!
+0.00000000 ^M_48 @!
+0.00000000 ^M_49 @!
+0.00000000 ^M_5 @!
+0.00000000 ^M_50 @!
+0.00000000 ^M_51 @!
+0.00000000 ^M_52 @!
+0.00000000 ^M_53 @!
+0.00000000 ^M_54 @!
+0.00000000 ^M_55 @!
+0.00000000 ^M_56 @!
+0.00000000 ^M_57 @!
+0.00000000 ^M_58 @!
+0.00000000 ^M_59 @!
+0.00000000 ^M_6 @!
+0.00000000 ^M_60 @!
+0.00000000 ^M_61 @!
+0.00000000 ^M_62 @!
+0.00000000 ^M_63 @!
+0.00000000 ^M_64 @!
+0.00000000 ^M_65 @!
+0.00000000 ^M_66 @!
+0.00000000 ^M_67 @!
+0.00000000 ^M_68 @!
+0.00000000 ^M_69 @!
+0.00000000 ^M_7 @!
+0.00000000 ^M_70 @!
+0.00000000 ^M_71 @!
+0.00000000 ^M_72 @!
+0.00000000 ^M_73 @!
+0.00000000 ^M_74 @!
+0.00000000 ^M_75 @!
+0.00000000 ^M_76 @!
+0.00000000 ^M_77 @!
+0.00000000 ^M_78 @!
+0.00000000 ^M_79 @!
+0.00000000 ^M_8 @!
+0.00000000 ^M_80 @!
+0.00000000 ^M_81 @!
+0.00000000 ^M_82 @!
+0.00000000 ^M_83 @!
+0.00000000 ^M_84 @!
+0.00000000 ^M_85 @!
+0.00000000 ^M_86 @!
+0.00000000 ^M_87 @!
+0.00000000 ^M_88 @!
+0.00000000 ^M_89 @!
+0.00000000 ^M_9 @!
+0.00000000 ^M_90 @!
+0.00000000 ^M_91 @!
+0.00000000 ^M_92 @!
+0.00000000 ^M_93 @!
+0.00000000 ^M_94 @!
+0.00000000 ^M_95 @!
+0.00000000 ^M_96 @!
+0.00000000 ^M_97 @!
+0.00000000 ^M_98 @!
+0.00000000 ^M_99 @!
+0.00000000 ^Map_Width @!
+0 ^Mapped_Bolt_Center @!
+0 ^Mapped_Bolt_Selected @!
+0 ^Mapped_Bolt_Width @!
+1.0000000 ^Max_Corr_Limit @!
+0.00000000 ^Max_Corr_Limit_Flag @!
+0.00000000 ^Max_Edge @!
+2.0000000 ^Max_Error_Limit @!
+0.00000000 ^Max_Error_Limit_Flag @!
+70.000000 ^Max_Frame_Length @!
+248400.00 ^Max_Frame_Length_1 @!
+0.00000000 ^MD_Control_On @!
+0.00000000 ^MD_Mean @!
+0.00000000 ^MD_Mean_Avg @!
+0.00000000 ^MD_Sqrt @!
+0.00000000 ^Min_Error_Limit_Flag @!
+0.00000000 ^Min_Frame_Length @!
+-23264.000 ^Min_Frame_Length_1 @!
+0.00000000 ^Min_Lane_Limit @!
+0.00000000 ^Min_Lane_Limit_Flag @!
+0.00000000 ^Min_Lane_Override @!
+0.00000000 ^Min_Lane_Override_Flag @!
+10.000000 ^Min_Line_Speed @!
+0.00000000 ^Min_Line_Speed_Flag @!
+0 ^MIS_Latch @!
+0 ^MIS_ON @!
+0.00000000 ^MIS_Roll_Avg @!
+0.00000000 ^MIS_Roll_Max @!
+0.00000000 ^MIS_Roll_Min @!
+0 ^MIS_Roll_Number @!
+0.00000000 ^MIS_Roll_Range @!
+0.00000000 ^MIS_Roll_StdDev @!
+0 ^MIS_Shift_End @!
+0.00000000 ^MIS_Y_1 @!
+0.00000000 ^MIS_Y_2 @!
+0.00000000 ^MIS_Y_3 @!
+0.00000000 ^Motor_Control_1 @!
+0 ^Motor_Control_Error @!
+1 ^Motor_Fwd @!
+0 ^Motor_Rev @!
+9 ^NINE @!
+0 ^nIO_EnableInterval_Index @!
+0 ^nIO_EnablerIndex @!
+0 ^nIO_UnitsTableLastIndex @!
+0.00000000 ^No_Edge_Found @!
+36 ^Number_Of_Bolts @!
+0 ^Number_of_Bolts_1 @!
+62 ^Number_Of_Bolts_Active @!
+0 ^Number_Of_Bolts_Active_1 @!
+0.00000000 ^Number_Of_Bolts_Active_F @!
+0.00000000 ^Number_Of_Comp_Scans @!
+0.00000000 ^Number_Of_Scans @!
+0 ^OffSheet_Latch @!
+0.00000000 ^OK_For_Control @!
+0.00000000 ^On_Time_Gain @!
+1 ^ONE @!
+1 ^One_mSec_Delay @!
+0 ^OnSheet_Latch @!
+0 ^Print_Report_Flag @!
+0.00000000 ^Proc_Var_Type @!
+0 ^Prod_Change_Flag @!
+84 ^Prof_Ctr @!
+1 ^Prof_Rev @!
+1 ^Profile_Display_Avg @!
+0.00000000 ^Profile_X_1 @!
+0.00000000 ^Profile_X_2 @!
+0.00000000 ^Profile_X_3 @!
+0.00000000 ^Profile_X_4 @!
+0.00000000 ^Profile_X_5 @!
+0.00000000 ^Profile_X_6 @!
+0.00000000 ^Profile_X_7 @!
+0.00000000 ^Profile_X_8 @!
+0.00000000 ^Profile_X_9 @!
+0.50000000 ^Profile_Y @!
+15.000000 ^Profile_Y_1 @!
+0.00000000 ^Profile_Y_1_C @!
+0.00000000 ^Profile_Y_1_D @!
+12.000000 ^Profile_Y_2 @!
+0.00000000 ^Profile_Y_2_C @!
+0.00000000 ^Profile_Y_2_D @!
+10.000000 ^Profile_Y_3 @!
+0.00000000 ^Profile_Y_3_C @!
+0.00000000 ^Profile_Y_3_D @!
+8.0000000 ^Profile_Y_4 @!
+0.00000000 ^Profile_Y_4_C @!
+0.00000000 ^Profile_Y_4_D @!
+5.0000000 ^Profile_Y_5 @!
+0.00000000 ^Profile_Y_5_C @!
+0.00000000 ^Profile_Y_5_D @!
+12.000000 ^Profile_Y_Factor @!
+0 ^Remote_Comm @!
+0.75000000 ^REV_Crawl_Speed @!
+240800.00 ^REV_Edge @!
+0.00000000 ^REV_Edge_1 @!
+0.00000000 ^Rev_Edge_2 @!
+67.000000 ^REV_Edge_Inches @!
+0.00000000 ^Rev_Edge_Inches_Temp @!
+0.00000000 ^REV_Edge_MM @!
+1.0000000 ^REV_Half_Speed @!
+0.00000000 ^REV_Prox_Alarm @!
+0.00000000 ^Right_Deckle @!
+1.0000000 ^Right_Deckle_Bolt @!
+1 ^Right_Deckle_Bolt_Int @!
+0.00000000 ^Right_Deckle_Trim_Inches @!
+0 ^Roll_End @!
+0.00000000 ^Roll_End_HRS @!
+0.00000000 ^Roll_End_MIN @!
+0.00000000 ^Roll_GSM_MIS @!
+0.00000000 ^Roll_Length @!
+0.00000000 ^Roll_Length_MIS @!
+0.00000000 ^Roll_Start_HRS @!
+0.00000000 ^Roll_Start_Hrs_A @!
+0.00000000 ^Roll_Start_MIN @!
+0.00000000 ^Roll_Start_Min_A @!
+0.00000000 ^Roll_Weight_MIS @!
+0.00000000 ^RX_AirGap_LN @!
+0.0 ^RX_Head_Cycle @!
+0.00000000 ^RX_Head_LN @!
+95.000000 ^RX_Head_Temp_SP @!
+9.9999997e-005 ^RX_Head_Temp_SP_FF @!
+0.00000000 ^RX_Head_Temp_Time @!
+0.0 ^RX_Head_Timer @!
+0 ^Safety_Mat_Alm @!
+0 ^Safety_Mat_Bypass @!
+0.00000000 ^Sample_Actual @!
+119.00000 ^Sample_STD @!
+0.00000000 ^Sample_Timer @!
+0.00000000 ^Sample_Value @!
+0.00000000 ^Sample_Value_1 @!
+0.00000000 ^Sample_Value_Temp @!
+0.00000000 ^Sample_Voltage @!
+0 ^Scan_Count @!
+0 ^Scan_Number @!
+0 ^Scan_Number_DIS @!
+0 ^Scan_Number_Temp @!
+0 ^Scan_Number_WW @!
+1.5000000 ^Scan_SPD_FWD @!
+7.0000000 ^Scan_SPD_High_REV @!
+1.5000000 ^Scan_SPD_REV @!
+0.00000000 ^Scan_Weighting @!
+0.0 ^Scanned_Length SetTimer
+0.00000000 ^Scanned_Time @!
+0 ^Scanner_Failure @!
+0.0 ^Scanner_Moving SetTimer
+3 ^Scanner_Status @!
+0 ^Scanner_Status_Speed @!
+110.00000 ^Scans_2_STDZ @!
+20.000000 ^Scans_In_Comp @!
+20.000000 ^Scans_In_Comp_AirP @!
+0.00000000 ^Scans_In_Roll @!
+0.00000000 ^Screw_Spd @!
+7 ^SEVEN @!
+0 ^Sheet_Break @!
+0 ^Sheet_Det_Alm @!
+0.10000000 ^Sheet_Temp @!
+62.500000 ^Sheet_Temp_INT @!
+15.625000 ^Sheet_Temp_SL @!
+77.000000 ^Shrinkage_Factor_1 @!
+0.97000003 ^Shrinkage_Factor_2 @!
+0.00000000 ^Shutter_Fault_Alarm @!
+0 ^Shutter_Open @!
+0 ^Sim_Roll_Flag @!
+120.00000 ^Sim_Roll_Interval @!
+0.00000000 ^Sim_Roll_Interval_Sec @!
+0.0 ^Sim_Roll_Timer SetTimer
+0.00000000 ^Single_Point_Position @!
+0.00000000 ^Single_Point_Position_1 @!
+0.00000000 ^Single_Point_Reading @!
+0.00000000 ^Single_Point_Time @!
+0.00000000 ^Single_Point_Value_1 @!
+0.00000000 ^Single_Point_Value_Temp @!
+0.00000000 ^Single_Point_Voltage @!
+6 ^SIX @!
+0.00000000 ^Spd_Ctrl_Factor @!
+0.00000000 ^Speed_Avg @!
+101.40000 ^Speed_Conv @!
+1.0000000 ^Speed_Conv_1 @!
+101.40000 ^Speed_Conv_2 @!
+5.0000000 ^Speed_Filter @!
+100.00000 ^Speed_Now @!
+100.00000 ^Speed_Raw @!
+0.00000000 ^Speed_Sum @!
+0.00000000 ^Spread_CD @!
+0.00000000 ^Spread_CD1 @!
+0.00000000 ^Spread_CD_MIS @!
+0.00000000 ^Spread_MD @!
+0.00000000 ^Spread_MD1 @!
+0.00000000 ^Spread_MD_1 @!
+0.00000000 ^Spread_MD_MIS @!
+0 ^Spread_Reset @!
+0 ^Spread_Scans @!
+0.00000000 ^Spread_Total @!
+0.00000000 ^Spread_Total_MIS @!
+0.00000000 ^Stat_Comp_Avg @!
+0.00000000 ^Stat_Last_Scan_Avg @!
+0 ^Status_Scratchpad_IN @!
+0 ^Status_Scratchpad_Out @!
+0 ^Status_Trashcan @!
+0.00000000 ^Std_Dev_Comp @!
+0.00000000 ^Std_Dev_Last @!
+0.25000000 ^STDZ_Closed_Max @!
+0.00000000 ^STDZ_Closed_Temp @!
+0.021100000 ^STDZ_Closed_Volts @!
+0.016164429 ^STDZ_Closed_Volts_Cal @!
+1800.0000 ^STDZ_Interval @!
+0 ^Stdz_Mode @!
+0.25000000 ^STDZ_Open_Min @!
+0.00000000 ^STDZ_Open_Temp @!
+0.00000000 ^STDZ_Open_Temp_1 @!
+7.4699998 ^STDZ_Open_Volts @!
+7.6490178 ^STDZ_Open_Volts_Cal @!
+0 ^Stdz_Required @!
+0.0 ^STDZ_Timer SetTimer
+30.000000 ^Stretcher_Spd @!
+10.000000 ^Stretcher_Spd_Filter @!
+0.00000000 ^Stretcher_SPD_Filtered @!
+0.00000000 ^Stretcher_Spd_PV @!
+0.00000000 ^SX_AirGap_LN @!
+0.00000000 ^SX_Head_LN @!
+43 ^table_length @!
+1 ^Target_Profile @!
+0.00000000 ^Temp_AGRX_C_STDZ @!
+0.00000000 ^Temp_AGRX_C_STDZ_1 @!
+0.00000000 ^Temp_AGRX_C_STDZ_2 @!
+0.00000000 ^Temp_AGSX_C_STDZ @!
+0.00000000 ^Temp_AGSX_C_STDZ_1 @!
+0.00000000 ^Temp_AGSX_C_STDZ_2 @!
+0 ^Temp_Control_Override @!
+0.00000000 ^Temp_Corr @!
+-0.31737000 ^Temp_Corr_Factor @!
+0.00000000 ^Temp_RCVR @!
+0.00000000 ^Temp_RX @!
+0.00000000 ^Temp_RX_Gap @!
+0.00000000 ^Temp_RX_Head @!
+0.20000000 ^Temp_RX_Head_DB @!
+95.000000 ^Temp_RX_Head_SP @!
+0.00000000 ^Temp_RX_STDZ @!
+0.00000000 ^Temp_SX @!
+0.00000000 ^Temp_SX_Gap @!
+0.00000000 ^Temp_SX_Head @!
+10 ^TEN @!
+10 ^TEN_mSec_Delay @!
+0.00000000 ^TGT_Prof_Avg @!
+1000 ^Thousand_mSec_Delay @!
+3 ^THREE @!
+0.50000000 ^Threshold_Low @!
+0 ^Threshold_Low_Alm @!
+0.00000000 ^Total_Mean_Avg @!
+0.00000000 ^Total_Sqrt @!
+0 ^transmit_success @!
+0 ^Turn_Up_IP @!
+12 ^TWELVE @!
+20 ^TWENTY @!
+2 ^TWO @!
+0 ^Watchdog @!
+70.000000 ^Web_Width @!
+0.00000000 ^Web_Width_Inches @!
+0.00000000 ^Web_Width_MIS @!
+0.00000000 ^Web_Width_Stat @!
+0 ^Weight_Alarm @!
+0 ^Weight_Alarm_Ack @!
+0.00000000 ^Weight_Comp @!
+0.00000000 ^Weight_Corr @!
+0.00000000 ^Weight_Corr_1 @!
+0.0 ^Weight_Corr_Timer @!
+0.12500000 ^Weight_DB @!
+0.00000000 ^Weight_Error @!
+9.9999997e-006 ^Weight_Error_1 @!
+0.00000000 ^Weight_Error_Percent @!
+0.00000000 ^Weight_Offset @!
+169.00000 ^Weight_TGT @!
+0.00000000 ^Weight_Tgt_1_MIS @!
+100.00000 ^Weight_TGT_Ctrl @!
+0 ^Xray_On @!
+0.00000000 ^Z1 @!
+0.00000000 ^Z10 @!
+0.00000000 ^Z100 @!
+0 ^Z10_AM @!
+0.00000000 ^Z10_C @!
+0.00000000 ^Z10_T @!
+0.0 ^Z10_TIMER @!
+0.00000000 ^Z11 @!
+0 ^Z11_AM @!
+0.00000000 ^Z11_C @!
+0.00000000 ^Z11_T @!
+0.0 ^Z11_TIMER @!
+0.00000000 ^Z12 @!
+0 ^Z12_AM @!
+0.00000000 ^Z12_C @!
+0.00000000 ^Z12_T @!
+0.0 ^Z12_TIMER @!
+0.00000000 ^Z13 @!
+0 ^Z13_AM @!
+0.00000000 ^Z13_C @!
+0.00000000 ^Z13_T @!
+0.0 ^Z13_TIMER @!
+0.00000000 ^Z14 @!
+0 ^Z14_AM @!
+0.00000000 ^Z14_C @!
+0.00000000 ^Z14_T @!
+0.0 ^Z14_TIMER @!
+0.00000000 ^Z15 @!
+0 ^Z15_AM @!
+0.00000000 ^Z15_C @!
+0.00000000 ^Z15_T @!
+0.0 ^Z15_TIMER @!
+0.00000000 ^Z16 @!
+0 ^Z16_AM @!
+0.00000000 ^Z16_C @!
+0.00000000 ^Z16_T @!
+0.0 ^Z16_TIMER @!
+0.00000000 ^Z17 @!
+0 ^Z17_AM @!
+0.00000000 ^Z17_C @!
+0.00000000 ^Z17_T @!
+0.0 ^Z17_TIMER @!
+0.00000000 ^Z18 @!
+0 ^Z18_AM @!
+0.00000000 ^Z18_C @!
+0.00000000 ^Z18_T @!
+0.0 ^Z18_TIMER @!
+0.00000000 ^Z19 @!
+0 ^Z19_AM @!
+0.00000000 ^Z19_C @!
+0.00000000 ^Z19_T @!
+0.0 ^Z19_TIMER @!
+0 ^Z1_AM @!
+0.00000000 ^Z1_C @!
+0.00000000 ^Z1_T @!
+0.0 ^Z1_TIMER @!
+0.00000000 ^Z2 @!
+0.00000000 ^Z20 @!
+0 ^Z20_AM @!
+0.00000000 ^Z20_C @!
+0.00000000 ^Z20_T @!
+0.0 ^Z20_TIMER @!
+0.00000000 ^Z21 @!
+0 ^Z21_AM @!
+0.00000000 ^Z21_C @!
+0.00000000 ^Z21_T @!
+0.0 ^Z21_TIMER @!
+0.00000000 ^Z22 @!
+0 ^Z22_AM @!
+0.00000000 ^Z22_C @!
+0.00000000 ^Z22_T @!
+0.0 ^Z22_TIMER @!
+0.00000000 ^Z23 @!
+0 ^Z23_AM @!
+0.00000000 ^Z23_C @!
+0.00000000 ^Z23_T @!
+0.0 ^Z23_TIMER @!
+0.00000000 ^Z24 @!
+0 ^Z24_AM @!
+0.00000000 ^Z24_C @!
+0.00000000 ^Z24_T @!
+0.0 ^Z24_TIMER @!
+0.00000000 ^Z25 @!
+0 ^Z25_AM @!
+0.00000000 ^Z25_C @!
+0.00000000 ^Z25_T @!
+0.0 ^Z25_Timer @!
+0.00000000 ^Z26 @!
+0 ^Z26_AM @!
+0.00000000 ^Z26_C @!
+0.00000000 ^Z26_T @!
+0.0 ^Z26_Timer @!
+0.00000000 ^Z27 @!
+0 ^Z27_AM @!
+0.00000000 ^Z27_C @!
+0.00000000 ^Z27_T @!
+0.0 ^Z27_Timer @!
+0.00000000 ^Z28 @!
+0 ^Z28_AM @!
+0.00000000 ^Z28_C @!
+0.00000000 ^Z28_T @!
+0.0 ^Z28_Timer @!
+0.00000000 ^Z29 @!
+0 ^Z29_AM @!
+0.00000000 ^Z29_C @!
+0.00000000 ^Z29_T @!
+0.0 ^Z29_Timer @!
+0 ^Z2_AM @!
+0.00000000 ^Z2_C @!
+0.00000000 ^Z2_T @!
+0.0 ^Z2_TIMER @!
+0.00000000 ^Z3 @!
+0.00000000 ^Z30 @!
+0 ^Z30_AM @!
+0.00000000 ^Z30_C @!
+0.00000000 ^Z30_T @!
+0.0 ^Z30_Timer @!
+0.00000000 ^Z31 @!
+0 ^Z31_AM @!
+0.00000000 ^Z31_C @!
+0.00000000 ^Z31_T @!
+0.0 ^Z31_Timer @!
+0.00000000 ^Z32 @!
+0 ^Z32_AM @!
+0.00000000 ^Z32_C @!
+0.00000000 ^Z32_T @!
+0.0 ^Z32_Timer @!
+0.00000000 ^Z33 @!
+0 ^Z33_AM @!
+0.00000000 ^Z33_C @!
+0.00000000 ^Z33_T @!
+0.0 ^Z33_Timer @!
+0.00000000 ^Z34 @!
+0 ^Z34_AM @!
+0.00000000 ^Z34_C @!
+0.00000000 ^Z34_T @!
+0.0 ^Z34_Timer @!
+0.00000000 ^Z35 @!
+0 ^Z35_AM @!
+0.00000000 ^Z35_C @!
+0.00000000 ^Z35_T @!
+0.0 ^Z35_Timer @!
+0.00000000 ^Z36 @!
+0 ^Z36_AM @!
+0.00000000 ^Z36_C @!
+0.00000000 ^Z36_T @!
+0.0 ^Z36_Timer @!
+0.00000000 ^Z37 @!
+0 ^Z37_AM @!
+0.00000000 ^Z37_C @!
+0.00000000 ^Z37_T @!
+0.0 ^Z37_Timer @!
+0.00000000 ^Z38 @!
+0 ^Z38_AM @!
+0.00000000 ^Z38_C @!
+0.00000000 ^Z38_T @!
+0.0 ^Z38_Timer @!
+0.00000000 ^Z39 @!
+0 ^Z39_AM @!
+0.00000000 ^Z39_C @!
+0.00000000 ^Z39_T @!
+0.0 ^Z39_Timer @!
+0 ^Z3_AM @!
+0.00000000 ^Z3_C @!
+0.00000000 ^Z3_T @!
+0.0 ^Z3_TIMER @!
+0.00000000 ^Z4 @!
+0.00000000 ^Z40 @!
+0 ^Z40_AM @!
+0.00000000 ^Z40_C @!
+0.00000000 ^Z40_T @!
+0.0 ^Z40_Timer @!
+0.00000000 ^Z41 @!
+0 ^Z41_AM @!
+0.00000000 ^Z41_C @!
+0.00000000 ^Z41_T @!
+0.0 ^Z41_Timer @!
+0.00000000 ^Z42 @!
+0 ^Z42_AM @!
+0.00000000 ^Z42_C @!
+0.00000000 ^Z42_T @!
+0.0 ^Z42_Timer @!
+0.00000000 ^Z43 @!
+0 ^Z43_AM @!
+0.00000000 ^Z43_C @!
+0.00000000 ^Z43_T @!
+0.0 ^Z43_Timer @!
+0.00000000 ^Z44 @!
+0 ^Z44_AM @!
+0.00000000 ^Z44_C @!
+0.00000000 ^Z44_T @!
+0.0 ^Z44_Timer @!
+0.00000000 ^Z45 @!
+0 ^Z45_AM @!
+0.00000000 ^Z45_C @!
+0.00000000 ^Z45_T @!
+0.0 ^Z45_Timer @!
+0.00000000 ^Z46 @!
+0 ^Z46_AM @!
+0.00000000 ^Z46_C @!
+0.00000000 ^Z46_T @!
+0.0 ^Z46_Timer @!
+0.00000000 ^Z47 @!
+0 ^Z47_AM @!
+0.00000000 ^Z47_C @!
+0.00000000 ^Z47_T @!
+0.0 ^Z47_TIMER @!
+0.00000000 ^Z48 @!
+0 ^Z48_AM @!
+0.00000000 ^Z48_C @!
+0.00000000 ^Z48_T @!
+0.0 ^Z48_TIMER @!
+0.00000000 ^Z49 @!
+0 ^Z49_AM @!
+0.00000000 ^Z49_C @!
+0.00000000 ^Z49_T @!
+0.0 ^Z49_TIMER @!
+0 ^Z4_AM @!
+0.00000000 ^Z4_C @!
+0.00000000 ^Z4_T @!
+0.0 ^Z4_TIMER @!
+0.00000000 ^Z5 @!
+0.00000000 ^Z50 @!
+0 ^Z50_AM @!
+0.00000000 ^Z50_C @!
+0.00000000 ^Z50_T @!
+0.0 ^Z50_TIMER @!
+0.00000000 ^Z51 @!
+0 ^Z51_AM @!
+0.00000000 ^Z51_C @!
+0.00000000 ^Z51_T @!
+0.0 ^Z51_TIMER @!
+0.00000000 ^Z52 @!
+0 ^Z52_AM @!
+0.00000000 ^Z52_C @!
+0.00000000 ^Z52_T @!
+0.0 ^Z52_Timer @!
+0.00000000 ^Z53 @!
+0 ^Z53_AM @!
+0.00000000 ^Z53_C @!
+0.00000000 ^Z53_T @!
+0.0 ^Z53_Timer @!
+0.00000000 ^Z54 @!
+0 ^Z54_AM @!
+0.00000000 ^Z54_C @!
+0.00000000 ^Z54_T @!
+0.0 ^Z54_Timer @!
+0.00000000 ^Z55 @!
+0 ^Z55_AM @!
+0.00000000 ^Z55_C @!
+0.00000000 ^Z55_T @!
+0.0 ^Z55_Timer @!
+0.00000000 ^Z56 @!
+0 ^Z56_AM @!
+0.00000000 ^Z56_C @!
+0.00000000 ^Z56_T @!
+0.0 ^Z56_Timer @!
+0.00000000 ^Z57 @!
+0 ^Z57_AM @!
+0.00000000 ^Z57_C @!
+0.00000000 ^Z57_T @!
+0.0 ^Z57_TIMER @!
+0.00000000 ^Z58 @!
+0 ^Z58_AM @!
+0.00000000 ^Z58_C @!
+0.00000000 ^Z58_T @!
+0.0 ^Z58_TIMER @!
+0.00000000 ^Z59 @!
+0 ^Z59_AM @!
+0.00000000 ^Z59_C @!
+0.00000000 ^Z59_T @!
+0.0 ^Z59_TIMER @!
+0 ^Z5_AM @!
+0.00000000 ^Z5_C @!
+0.00000000 ^Z5_T @!
+0.0 ^Z5_TIMER @!
+0.00000000 ^Z6 @!
+0.00000000 ^Z60 @!
+0 ^Z60_AM @!
+0.00000000 ^Z60_C @!
+0.00000000 ^Z60_T @!
+0.0 ^Z60_TIMER @!
+0.00000000 ^Z61 @!
+0 ^Z61_AM @!
+0.00000000 ^Z61_C @!
+0.00000000 ^Z61_T @!
+0.0 ^Z61_Timer @!
+0.00000000 ^Z62 @!
+0 ^Z62_AM @!
+0.00000000 ^Z62_C @!
+0.00000000 ^Z62_T @!
+0.0 ^Z62_Timer @!
+0.00000000 ^Z63 @!
+0.00000000 ^Z63__C @!
+0 ^Z63_AM @!
+0.00000000 ^Z63_C @!
+0.00000000 ^Z63_T @!
+0.0 ^Z63_Timer @!
+0.00000000 ^Z64 @!
+0 ^Z64_AM @!
+0.00000000 ^Z64_C @!
+0.00000000 ^Z64_T @!
+0.0 ^Z64_Timer @!
+0.00000000 ^Z65 @!
+0 ^Z65_AM @!
+0.00000000 ^Z65_C @!
+0.00000000 ^Z65_T @!
+0.0 ^Z65_Timer @!
+0.00000000 ^Z66 @!
+0 ^Z66_AM @!
+0.00000000 ^Z66_C @!
+0.00000000 ^Z66_T @!
+0.0 ^Z66_Timer @!
+0.00000000 ^Z67 @!
+0 ^Z67_AM @!
+0.00000000 ^Z67_C @!
+0.00000000 ^Z67_T @!
+0.0 ^Z67_Timer @!
+0.00000000 ^Z68 @!
+0 ^Z68_AM @!
+0.00000000 ^Z68_C @!
+0.00000000 ^Z68_T @!
+0.0 ^Z68_Timer @!
+0.00000000 ^Z69 @!
+0 ^Z69_AM @!
+0.00000000 ^Z69_C @!
+0.00000000 ^Z69_T @!
+0.0 ^Z69_Timer @!
+0 ^Z6_AM @!
+0.00000000 ^Z6_C @!
+0.00000000 ^Z6_T @!
+0.0 ^Z6_TIMER @!
+0.00000000 ^Z7 @!
+0.00000000 ^Z70 @!
+0 ^Z70_AM @!
+0.00000000 ^Z70_C @!
+0.00000000 ^Z70_T @!
+0.0 ^Z70_Timer @!
+0.00000000 ^Z71 @!
+0 ^Z71_AM @!
+0.00000000 ^Z71_C @!
+0.00000000 ^Z71_T @!
+0.0 ^Z71_Timer @!
+0.00000000 ^Z72 @!
+0 ^Z72_AM @!
+0.00000000 ^Z72_C @!
+0.00000000 ^Z72_T @!
+0.0 ^Z72_Timer @!
+0.00000000 ^Z73 @!
+0 ^Z73_AM @!
+0.00000000 ^Z73_C @!
+0.00000000 ^Z73_T @!
+0.0 ^Z73_Timer @!
+0.00000000 ^Z74 @!
+0 ^Z74_AM @!
+0.00000000 ^Z74_C @!
+0.00000000 ^Z74_T @!
+0.0 ^Z74_Timer @!
+0.00000000 ^Z75 @!
+0 ^Z75_AM @!
+0.00000000 ^Z75_C @!
+0.00000000 ^Z75_T @!
+0.0 ^Z75_Timer @!
+0.00000000 ^Z76 @!
+0 ^Z76_AM @!
+0.00000000 ^Z76_C @!
+0.00000000 ^Z76_T @!
+0.0 ^Z76_Timer @!
+0.00000000 ^Z77 @!
+0 ^Z77_AM @!
+0.00000000 ^Z77_C @!
+0.00000000 ^Z77_T @!
+0.0 ^Z77_Timer @!
+0.00000000 ^Z78 @!
+0 ^Z78_AM @!
+0.00000000 ^Z78_C @!
+0.00000000 ^Z78_T @!
+0.0 ^Z78_Timer @!
+0.00000000 ^Z79 @!
+0 ^Z79_AM @!
+0.00000000 ^Z79_C @!
+0.00000000 ^Z79_T @!
+0.0 ^Z79_TIMER @!
+0 ^Z7_AM @!
+0.00000000 ^Z7_C @!
+0.00000000 ^Z7_T @!
+0.0 ^Z7_TIMER @!
+0.00000000 ^Z8 @!
+0.00000000 ^Z80 @!
+0 ^Z80_AM @!
+0.00000000 ^Z80_C @!
+0.00000000 ^Z80_T @!
+0.0 ^Z80_TIMER @!
+0.00000000 ^Z81 @!
+0 ^Z81_AM @!
+0.00000000 ^Z81_C @!
+0.00000000 ^Z81_T @!
+0.0 ^Z81_TIMER @!
+0.00000000 ^Z82 @!
+0 ^Z82_AM @!
+0.00000000 ^Z82_C @!
+0.00000000 ^Z82_T @!
+0.0 ^Z82_TIMER @!
+0.00000000 ^Z83 @!
+0 ^Z83_AM @!
+0.00000000 ^Z83_C @!
+0.00000000 ^Z83_T @!
+0.0 ^Z83_TIMER @!
+0.00000000 ^Z84 @!
+0 ^Z84_AM @!
+0.00000000 ^Z84_C @!
+0.00000000 ^Z84_T @!
+0.0 ^Z84_TIMER @!
+0.00000000 ^Z85 @!
+0 ^Z85_AM @!
+0.00000000 ^Z85_C @!
+0.00000000 ^Z85_T @!
+0.0 ^Z85_TIMER @!
+0.00000000 ^Z86 @!
+0 ^Z86_AM @!
+0.00000000 ^Z86_C @!
+0.00000000 ^Z86_T @!
+0.0 ^Z86_TIMER @!
+0.00000000 ^Z87 @!
+0.00000000 ^Z88 @!
+0.00000000 ^Z89 @!
+0 ^Z8_AM @!
+0.00000000 ^Z8_C @!
+0.00000000 ^Z8_T @!
+0.0 ^Z8_TIMER @!
+0.00000000 ^Z9 @!
+0.00000000 ^Z90 @!
+0.00000000 ^Z91 @!
+0.00000000 ^Z92 @!
+0.00000000 ^Z93 @!
+0.00000000 ^Z94 @!
+0.00000000 ^Z95 @!
+0.00000000 ^Z96 @!
+0.00000000 ^Z97 @!
+0.00000000 ^Z98 @!
+0.00000000 ^Z99 @!
+0 ^Z9_AM @!
+0.00000000 ^Z9_C @!
+0.00000000 ^Z9_T @!
+0.0 ^Z9_TIMER @!
+0.00000000 ^Z_Left_Avg @!
+0.00000000 ^Z_Right_Avg @!
+0.00000000 ^ZAVG @!
+100.00000 ^ZAVG_MAX @!
+0.00000000 ^ZD2_1 @!
+0.00000000 ^ZD2_10 @!
+0.00000000 ^ZD2_11 @!
+0.00000000 ^ZD2_12 @!
+0.00000000 ^ZD2_13 @!
+0.00000000 ^ZD2_14 @!
+0.00000000 ^ZD2_15 @!
+0.00000000 ^ZD2_16 @!
+0.00000000 ^ZD2_17 @!
+0.00000000 ^ZD2_18 @!
+0.00000000 ^ZD2_19 @!
+0.00000000 ^ZD2_2 @!
+0.00000000 ^ZD2_20 @!
+0.00000000 ^ZD2_21 @!
+0.00000000 ^ZD2_22 @!
+0.00000000 ^ZD2_23 @!
+0.00000000 ^ZD2_24 @!
+0.00000000 ^ZD2_25 @!
+0.00000000 ^ZD2_26 @!
+0.00000000 ^ZD2_27 @!
+0.00000000 ^ZD2_28 @!
+0.00000000 ^ZD2_29 @!
+0.00000000 ^ZD2_3 @!
+0.00000000 ^ZD2_30 @!
+0.00000000 ^ZD2_31 @!
+0.00000000 ^ZD2_32 @!
+0.00000000 ^ZD2_33 @!
+0.00000000 ^ZD2_34 @!
+0.00000000 ^ZD2_35 @!
+0.00000000 ^ZD2_4 @!
+0.00000000 ^ZD2_5 @!
+0.00000000 ^ZD2_6 @!
+0.00000000 ^ZD2_7 @!
+0.00000000 ^ZD2_8 @!
+0.00000000 ^ZD2_9 @!
+0.50000000 ^ZD2_Mean @!
+0.75000000 ^ZD2_Sqrt @!
+0.00000000 ^ZD2_Sum @!
+0.00000000 ^ZD_1 @!
+0.00000000 ^ZD_10 @!
+0.00000000 ^ZD_11 @!
+0.00000000 ^ZD_12 @!
+0.00000000 ^ZD_13 @!
+0.00000000 ^ZD_14 @!
+0.00000000 ^ZD_15 @!
+0.00000000 ^ZD_16 @!
+0.00000000 ^ZD_17 @!
+0.00000000 ^ZD_18 @!
+0.00000000 ^ZD_19 @!
+0.00000000 ^ZD_2 @!
+0.00000000 ^ZD_20 @!
+0.00000000 ^ZD_21 @!
+0.00000000 ^ZD_22 @!
+0.00000000 ^ZD_23 @!
+0.00000000 ^ZD_24 @!
+0.00000000 ^ZD_25 @!
+0.00000000 ^ZD_26 @!
+0.00000000 ^ZD_27 @!
+0.00000000 ^ZD_28 @!
+0.00000000 ^ZD_29 @!
+0.00000000 ^ZD_3 @!
+0.00000000 ^ZD_30 @!
+0.00000000 ^ZD_31 @!
+0.00000000 ^ZD_32 @!
+0.00000000 ^ZD_33 @!
+0.00000000 ^ZD_34 @!
+0.00000000 ^ZD_35 @!
+0.00000000 ^ZD_4 @!
+0.00000000 ^ZD_5 @!
+0.00000000 ^ZD_6 @!
+0.00000000 ^ZD_7 @!
+0.00000000 ^ZD_8 @!
+0.00000000 ^ZD_9 @!
+0 ^ZERO @!
+0.00000000 ^Zero_Edge @!
+0 ^Zero_Edge_i @!
+0.00000000 ^Zero_Volts @!
+0.00000000 0 -1 }AP InitTable
+0.00000000 0 -1 }AP_Bucket InitTable
+0.00000000 0 -1 }AP_Bucket_Temp InitTable
+0.00000000 0 -1 }AP_Corr InitTable
+0.00000000 0 -1 }Avg_Bolt_Table InitTable
+1.5000000 0 -1 }Bucket_Data InitTable
+0.00000000 0 -1 }Bucket_Data_CD InitTable
+0.00000000 0 -1 }Bucket_Data_Last_1 InitTable
+0.00000000 0 -1 }Bucket_Data_Oriented InitTable
+0.00000000 0 -1 }Bucket_Data_Raw InitTable
+0.00000000 0 -1 }Bucket_Data_Raw_1 InitTable
+0.00000000 0 -1 }Bucket_Data_Raw_2 InitTable
+0.00000000 0 -1 }Bucket_Data_Raw_3 InitTable
+0.00000000 0 -1 }Bucket_Data_Temp InitTable
+0.00000000 0 -1 }CD_Spread InitTable
+0.00000000 0 -1 }Comp_10_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_11_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_12_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_13_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_14_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_15_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_16_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_17_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_18_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_19_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_1_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_20_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_2_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_3_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_4_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_5_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_6_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_7_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_8_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_9_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_Bucket_Data InitTable
+0.00000000 0 -1 }Comp_Bucket_Oriented InitTable
+0.00000000 0 -1 }Comp_Bucket_Oriented_Coat_T InitTable
+0.00000000 0 -1 }Comp_Scan_Raw InitTable
+100.00000 0 -1 }Comp_Scan_Scaled InitTable
+0 0 -1 }DB_OUTPUT InitTable
+0 0 -1 }Encoder_2_Buckets_Table InitTable
+0.00000000 0 -1 }Last_Scan_Inches InitTable
+0.00000000 0 -1 }Last_Scan_Raw InitTable
+0.00000000 0 -1 }Last_Scan_Raw_1 InitTable
+0.00000000 0 -1 }Last_Scan_Raw_2 InitTable
+0.00000000 0 -1 }Last_Scan_Raw_3 InitTable
+100.00000 0 -1 }Last_Scan_Scaled InitTable
+0.00000000 0 -1 }Mapped_Reel_Data InitTable
+0 0 -1 }Mapping_Table_1 InitTable
+0.00000000 0 -1 }Mapping_Table_1_Float InitTable
+0.00000000 0 -1 }Mapping_Table_2 InitTable
+0.00000000 0 -1 }Mapping_Table_Cast InitTable
+0.00000000 0 -1 }Mapping_Table_F_DB InitTable
+0 0 -1 }Mapping_Table_Profile InitTable
+0.00000000 0 -1 }MD_Spread InitTable
+0.00000000 0 -1 }Mean_Comp InitTable
+0.00000000 0 -1 }Mean_Last InitTable
+0.00000000 0 -1 }MIS_Data InitTable
+0.00000000 0 -1 }MIS_Data_Last InitTable
+0.00000000 0 -1 }MIS_Data_Last_AB InitTable
+0.00000000 0 -1 }MIS_Data_Old InitTable
+0.00000000 0 -1 }MIS_Scaled InitTable
+0 0 -1 }ntIO_EnableIntervals InitTable
+9 0 -1 }ntIO_UnitCommEnableStatus InitTable
+0 0 -1 }ntIO_UnitDisableByUserQuantity InitTable
+0 0 -1 }ntIO_UnitDisableOnErrorQuantity InitTable
+0 0 -1 }ntIO_UnitEnableAttemptsCount InitTable
+0 0 -1 }ntIO_UnitEnableQuantity InitTable
+0 0 -1 }ntIO_UnitTimers InitTable
+0.00000000 0 -1 }Opto_Table_In InitTable
+0.00000000 0 -1 }Opto_Table_Out InitTable
+0 0 -1 }Scan_Count_Table InitTable
+0.00000000 0 -1 }Shrinkage_Table_1 InitTable
+0.00000000 0 -1 }Shrinkage_Table_2 InitTable
+0.00000000 0 -1 }Shrinkage_Table_3 InitTable
+0.00000000 0 -1 }Shrinkage_Table_4 InitTable
+" "
+ *MIS_Recipe $MOVE
+" "
+ *MIS_Recipe_1 $MOVE
+" "
+ *MIS_Recipe_10 $MOVE
+" "
+ *MIS_Recipe_2 $MOVE
+" "
+ *MIS_Recipe_3 $MOVE
+" "
+ *MIS_Recipe_4 $MOVE
+" "
+ *MIS_Recipe_5 $MOVE
+" "
+ *MIS_Recipe_6 $MOVE
+" "
+ *MIS_Recipe_7 $MOVE
+" "
+ *MIS_Recipe_8 $MOVE
+" "
+ *MIS_Recipe_9 $MOVE
+" "
+ *sIO_EnableCount $MOVE
+" "
+ *sIO_EnablerIndex $MOVE
+" "
+ *sMessageForQueue $MOVE
+" tcp:192.168.1.111:22007"
+ *TTROL25_35 $MOVE
+0 MoveToPointer PTR_pIO_Unit_IO_Enabler
+99 FOR 0 I PTBL_ptIO_Units TABLE! NEXT
+ " " *_HSV_INIT_IO $MOVE
+;
+T: T_INIT_IO
+W_INIT_IO
+&Powerup START.T DROP
+T;
+&_INIT_IO ' T_INIT_IO  SETTASK
+   : _RUN
+   CLEARERRORS
+   &_INIT_IO START.T DROP
+   ;

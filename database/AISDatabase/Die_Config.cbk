@@ -1,0 +1,26 @@
+:IngredientName,IngredientType,Unit,Unit,Recipe
+:Names,,"Config","Now","36_DIE"
+"Die Selected",Analog,"apc_iDie_Selected_Config","DIE_iSELECTED",36
+"Die Offset",Analog,"apc_rDie_Offset_Config","",0
+"Right Deckle",Analog,"apc_rRight_Deckle_Config","apc_rRight_Deckle_Next",0
+"Left Deckle",Analog,"apc_rLeft_Deckle_Config","apc_rLeft_Deckle_Next",0
+"Necked Left Bolt 1",Analog,"apc_rNecked_Bolt_Left_1\Config","apc_rNecked_Bolt_Left_1\Now",0.01
+"Necked Left Bolt 2",Analog,"apc_rNecked_Bolt_Left_2\Config","apc_rNecked_Bolt_Left_2\Now",0.5
+"Necked Left Bolt 3",Analog,"apc_rNecked_Bolt_Left_3\Config","apc_rNecked_Bolt_Left_3\Now",1
+"Necked Left Bolt 4",Analog,"apc_rNecked_Bolt_Left_4\Config","apc_rNecked_Bolt_Left_4\Now",1
+"Necked Left Bolt 5",Analog,"apc_rNecked_Bolt_Left_5\Config","apc_rNecked_Bolt_Left_5\Now",1
+"Necked Left Bolt 6",Analog,"apc_rNecked_Bolt_Left_6\Config","apc_rNecked_Bolt_Left_6\Now",1
+"Necked Left Bolt 7",Analog,"apc_rNecked_Bolt_Left_7\Config","apc_rNecked_Bolt_Left_7\Now",1
+"Necked Left Bolt 8",Analog,"apc_rNecked_Bolt_Left_8\Config","apc_rNecked_Bolt_Left_8\Now",1
+"Necked Left Bolt 9",Analog,"apc_rNecked_Bolt_Left_9\Config","apc_rNecked_Bolt_Left_9\Now",1
+"Necked Left Bolt 10",Analog,"apc_rNecked_Bolt_Left_10\Config","apc_rNecked_Bolt_Left_10\Now",1
+"Necked Right Bolt 1",Analog,"apc_rNecked_Bolt_Right_1\Config","apc_rNecked_Bolt_Right_1\Now",0.01
+"Necked Right Bolt 2",Analog,"apc_rNecked_Bolt_Right_2\Config","apc_rNecked_Bolt_Right_2\Now",0.5
+"Necked Right Bolt 3",Analog,"apc_rNecked_Bolt_Right_3\Config","apc_rNecked_Bolt_Right_3\Now",1
+"Necked Right Bolt 4",Analog,"apc_rNecked_Bolt_Right_4\Config","apc_rNecked_Bolt_Right_4\Now",1
+"Necked Right Bolt 5",Analog,"apc_rNecked_Bolt_Right_5\Config","apc_rNecked_Bolt_Right_5\Now",1
+"Necked Right Bolt 6",Analog,"apc_rNecked_Bolt_Right_6\Config","apc_rNecked_Bolt_Right_6\Now",1
+"Necked Right Bolt 7",Analog,"apc_rNecked_Bolt_Right_7\Config","apc_rNecked_Bolt_Right_7\Now",1
+"Necked Right Bolt 8",Analog,"apc_rNecked_Bolt_Right_8\Config","apc_rNecked_Bolt_Right_8\Now",1
+"Necked Right Bolt 9",Analog,"apc_rNecked_Bolt_Right_9\Config","apc_rNecked_Bolt_Right_9\Now",1
+"Necked Right Bolt 10",Analog,"apc_rNecked_Bolt_Right_10\Config","apc_rNecked_Bolt_Right_10\Now",1

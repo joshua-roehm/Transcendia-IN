@@ -1,0 +1,24 @@
+:IngredientName,IngredientType,Unit,Recipe
+:Names,,"Config","Standard"
+"Home Position",Analog,"scan_setup\HomePos",-6
+"Head Encoder Conversion",Analog,"scan_setup\HdEncConv",7739.7
+"Standardize Interval",Analog,"scan_setup\StdzInt",1000
+"Temperature Coefficient",Analog,"scan_setup\TempCoeff",0
+"Air Gap Size",Analog,"scan_setup\AirGapSz",0.5
+"Standardize On Check Sample",Discrete,"scan_setup\StdzOnCkSam",0
+"Auto Standardize Flag",Discrete,"scan_setup\AutoStdzFlag",1
+"Frame Alignment Enabled",Discrete,"scan_setup\FrmAlignEnabled",1
+"Scans In Alignment",Analog,"scan_setup\ScansInAlign",20
+"Edge Percent",Analog,"scan_setup\EdgePercent",50
+"Standardize Closed Max",Analog,"scan_setup\StdzClMax",0.35
+"Standardize Open Min",Analog,"scan_setup\StdzOpMin",0.45
+"Single Point Time",Analog,"scan_setup\SinglePtTime",0
+"Maximum Frame Length",Analog,"scan_setup\MaxFrmLength",70
+"Minimum Frame Length",Analog,"scan_setup\MinFrmLength",0
+"Encoder Offset",Analog,"scan_setup\EncOffset",-59983
+"Reverse Crawl Speed",Analog,"scan_setup\REVCrawlSpd",1.5
+"Reverse Half Speed",Analog,"scan_setup\REVHalfSpd",3
+"Forward Crawl Speed",Analog,"scan_setup\FWDCrawlSpd",1.5
+"Forward Half Speed",Analog,"scan_setup\FWDHalfSpd",3
+"Stdz Mode",Analog,"S1_Stdz_Mode_Config",1
+"Standard Sample",Analog,"S1_Sample_STD_Config",119.5

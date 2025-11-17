@@ -1,0 +1,911 @@
+: 33_0
+8 JUMP ;
+: 33_2
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 4 I>F F>= ^Speed_Now @@ ^Min_Line_Speed @@ F> LAND  ^Scanner_Status @@ 2 = ^Scanner_Status @@ 5 = LOR  LAND  ^Control_Requested @@ 1 = LAND  IF 
+3 LINE.NUM 1 I>F ^OK_For_Control @! 
+5 LINE.NUM ELSE 
+6 LINE.NUM 0 I>F ^OK_For_Control @! 
+7 LINE.NUM 0 ^Auto_Ctrl_Req @! 
+9 LINE.NUM THEN 
+0 JUMP ;
+: 33_3
+1 LINE.NUM ^OK_For_Control @@ 0 I>F F= IF 
+3 LINE.NUM 4 I>F ^Ctrl_Status @! 
+5 LINE.NUM ELSE 
+8 LINE.NUM THEN 
+0 JUMP ;
+: 33_4
+1 LINE.NUM ^OK_For_Control @@ 1 I>F F= ^Auto_Ctrl_Req @@ 0 = LAND  IF 
+4 LINE.NUM 2 I>F ^Ctrl_Status @! 
+6 LINE.NUM ELSE 
+9 LINE.NUM THEN 
+0 JUMP ;
+: 33_5
+1 LINE.NUM ^Scanner_Status @@ 2 = ^Scanner_Status @@ 5 = LOR  ^OK_For_Control @@ 1 I>F F= LAND  ^Auto_Ctrl_Req @@ 1 = LAND  IF 
+3 LINE.NUM 1 I>F ^Ctrl_Status @! 
+5 LINE.NUM THEN 
+7 LINE.NUM ^OK_For_Control @@ 1 I>F F= ^Max_Corr_Limit_Flag @@ 1 I>F F= ^Max_Error_Limit_Flag @@ 1 I>F F= LOR  LAND  IF 
+9 LINE.NUM 3 I>F ^Ctrl_Status @! 
+12 LINE.NUM THEN 
+31 JUMP ;
+: 33_15
+33 JUMP ;
+: 33_19
+
+1 LINE.NUM
+  ^Act_Counter   1+@!
+61 JUMP ;
+: 33_22
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^Stdz_Required @! 
+-2 JUMP ;
+: 33_29
+1 LINE.NUM 3 ^Scanner_Status @! 
+2 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_5 @@ F- 5.000000e-002 F+ ^Profile_Y @! 
+4 LINE.NUM ^Profile_Y_3 @@ ^Weight_TGT @! 
+6 LINE.NUM 3 I>F  FDELAY 
+7 LINE.NUM ^Profile_Y_3 @@ ^Weight_TGT @! 
+9 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_5 @@ F- 5.000000e-002 F+ ^Profile_Y @! 
+12 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_1_C @! 
+13 LINE.NUM ^Profile_Y_2 @@ ^Profile_Y_2_C @! 
+14 LINE.NUM ^Profile_Y_3 @@ ^Profile_Y_3_C @! 
+15 LINE.NUM ^Profile_Y_4 @@ ^Profile_Y_4_C @! 
+16 LINE.NUM ^Profile_Y_5 @@ ^Profile_Y_5_C @! 
+18 LINE.NUM ^Profile_Y_2 @@ ^Profile_Y_3 @@ F- ^Profile_Y_2_D @! 
+19 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_3 @@ F- ^Profile_Y_1_D @! 
+20 LINE.NUM ^Profile_Y_4 @@ ^Profile_Y_3 @@ F- ^Profile_Y_4_D @! 
+21 LINE.NUM ^Profile_Y_5 @@ ^Profile_Y_3 @@ F- ^Profile_Y_5_D @! 
+24 LINE.NUM 0 ^Spread_Scans @! 
+26 LINE.NUM 0 ^Prod_Change_Flag @! 
+28 LINE.NUM 0 ^Loop_Counter_1 @! 
+29 LINE.NUM BEGIN ^Loop_Counter_1 @@ 400 <= WHILE 
+30 LINE.NUM 100 I>F ^Loop_Counter_1 @@ }Last_Scan_Scaled TABLE! 
+31 LINE.NUM 100 I>F ^Loop_Counter_1 @@ }Comp_Scan_Scaled TABLE! 
+32 LINE.NUM ^Profile_Y_3 @@ ^Loop_Counter_1 @@ }Bucket_Data TABLE! 
+33 LINE.NUM ^Profile_Y_3 @@ ^Loop_Counter_1 @@ }Comp_Bucket_Data TABLE! 
+34 LINE.NUM ^Loop_Counter_1  1+@! 
+35 LINE.NUM REPEAT 
+36 LINE.NUM 0 ^Loop_Counter_1 @! 
+38 LINE.NUM ^Fwd_Edge_Inches_Temp @@ ^FWD_Edge_Inches @! 
+39 LINE.NUM ^Rev_Edge_Inches_Temp @@ ^REV_Edge_Inches @! 
+40 LINE.NUM ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- ^Web_Width_Inches @! 
+41 LINE.NUM ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- ^Web_Width @! 
+44 LINE.NUM ^Number_Of_Bolts_Active @@F ^Profile_X_1 @! 
+45 LINE.NUM ^Profile_X_1 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- 1 I>F F+ ^Profile_X_2 @! 
+46 LINE.NUM ^Profile_X_2 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_3 @! 
+47 LINE.NUM ^Profile_X_3 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_4 @! 
+48 LINE.NUM ^Profile_X_4 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_5 @! 
+49 LINE.NUM ^Profile_X_5 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_6 @! 
+50 LINE.NUM ^Profile_X_6 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_7 @! 
+51 LINE.NUM ^Profile_X_7 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_8 @! 
+52 LINE.NUM 1 I>F ^Profile_X_9 @! 
+54 LINE.NUM 0 I>F ^Number_Of_Scans @! 
+55 LINE.NUM 0 I>F ^Number_Of_Comp_Scans @! 
+5 JUMP ;
+: 33_30
+
+1 LINE.NUM
+  ^STDZ_Timer   StartTimer
+
+2 LINE.NUM
+  ^ONE @@   ABS
+  ^apc_AutoLoad @! 
+
+3 LINE.NUM
+  30  
+  ^Comm_Timer I@!   
+
+4 LINE.NUM
+  ^Comm_Timer   StartTimer
+25 JUMP ;
+: 33_35
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^apc_AutoSave @! 
+
+2 LINE.NUM
+  ^ZERO @@   ABS
+  ^Act_Counter @! 
+32 JUMP ;
+: 33_37
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^apc_AutoSave @! 
+31 JUMP ;
+: 33_52
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^Ctrl_Comm_Alarm @! 
+-8 JUMP ;
+: 33_53
+-9 JUMP ;
+: 33_59
+1 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_5 @@ F- 5.000000e-002 F+ ^Profile_Y @! 
+2 LINE.NUM 3 I>F  FDELAY 
+3 LINE.NUM ^Profile_Y_1 @@ ^Profile_Y_5 @@ F- 5.000000e-002 F+ ^Profile_Y @! 
+5 LINE.NUM ^Fwd_Edge_Inches_Temp @@ ^FWD_Edge_Inches @! 
+6 LINE.NUM ^Rev_Edge_Inches_Temp @@ ^REV_Edge_Inches @! 
+8 LINE.NUM ^REV_Edge_Inches @@ ^Profile_X_1 @! 
+9 LINE.NUM ^Profile_X_1 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_2 @! 
+10 LINE.NUM ^Profile_X_2 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_3 @! 
+11 LINE.NUM ^Profile_X_3 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_4 @! 
+12 LINE.NUM ^Profile_X_4 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_5 @! 
+13 LINE.NUM ^Profile_X_5 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_6 @! 
+14 LINE.NUM ^Profile_X_6 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_7 @! 
+15 LINE.NUM ^Profile_X_7 @@ ^REV_Edge_Inches @@ ^FWD_Edge_Inches @@ F- 8 I>F F/ F- ^Profile_X_8 @! 
+16 LINE.NUM ^FWD_Edge_Inches @@ ^Profile_X_9 @! 
+18 LINE.NUM 0 I>F ^Z1_T @! 
+19 LINE.NUM 0 I>F ^Z2_T @! 
+20 LINE.NUM 0 I>F ^Z3_T @! 
+21 LINE.NUM 0 I>F ^Z4_T @! 
+22 LINE.NUM 0 I>F ^Z5_T @! 
+23 LINE.NUM 0 I>F ^Z6_T @! 
+24 LINE.NUM 0 I>F ^Z7_T @! 
+25 LINE.NUM 0 I>F ^Z8_T @! 
+26 LINE.NUM 0 I>F ^Z9_T @! 
+27 LINE.NUM 0 I>F ^Z10_T @! 
+28 LINE.NUM 0 I>F ^Z11_T @! 
+29 LINE.NUM 0 I>F ^Z12_T @! 
+30 LINE.NUM 0 I>F ^Z13_T @! 
+31 LINE.NUM 0 I>F ^Z14_T @! 
+32 LINE.NUM 0 I>F ^Z15_T @! 
+33 LINE.NUM 0 I>F ^Z16_T @! 
+34 LINE.NUM 0 I>F ^Z17_T @! 
+35 LINE.NUM 0 I>F ^Z18_T @! 
+36 LINE.NUM 0 I>F ^Z19_T @! 
+37 LINE.NUM 0 I>F ^Z20_T @! 
+38 LINE.NUM 0 I>F ^Z21_T @! 
+39 LINE.NUM 0 I>F ^Z22_T @! 
+40 LINE.NUM 0 I>F ^Z23_T @! 
+41 LINE.NUM 0 I>F ^Z24_T @! 
+42 LINE.NUM 0 I>F ^Z25_T @! 
+43 LINE.NUM 0 I>F ^Z26_T @! 
+44 LINE.NUM 0 I>F ^Z27_T @! 
+45 LINE.NUM 0 I>F ^Z28_T @! 
+46 LINE.NUM 0 I>F ^Z29_T @! 
+47 LINE.NUM 0 I>F ^Z30_T @! 
+48 LINE.NUM 0 I>F ^Z31_T @! 
+49 LINE.NUM 0 I>F ^Z32_T @! 
+50 LINE.NUM 0 I>F ^Z33_T @! 
+51 LINE.NUM 0 I>F ^Z34_T @! 
+52 LINE.NUM 0 I>F ^Z35_T @! 
+53 LINE.NUM 0 I>F ^Z36_T @! 
+54 LINE.NUM 0 I>F ^Z37_T @! 
+55 LINE.NUM 0 I>F ^Z38_T @! 
+56 LINE.NUM 0 I>F ^Z39_T @! 
+57 LINE.NUM 0 I>F ^Z40_T @! 
+58 LINE.NUM 0 I>F ^Z41_T @! 
+59 LINE.NUM 0 I>F ^Z42_T @! 
+60 LINE.NUM 0 I>F ^Z43_T @! 
+61 LINE.NUM 0 I>F ^Z44_T @! 
+62 LINE.NUM 0 I>F ^Z45_T @! 
+63 LINE.NUM 0 I>F ^Z46_T @! 
+64 LINE.NUM 0 I>F ^Z47_T @! 
+65 LINE.NUM 0 I>F ^Z48_T @! 
+66 LINE.NUM 0 I>F ^Z49_T @! 
+67 LINE.NUM 0 I>F ^Z50_T @! 
+68 LINE.NUM 0 I>F ^Z51_T @! 
+69 LINE.NUM 0 I>F ^Z52_T @! 
+70 LINE.NUM 0 I>F ^Z53_T @! 
+71 LINE.NUM 0 I>F ^Z54_T @! 
+72 LINE.NUM 0 I>F ^Z55_T @! 
+73 LINE.NUM 0 I>F ^Z56_T @! 
+74 LINE.NUM 0 I>F ^Z57_T @! 
+75 LINE.NUM 0 I>F ^Z58_T @! 
+76 LINE.NUM 0 I>F ^Z59_T @! 
+77 LINE.NUM 0 I>F ^Z60_T @! 
+78 LINE.NUM 0 I>F ^Z61_T @! 
+79 LINE.NUM 0 I>F ^Z62_T @! 
+80 LINE.NUM 0 I>F ^Z63_T @! 
+81 LINE.NUM 0 I>F ^Z64_T @! 
+82 LINE.NUM 0 I>F ^Z65_T @! 
+83 LINE.NUM 0 I>F ^Z66_T @! 
+84 LINE.NUM 0 I>F ^Z67_T @! 
+85 LINE.NUM 0 I>F ^Z68_T @! 
+86 LINE.NUM 0 I>F ^Z69_T @! 
+87 LINE.NUM 0 I>F ^Z70_T @! 
+88 LINE.NUM 0 I>F ^Z71_T @! 
+89 LINE.NUM 0 I>F ^Z72_T @! 
+90 LINE.NUM 0 I>F ^Z73_T @! 
+91 LINE.NUM 0 I>F ^Z74_T @! 
+92 LINE.NUM 0 I>F ^Z75_T @! 
+93 LINE.NUM 0 I>F ^Z76_T @! 
+94 LINE.NUM 0 I>F ^Z77_T @! 
+95 LINE.NUM 0 I>F ^Z78_T @! 
+48 JUMP ;
+: 33_67
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^E_Stop_Alarm I@! 
+
+2 LINE.NUM
+  ^ZERO @@   ABS
+  ~Motor_Control I@! 
+
+3 LINE.NUM
+  ~Motor_On_Off   OFF
+
+4 LINE.NUM
+  69    ABS
+  ^Scanner_Status @! 
+50 JUMP ;
+: 33_74
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^E_Stop_Alarm I@! 
+53 JUMP ;
+: 33_75
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^E_Stop_Alarm I@! 
+52 JUMP ;
+: 33_79
+1 LINE.NUM ~SX_Airgap_TMP @@ 1000 I>F F> IF 
+2 LINE.NUM ~SX_Airgap_TMP @@  FLN ^SX_AirGap_LN @! 
+3 LINE.NUM ^SX_AirGap_LN @@ ^AirGap_Conv1 @@ F* ^AirGap_Conv2 @@ F+ ^AirGap_SX @! 
+4 LINE.NUM ELSE 
+4 LINE.NUM 100 I>F ^AirGap_SX @! 
+4 LINE.NUM THEN 
+5 LINE.NUM ~RX_Airgap_TMP @@ 1000 I>F F> IF 
+6 LINE.NUM ~RX_Airgap_TMP @@  FLN ^RX_AirGap_LN @! 
+7 LINE.NUM ^RX_AirGap_LN @@ ^AirGap_Conv1 @@ F* ^AirGap_Conv2 @@ F+ ^AirGap_RX @! 
+8 LINE.NUM ELSE 
+8 LINE.NUM 100 I>F ^AirGap_RX @! 
+8 LINE.NUM THEN 
+10 LINE.NUM ~SX_Head_TMP @@ 1000 I>F F> IF 
+11 LINE.NUM ~SX_Head_TMP @@  FLN ^SX_Head_LN @! 
+12 LINE.NUM ^SX_Head_LN @@ ^AirGap_Conv1 @@ F* ^AirGap_Conv2 @@ F+ ^Head_Sx @! 
+13 LINE.NUM ELSE 
+13 LINE.NUM 100 I>F ^Head_Sx @! 
+13 LINE.NUM THEN 
+14 LINE.NUM ~RX_Head_TMP @@ 1000 I>F F> IF 
+15 LINE.NUM ~RX_Head_TMP @@  FLN ^RX_Head_LN @! 
+16 LINE.NUM ^RX_Head_LN @@ ^AirGap_Conv1 @@ F* ^AirGap_Conv2 @@ F+ ^Head_RX @! 
+17 LINE.NUM ELSE 
+17 LINE.NUM 100 I>F ^Head_RX @! 
+17 LINE.NUM THEN 
+21 LINE.NUM ^AirGap_SX @@ 32 I>F F- 1.800000e+000 F/ ^AirGap_SX_C @! 
+22 LINE.NUM ^AirGap_RX @@ 32 I>F F- 1.800000e+000 F/ ^AirGap_RX_C @! 
+26 LINE.NUM ^Head_RX @@ ^Temp_RX @! 
+27 LINE.NUM ^Head_Sx @@ ^Temp_SX @! 
+28 LINE.NUM ^Head_RX @@ ^Temp_RX_Head @! 
+29 LINE.NUM ^Head_Sx @@ ^Temp_SX_Head @! 
+31 LINE.NUM ^Temp_AGSX_C_STDZ @@ ^AirGap_SX_C @@ F- ^Temp_AGRX_C_STDZ @@ ^AirGap_RX_C @@ F- F+ 2 I>F F/ ^Temp_Corr_Factor @@ F* ^Temp_Corr @! 
+35 LINE.NUM ^Edge_Trim_L_Inch @@ ^Web_Width @@ 400 I>F F/ F/ ^Edge_Trim_L_Stat @! 
+37 LINE.NUM 800 I>F ^Web_Width @@ F/ ^Edge_Trim_L_Inch @@ F* ^Edge_Trim_L_Pix F@! 
+40 LINE.NUM 400 I>F ^Edge_Trim_R_Inch @@ ^Web_Width @@ 400 I>F F/ F/ F- ^Edge_Trim_R_Stat_Int F@! 
+42 LINE.NUM 800 I>F 800 I>F ^Web_Width @@ F/ ^Edge_Trim_R_Inch @@ F* F- ^Edge_Trim_R_Pix F@! 
+43 LINE.NUM ^Edge_Trim_R_Stat_Int @@F ^Edge_Trim_R_Stat @! 
+44 LINE.NUM ^Edge_Trim_L_Stat_Int @@F ^Edge_Trim_L_Stat @! 
+46 LINE.NUM ^Edge_Trim_R_Stat @@ ^Edge_Trim_L_Stat @@ F- 1 I>F F+ ^Edge_Trim_Stat_No @! 
+-18 JUMP ;
+: 33_84
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^OffSheet_Latch @! 
+38 JUMP ;
+: 33_88
+1 LINE.NUM ^Scanner_Status @@ 2 = IF 
+2 LINE.NUM 3 ^Scanner_Status @! 
+3 LINE.NUM ELSE 
+4 LINE.NUM THEN 
+6 LINE.NUM ^Scanner_Status @@ 11 = IF 
+7 LINE.NUM 3 ^Scanner_Status @! 
+8 LINE.NUM ELSE 
+9 LINE.NUM THEN 
+11 LINE.NUM ^Scanner_Status @@ 12 = IF 
+12 LINE.NUM 3 ^Scanner_Status @! 
+13 LINE.NUM ELSE 
+14 LINE.NUM THEN 
+16 LINE.NUM ^Scanner_Status @@ 1 = IF 
+17 LINE.NUM 3 ^Scanner_Status @! 
+18 LINE.NUM ELSE 
+19 LINE.NUM THEN 
+20 LINE.NUM ^Scanner_Status @@ 10 = IF 
+21 LINE.NUM 3 ^Scanner_Status @! 
+22 LINE.NUM ELSE 
+23 LINE.NUM THEN 
+24 LINE.NUM ^Scanner_Status @@ 5 = IF 
+25 LINE.NUM 3 ^Scanner_Status @! 
+26 LINE.NUM ELSE 
+27 LINE.NUM THEN 
+28 LINE.NUM ^Scanner_Status @@ 7 = IF 
+29 LINE.NUM 3 ^Scanner_Status @! 
+30 LINE.NUM ELSE 
+31 LINE.NUM THEN 
+32 LINE.NUM ^Scanner_Status @@ 8 = IF 
+33 LINE.NUM 3 ^Scanner_Status @! 
+34 LINE.NUM ELSE 
+35 LINE.NUM THEN 
+36 LINE.NUM ^Scanner_Status @@ 9 = IF 
+37 LINE.NUM 3 ^Scanner_Status @! 
+38 LINE.NUM ELSE 
+39 LINE.NUM THEN 
+40 LINE.NUM ^Scanner_Status @@ 6 = IF 
+41 LINE.NUM 3 ^Scanner_Status @! 
+42 LINE.NUM ELSE 
+43 LINE.NUM THEN 
+44 LINE.NUM ^Scanner_Status @@ 4 = IF 
+45 LINE.NUM 3 ^Scanner_Status @! 
+46 LINE.NUM ELSE 
+47 LINE.NUM THEN 
+50 LINE.NUM 1 ^OffSheet_Latch @! 
+37 JUMP ;
+: 33_98
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^OnSheet_Latch @! 
+32 JUMP ;
+: 33_99
+1 LINE.NUM ^Scanner_Status @@ 4 = IF 
+2 LINE.NUM 1 ^Scanner_Status @! 
+3 LINE.NUM ELSE 
+4 LINE.NUM THEN 
+6 LINE.NUM 1 ^OnSheet_Latch @! 
+31 JUMP ;
+: 33_102
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^Roll_End @! 
+26 JUMP ;
+: 33_120
+
+1 LINE.NUM
+  ^FIFTY_mSec_Delay @@   DELAY
+0 JUMP ;
+: 33_126
+1 LINE.NUM ^Encoder_Now @@ ^FWD_Edge @@ F> ^Encoder_Now @@ ^REV_Edge @@ F< LAND  IF 
+2 LINE.NUM ^Basis_Weight_Now @@ ^BW_Now_Inch @! 
+3 LINE.NUM THEN 
+6 LINE.NUM ^Spread_Reset @@ 1 = IF 
+7 LINE.NUM 0 ^Spread_Scans @! 
+8 LINE.NUM 0 ^Spread_Reset @! 
+9 LINE.NUM 0 I>F ^Spread_CD @! 
+10 LINE.NUM 0 I>F ^Spread_MD @! 
+11 LINE.NUM 0 I>F ^Spread_Total @! 
+12 LINE.NUM ELSE 
+13 LINE.NUM THEN 
+8 JUMP ;
+: 33_127
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^REV_Prox_Alarm I@! 
+
+2 LINE.NUM
+  ~Motor_On_Off   OFF
+
+3 LINE.NUM
+  ^ZERO @@   ABS
+  ~Motor_Control I@! 
+
+4 LINE.NUM
+  2.0    FDELAY
+
+5 LINE.NUM
+  ^THREE @@   ABS
+  ^Scanner_Status @! 
+-3 JUMP ;
+: 33_131
+
+1 LINE.NUM
+  ^ONE @@   ABS
+  ^FWD_Prox_Alarm I@! 
+
+2 LINE.NUM
+  ~Motor_On_Off   OFF
+
+3 LINE.NUM
+  ^ZERO @@   ABS
+  ~Motor_Control I@! 
+
+4 LINE.NUM
+  2.0    FDELAY
+
+5 LINE.NUM
+  ^THREE @@   ABS
+  ^Scanner_Status @! 
+34 JUMP ;
+: 33_138
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^FWD_Prox_Alarm I@! 
+1 JUMP ;
+: 33_143
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^REV_Prox_Alarm I@! 
+0 JUMP ;
+: 33_148
+10 JUMP ;
+: 33_159
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^E_Stop_Alarm I@! 
+34 JUMP ;
+: 33_197
+
+1 LINE.NUM
+  ^Scanner_Moving   StopTimer
+
+2 LINE.NUM
+  ^Scanner_Moving   StartTimer
+
+3 LINE.NUM
+  ^REV_Crawl_Speed @@   FABS
+  ~Motor_Control @! 
+
+4 LINE.NUM
+  ^Scanner_Failure   1+@!
+14 JUMP ;
+: 33_224
+3 LINE.NUM PTBL_ptIO_Units  TableSize@ 1 -  ^nIO_UnitsTableLastIndex @! 
+6 LINE.NUM 2 0 }ntIO_EnableIntervals TABLE! 
+7 LINE.NUM 20 1 }ntIO_EnableIntervals TABLE! 
+8 LINE.NUM 120 2 }ntIO_EnableIntervals TABLE! 
+10 LINE.NUM 1.000000e+000 ^dtTimer1  SetTimer 
+-9 JUMP ;
+: 33_229
+3 LINE.NUM ^nIO_EnablerIndex @@ PTBL_ptIO_Units TABLE@ TablePointer=Null? 
+IF 
+5 LINE.NUM 2 ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE! 
+7 LINE.NUM ELSE 
+8 LINE.NUM ^nIO_EnablerIndex @@ *sIO_EnablerIndex  I>$ 
+11 LINE.NUM ^nIO_EnablerIndex @@ PTBL_ptIO_Units 
+TableMoveToPointer PTR_pIO_Unit_IO_Enabler 
+14 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitUserDisable TABLE@ 0 = IF 
+15 LINE.NUM PTR_pIO_Unit_IO_Enabler   ENABLE@ IF 
+16 LINE.NUM PTR_pIO_Unit_IO_Enabler  DISABLE 
+17 LINE.NUM THEN 
+18 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE@ 0 <> IF 
+20 LINE.NUM 0 ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE! 
+21 LINE.NUM *_HSV_SEMA Acquire1String " I/O Unit # "  *_HSV_TEMP $MOVE *sIO_EnablerIndex  *_HSV_TEMP $CAT "  : DISABLED by user"  *_HSV_TEMP $CAT *_HSV_TEMP *sMessageForQueue $MOVE Release1String 
+22 LINE.NUM  4  -22000 0 *sMessageForQueue  AddToMessageQueue 
+23 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitDisableByUserQuantity TABLE@ 1 +  ^nIO_EnablerIndex @@ }ntIO_UnitDisableByUserQuantity TABLE! 
+24 LINE.NUM THEN 
+26 LINE.NUM ELSE 
+27 LINE.NUM PTR_pIO_Unit_IO_Enabler   ENABLE@ IF 
+28 LINE.NUM 0 ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE! 
+29 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE@ 1 <> IF 
+31 LINE.NUM 1 ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE! 
+32 LINE.NUM *_HSV_SEMA Acquire1String " I/O Unit # "  *_HSV_TEMP $MOVE *sIO_EnablerIndex  *_HSV_TEMP $CAT "  : is enabled"  *_HSV_TEMP $CAT *_HSV_TEMP *sMessageForQueue $MOVE Release1String 
+33 LINE.NUM  4  -22000 0 *sMessageForQueue  AddToMessageQueue 
+34 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitEnableQuantity TABLE@ 1 +  ^nIO_EnablerIndex @@ }ntIO_UnitEnableQuantity TABLE! 
+35 LINE.NUM THEN 
+37 LINE.NUM ELSE 
+38 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE@ 0 <> IF 
+39 LINE.NUM 0 ^nIO_EnablerIndex @@ }ntIO_UnitCommEnableStatus TABLE! 
+40 LINE.NUM *_HSV_SEMA Acquire1String " I/O Unit # "  *_HSV_TEMP $MOVE *sIO_EnablerIndex  *_HSV_TEMP $CAT "  : is DISABLED"  *_HSV_TEMP $CAT *_HSV_TEMP *sMessageForQueue $MOVE Release1String 
+41 LINE.NUM  16  -22000 0 *sMessageForQueue  AddToMessageQueue 
+42 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitDisableOnErrorQuantity TABLE@ 1 +  ^nIO_EnablerIndex @@ }ntIO_UnitDisableOnErrorQuantity TABLE! 
+43 LINE.NUM THEN 
+45 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitTimers TABLE@ 0 = IF 
+46 LINE.NUM  GetSystemTime ^nIO_EnablerIndex @@ }ntIO_UnitTimers TABLE! 
+47 LINE.NUM ELSE 
+49 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE@ 0 = IF 
+50 LINE.NUM 0 ^nIO_EnableInterval_Index @! 
+51 LINE.NUM ELSE 
+51 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE@ 1 = IF 
+52 LINE.NUM 1 ^nIO_EnableInterval_Index @! 
+53 LINE.NUM ELSE 
+54 LINE.NUM 2 ^nIO_EnableInterval_Index @! 
+55 LINE.NUM THEN THEN 
+59 LINE.NUM ^dtTimer1  T0=  GetSystemTime ^nIO_EnablerIndex @@ }ntIO_UnitTimers TABLE@ ^nIO_EnableInterval_Index @@ }ntIO_EnableIntervals TABLE@ +  > LAND  IF 
+63 LINE.NUM 1 ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE@ +  *sIO_EnableCount  I>$ 
+64 LINE.NUM *_HSV_SEMA Acquire1String " I/O Unit # "  *_HSV_TEMP $MOVE *sIO_EnablerIndex  *_HSV_TEMP $CAT "  : enable attempt # "  *_HSV_TEMP $CAT *sIO_EnableCount  *_HSV_TEMP $CAT *_HSV_TEMP *sMessageForQueue $MOVE Release1String 
+68 LINE.NUM  4  -22000 0 *sMessageForQueue  AddToMessageQueue 
+70 LINE.NUM  GetSystemTime ^nIO_EnablerIndex @@ }ntIO_UnitTimers TABLE! 
+71 LINE.NUM PTR_pIO_Unit_IO_Enabler  ENABLE 
+72 LINE.NUM ^dtTimer1  StartTimer 
+73 LINE.NUM ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE@ 1 +  ^nIO_EnablerIndex @@ }ntIO_UnitEnableAttemptsCount TABLE! 
+74 LINE.NUM THEN 
+75 LINE.NUM THEN 
+76 LINE.NUM THEN 
+77 LINE.NUM THEN 
+78 LINE.NUM 1  DELAY 
+79 LINE.NUM THEN 
+82 LINE.NUM ^nIO_EnablerIndex  1+@! 
+83 LINE.NUM ^nIO_EnablerIndex @@ 0 ^nIO_UnitsTableLastIndex @@  2 PICK >= -ROT >= AND LNOT  IF 
+84 LINE.NUM 0 ^nIO_EnablerIndex @! 
+85 LINE.NUM THEN 
+2 JUMP ;
+: 33_230
+8 LINE.NUM %Line12_SSIU_110 
+0 PTBL_ptIO_Units TABLE!
+9 LINE.NUM %Line12_PCU_111 
+1 PTBL_ptIO_Units TABLE!
+-3 JUMP ;
+: 33_237
+1 LINE.NUM ^Turn_Up_IP @@ 1 = ^Roll_End @@ 0 = LAND  IF 
+2 LINE.NUM 1 ^Roll_End @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+8 LINE.NUM ^Edge_Trim_L_Stat @@ 3 I>F F< IF 
+8 LINE.NUM 3 I>F ^Edge_Trim_L_Stat @! 
+8 LINE.NUM ELSE 
+8 LINE.NUM THEN 
+9 LINE.NUM ^Edge_Trim_R_Stat @@ 397 I>F F> IF 
+9 LINE.NUM 397 I>F ^Edge_Trim_R_Stat @! 
+9 LINE.NUM ELSE 
+9 LINE.NUM THEN 
+11 LINE.NUM ~Gauge_Splice_AB @@I 1 = ^Scanner_Status @@ 4 > ^Scanner_Status @@ 3 < LOR  LAND  IF 
+11 LINE.NUM 3 ^Scanner_Status @! 
+11 LINE.NUM ELSE 
+11 LINE.NUM THEN 
+13 LINE.NUM ~Line_Speed_IP @@ ^Speed_Conv_2 @@ F* ^Speed_Now @! 
+15 LINE.NUM ^Left_Deckle @@ 2 I>F F/ ^Edge_Trim_Left @@ 2 I>F F/ F+ ^Left_Deckle_Trim_Inches @! 
+16 LINE.NUM ^Right_Deckle @@ 2 I>F F/ ^Edge_Trim_Right @@ 2 I>F F/ F+ ^Right_Deckle_Trim_Inches @! 
+19 LINE.NUM ^Scanner_Status @@ 2 = ^Speed_Now @@ 50 I>F F> LAND  IF 
+20 LINE.NUM 1 ^Scanner_Status_Speed @! 
+21 LINE.NUM ELSE 
+22 LINE.NUM THEN 
+24 LINE.NUM ^Scanner_Status @@ 2 = ^Speed_Now @@ 50 I>F F< LAND  ^Scanner_Status_Speed @@ 1 = LAND  IF 
+25 LINE.NUM 3 ^Scanner_Status @! 
+25 LINE.NUM 0 ^Scanner_Status_Speed @! 
+26 LINE.NUM ELSE 
+26 LINE.NUM THEN 
+28 LINE.NUM ^EOS_Data_Number @@ 0 > IF 
+29 LINE.NUM ^Scanned_Length @@F 60 I>F F/ ^Speed_Sum @@ ^EOS_Data_Number @@F F/ F* ^Roll_Length @! 
+30 LINE.NUM ELSE 
+30 LINE.NUM THEN 
+33 LINE.NUM ^Scanner_Status @@ 2 = ^Encoder_Now @@ ^FWD_Edge @@ ^Encoder_Conv @@ 2 I>F F* F+ F> ^Encoder_Now @@ ^REV_Edge @@ ^Encoder_Conv @@ 2 I>F F* F- F< ~Edge_Detect_IP @@I 0 = LAND  ^Auto_Edge @@ 0 I>F F= LAND  LAND  LAND  IF 
+34 LINE.NUM 3 ^Scanner_Status @! 
+34 LINE.NUM 1 ^Sheet_Det_Alm @! 
+35 LINE.NUM ELSE 
+35 LINE.NUM THEN 
+38 LINE.NUM ^Speed_Now @@ 150 I>F F> ^Scanner_Status @@ 2 = LAND  ^Weight_Alarm @@ 1 = LAND  ^Weight_Alarm_Ack @@ 0 = LAND  ~Weight_Alarm_OP @@I 0 = LAND  IF 
+39 LINE.NUM 1 ~Weight_Alarm_OP @! 
+40 LINE.NUM ELSE 
+40 LINE.NUM THEN 
+42 LINE.NUM ~Weight_Alarm_OP @@I 1 = ^Weight_Alarm_Ack @@ 1 = LAND  IF 
+42 LINE.NUM 0 ~Weight_Alarm_OP @! 
+42 LINE.NUM ELSE 
+42 LINE.NUM THEN 
+44 LINE.NUM 0 ^EOS_Flag_MIS_AB @! 
+1 JUMP ;
+: 33_247
+1 LINE.NUM ~T1 @@ ~T2 @@ F+ ~T3 @@ F+ ~T4 @@ F+ ~T5 @@ F+ ~T6 @@ F+ ~T7 @@ F+ ~T8 @@ F+ ~T9 @@ F+ ~T10 @@ F+ ~T11 @@ F+ ~T12 @@ F+ ~T13 @@ F+ ~T14 @@ F+ ~T15 @@ F+ ~T16 @@ F+ ~T17 @@ F+ ~T18 @@ F+ ~T19 @@ F+ ~T20 @@ F+ ~T21 @@ F+ ~T22 @@ F+ ~T23 @@ F+ ~T24 @@ F+ ~T25 @@ F+ ~T26 @@ F+ ~T27 @@ F+ ~T28 @@ F+ ~T29 @@ F+ ~T30 @@ F+ ~T31 @@ F+ ~T32 @@ F+ ~T33 @@ F+ ~T34 @@ F+ ~T35 @@ F+ ~T36 @@ F+ 36 I>F F/ ^DB_Feedback_Avg @! 
+-20 JUMP ;
+: 33_255
+2 LINE.NUM ~Shutter_Insert @@I 0 = IF 
+3 LINE.NUM 0 ~Red_Lamp @! 
+4 LINE.NUM 1 ~Green_Lamp @! 
+5 LINE.NUM THEN 
+7 LINE.NUM ~Shutter_Insert @@I 1 = IF 
+8 LINE.NUM 1 ~Red_Lamp @! 
+9 LINE.NUM 0 ~Green_Lamp @! 
+10 LINE.NUM THEN 
+13 LINE.NUM ~Shutter_Insert @@I 1 = ~Shutter_Open_Status @@I 1 = LAND  IF 
+14 LINE.NUM 0 I>F ^Shutter_Fault_Alarm @! 
+15 LINE.NUM ELSE 
+15 LINE.NUM 1 I>F ^Shutter_Fault_Alarm @! 
+16 LINE.NUM THEN 
+17 JUMP ;
+: 33_13
+TRUE
+
+1 LINE.NUM
+  ^Prod_Change_Flag @@ 
+  ^ONE @@   =
+LAND
+IF -32 ELSE 23 THEN JUMP ;
+: 33_24
+TRUE
+
+1 LINE.NUM
+  ^STDZ_Timer @@F 
+  ^STDZ_Interval @@   F>=
+LAND
+IF -34 ELSE -35 THEN JUMP ;
+: 33_26
+TRUE
+
+1 LINE.NUM
+  ^Stdz_Mode @@ 
+  ^ONE @@   =
+LAND
+IF -2 ELSE 0 THEN JUMP ;
+: 33_27
+TRUE
+
+1 LINE.NUM
+  ^Number_Of_Scans @@ 
+  ^Scans_2_STDZ @@   F>=
+LAND
+IF -36 ELSE -37 THEN JUMP ;
+: 33_32
+TRUE
+
+1 LINE.NUM
+  ^Prod_Change_Flag @@ 
+  ^ONE @@   =
+LAND
+IF 26 ELSE 26 THEN JUMP ;
+: 33_33
+TRUE
+
+1 LINE.NUM
+  ^Act_Counter @@ 
+  600    >=
+LAND
+IF -35 ELSE -2 THEN JUMP ;
+: 33_34
+TRUE
+
+1 LINE.NUM
+  ^apc_AutoSave @@ 
+  ^ONE @@   =
+LAND
+IF 0 ELSE -2 THEN JUMP ;
+: 33_36
+TRUE
+
+1 LINE.NUM
+  ^Act_Counter @@ 
+  60    >=
+LAND
+IF -36 ELSE -4 THEN JUMP ;
+: 33_47
+TRUE
+
+1 LINE.NUM
+ IO.ENABLED?
+LAND
+IF 0 ELSE 19 THEN JUMP ;
+: 33_48
+TRUE
+
+1 LINE.NUM
+ IO.ENABLED?
+LAND
+IF -37 ELSE -44 THEN JUMP ;
+: 33_68
+TRUE
+
+1 LINE.NUM
+  ^E_Stop_Alarm @@ 
+  ^ONE @@F   F=
+LAND
+IF 16 ELSE -35 THEN JUMP ;
+: 33_70
+TRUE
+
+1 LINE.NUM
+  ~E_Stop   ?ON
+LAND
+
+2 LINE.NUM
+  ~E_Stop_AB   ?ON
+LAND
+IF -2 ELSE -20 THEN JUMP ;
+: 33_77
+TRUE
+
+1 LINE.NUM
+  ~E_Stop   ?ON
+LAND
+IF -35 ELSE -36 THEN JUMP ;
+: 33_87
+TRUE
+
+1 LINE.NUM
+  ^OffSheet_Latch @@ 
+  ^ONE @@   =
+LAND
+IF 5 ELSE -33 THEN JUMP ;
+: 33_94
+TRUE
+
+1 LINE.NUM
+  ^OnSheet_Latch @@ 
+  ^ONE @@   =
+LAND
+IF 0 ELSE -32 THEN JUMP ;
+: 33_95
+TRUE
+
+1 LINE.NUM
+  ~Off_Sheet   ?ON
+LAND
+IF -3 ELSE -36 THEN JUMP ;
+: 33_103
+TRUE
+
+1 LINE.NUM
+  ^Roll_End @@ 
+  ^ZERO @@   =
+LAND
+IF -33 ELSE -6 THEN JUMP ;
+: 33_105
+TRUE
+
+1 LINE.NUM
+  ~Turn_Up_AB   ?ON
+LAND
+IF -2 ELSE -7 THEN JUMP ;
+: 33_109
+TRUE
+
+1 LINE.NUM
+  ^REV_Prox_Alarm @@ 
+  ^ONE @@F   F=
+LAND
+IF 7 ELSE -17 THEN JUMP ;
+: 33_110
+TRUE
+
+1 LINE.NUM
+  ^FWD_Prox_Alarm @@ 
+  ^ONE @@F   F=
+LAND
+IF 5 ELSE -2 THEN JUMP ;
+: 33_119
+TRUE
+
+1 LINE.NUM
+  ^REV_Prox_Alarm @@ 
+  ^ONE @@F   F=
+LAND
+IF -36 ELSE -34 THEN JUMP ;
+: 33_124
+TRUE
+
+1 LINE.NUM
+  ^FWD_Prox_Alarm @@ 
+  ^ONE @@F   F=
+LAND
+IF 1 ELSE -34 THEN JUMP ;
+: 33_130
+TRUE
+
+1 LINE.NUM
+  ^Scanner_Status @@ 
+  ^TWO @@   =
+LAND
+IF -3 ELSE -38 THEN JUMP ;
+: 33_132
+TRUE
+
+1 LINE.NUM
+  ~Rev_Prox_Switch   ?ON
+LAND
+IF -2 ELSE -39 THEN JUMP ;
+: 33_133
+TRUE
+
+1 LINE.NUM
+  ~Fwd_Prox_Switch   ?ON
+LAND
+IF -4 ELSE -2 THEN JUMP ;
+: 33_139
+TRUE
+
+1 LINE.NUM
+  ~Fwd_Prox_Switch   ?ON
+LAND
+IF -8 ELSE -37 THEN JUMP ;
+: 33_144
+TRUE
+
+1 LINE.NUM
+  ~Rev_Prox_Switch   ?ON
+LAND
+IF -25 ELSE -37 THEN JUMP ;
+: 33_149
+TRUE
+
+1 LINE.NUM
+  ~On_Sheet   ?ON
+LAND
+IF -14 ELSE -46 THEN JUMP ;
+: 33_176
+TRUE
+
+1 LINE.NUM
+  ^Comm_Timer   T0=
+LAND
+IF -55 ELSE -20 THEN JUMP ;
+: 33_192
+TRUE
+
+1 LINE.NUM
+  ^Scanner_Status @@ 
+  ^TWO @@   =
+LAND
+IF 0 ELSE -22 THEN JUMP ;
+: 33_195
+TRUE
+
+1 LINE.NUM
+  ^Scanner_Moving @@F 
+  40 I>F   F>=
+LAND
+IF -38 ELSE -23 THEN JUMP ;
+T: T33
+DUMMY
+33_0
+33_2
+33_3
+33_4
+33_5
+33_15
+33_19
+33_22
+33_29
+33_30
+33_35
+33_37
+33_52
+33_53
+33_59
+33_67
+33_74
+33_75
+33_79
+33_84
+33_88
+33_98
+33_99
+33_102
+33_120
+33_126
+33_127
+33_131
+33_138
+33_143
+33_148
+33_159
+33_197
+33_224
+33_229
+33_230
+33_237
+33_247
+33_255
+33_13
+33_24
+33_26
+33_27
+33_32
+33_33
+33_34
+33_36
+33_47
+33_48
+33_68
+33_70
+33_77
+33_87
+33_94
+33_95
+33_103
+33_105
+33_109
+33_110
+33_119
+33_124
+33_130
+33_132
+33_133
+33_139
+33_144
+33_149
+33_176
+33_192
+33_195
+T;
+&Utility ' T33 SETTASK

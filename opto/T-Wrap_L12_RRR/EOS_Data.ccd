@@ -1,0 +1,1919 @@
+: 31_0
+63 JUMP ;
+: 31_4
+71 JUMP ;
+: 31_33
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 7 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 7 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 7 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 7 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+9 LINE.NUM REPEAT 
+11 LINE.NUM ^Number_Of_Comp_Scans @@ 7 I>F F= IF 
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM ELSE 
+18 LINE.NUM THEN 
+20 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_34
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 8 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 8 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 8 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 8 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 8 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM ELSE 
+18 LINE.NUM THEN 
+20 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_35
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 9 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 9 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 9 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 9 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 9 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM ELSE 
+19 LINE.NUM THEN 
+21 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_36
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 10 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 10 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 10 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 10 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 10 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM ELSE 
+20 LINE.NUM THEN 
+22 LINE.NUM 0 ^Loop_Counter_9 @! 
+47 JUMP ;
+: 31_42
+
+1 LINE.NUM
+  ^Number_Of_Scans   1+@!
+
+2 LINE.NUM
+  ^Lag_Scans_1   1+@!
+
+3 LINE.NUM
+  ^Edge_Scans   1+@!
+
+4 LINE.NUM
+  ^Edge_Scans_1   1+@!
+0 JUMP ;
+: 31_43
+2 LINE.NUM ^Number_Of_Scans @@ 2 I>F F> IF 
+2 LINE.NUM ^Number_Of_Comp_Scans @@ 1 I>F F+ ^Number_Of_Comp_Scans @! 
+2 LINE.NUM ELSE 
+2 LINE.NUM 1 I>F ^Number_Of_Comp_Scans @! 
+2 LINE.NUM THEN 
+4 LINE.NUM ^Scans_In_Comp @@ 20 I>F F> IF 
+5 LINE.NUM 20 I>F ^Scans_In_Comp @! 
+6 LINE.NUM ELSE 
+6 LINE.NUM THEN 
+8 LINE.NUM ^Number_Of_Comp_Scans @@ ^Scans_In_Comp @@ F>= IF 
+9 LINE.NUM ^Scans_In_Comp @@ ^Number_Of_Comp_Scans @! 
+11 LINE.NUM THEN 
+13 LINE.NUM ^Lag_Scans_1 @@ ^Scans_In_Comp @@ F>= IF 
+14 LINE.NUM ^Scans_In_Comp @@ ^Lag_Scans_1 @! 
+16 LINE.NUM THEN 
+0 JUMP ;
+: 31_44
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 1 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM }Comp_1_Bucket_Data 0 }Comp_Bucket_Data 0 402  CopyTable  
+4 LINE.NUM THEN 
+0 JUMP ;
+: 31_45
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 2 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 2 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+7 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 2 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 2 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+8 LINE.NUM ^Loop_Counter_9  1+@! 
+10 LINE.NUM REPEAT 
+12 LINE.NUM ^Number_Of_Comp_Scans @@ 2 I>F F= IF 
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM ELSE 
+14 LINE.NUM THEN 
+16 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_46
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 3 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 3 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+7 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ F+ 3 I>F F/ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+8 LINE.NUM ^Loop_Counter_9  1+@! 
+10 LINE.NUM REPEAT 
+12 LINE.NUM ^Number_Of_Comp_Scans @@ 3 I>F F= IF 
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM ELSE 
+15 LINE.NUM THEN 
+18 LINE.NUM 0 ^Loop_Counter_9 @! 
+2 JUMP ;
+: 31_47
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 6 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 6 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 6 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 6 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 6 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 6 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 6 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 6 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+9 LINE.NUM REPEAT 
+11 LINE.NUM ^Number_Of_Comp_Scans @@ 6 I>F F= IF 
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM ELSE 
+17 LINE.NUM THEN 
+19 LINE.NUM 0 ^Loop_Counter_9 @! 
+-10 JUMP ;
+: 31_48
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 5 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 5 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 5 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 5 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 5 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 5 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 5 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+9 LINE.NUM REPEAT 
+11 LINE.NUM ^Number_Of_Comp_Scans @@ 5 I>F F= IF 
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM ELSE 
+16 LINE.NUM THEN 
+20 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_49
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 4 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 4 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+7 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 4 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 4 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 4 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 4 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+8 LINE.NUM ^Loop_Counter_9  1+@! 
+10 LINE.NUM REPEAT 
+12 LINE.NUM ^Number_Of_Comp_Scans @@ 4 I>F F= IF 
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM ELSE 
+16 LINE.NUM THEN 
+18 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_54
+1 LINE.NUM ^L4 @@ }Bucket_Data_Temp TABLE@ 0 I>F F> ^L4 @@ }Bucket_Data_Temp TABLE@ ^L7 @@ F< LAND  IF 
+2 LINE.NUM ^L4 @@ }Bucket_Data_Temp TABLE@ ^L7 @! 
+4 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+7 LINE.NUM ^L4 @@ 1 +  ^L4 @! 
+9 LINE.NUM ^L12 @@ ^L4 @@ }Bucket_Data_Temp TABLE@ F+ ^L12 @! 
+45 JUMP ;
+: 31_55
+1 LINE.NUM ^L7 @@ ^Last_Scan_Min @! 
+3 LINE.NUM ^Last_Scan_Max @@ ^Last_Scan_Min @@ F- ^Last_Scan_Range @! 
+5 LINE.NUM ^Last_Scan_Avg @@ ^L7 @! 
+8 LINE.NUM ^Edge_Trim_L_Stat @@ ^L4 F@! 
+9 LINE.NUM 0 I>F ^L12 @! 
+3 JUMP ;
+: 31_60
+1 LINE.NUM ^L4 @@ }Comp_Bucket_Data TABLE@ ^L7 @@ F> IF 
+2 LINE.NUM ^L4 @@ }Comp_Bucket_Data TABLE@ ^L7 @! 
+4 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+7 LINE.NUM ^L4 @@ 1 +  ^L4 @! 
+44 JUMP ;
+: 31_61
+1 LINE.NUM ^L7 @@ ^Comp_Max @! 
+2 LINE.NUM ^Edge_Trim_L_Stat @@ ^L4 F@! 
+3 LINE.NUM 0 I>F ^L12 @! 
+4 LINE.NUM ^Last_Scan_Avg @@ ^L7 @! 
+-4 JUMP ;
+: 31_67
+1 LINE.NUM ^L7 @@ ^Comp_Min @! 
+3 LINE.NUM ^Comp_Max @@ ^Comp_Min @@ F- ^Comp_Range @! 
+5 LINE.NUM 0 I>F ^L7 @! 
+9 LINE.NUM 1 ^Loop_Counter_EOS @! 
+10 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 40 < WHILE 
+11 LINE.NUM 0 I>F ^Loop_Counter_EOS @@ }Last_Scan_Inches TABLE! 
+12 LINE.NUM ^Loop_Counter_EOS  1+@! 
+13 LINE.NUM REPEAT 
+15 LINE.NUM 5 ^Loop_Counter_EOS @! 
+16 LINE.NUM 1 ^Loop_Counter_3 @! 
+17 LINE.NUM 1 ^L4 @! 
+18 LINE.NUM ^Last_Scan_Avg @@ ^L7 @! 
+19 LINE.NUM ^Last_Scan_Avg @@ ^L12 @! 
+40 JUMP ;
+: 31_75
+1 LINE.NUM ^L4 @@ }Comp_Bucket_Data TABLE@ 0 I>F F> ^L4 @@ }Comp_Bucket_Data TABLE@ ^L7 @@ F< LAND  IF 
+2 LINE.NUM ^L4 @@ }Comp_Bucket_Data TABLE@ ^L7 @! 
+4 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+7 LINE.NUM ^L4 @@ 1 +  ^L4 @! 
+9 LINE.NUM ^L12 @@ ^L4 @@ }Comp_Bucket_Data TABLE@ F+ ^L12 @! 
+42 JUMP ;
+: 31_76
+1 LINE.NUM ^L7 @@ ^Last_Scan_Max @! 
+2 LINE.NUM ^Edge_Trim_L_Stat @@ ^L4 F@! 
+3 LINE.NUM 0 I>F ^L12 @! 
+4 LINE.NUM ^Last_Scan_Avg @@ ^L7 @! 
+-5 JUMP ;
+: 31_77
+1 LINE.NUM ^L4 @@ }Bucket_Data_Temp TABLE@ ^L7 @@ F> IF 
+2 LINE.NUM ^L4 @@ }Bucket_Data_Temp TABLE@ ^L7 @! 
+4 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+7 LINE.NUM ^L4 @@ 1 +  ^L4 @! 
+41 JUMP ;
+: 31_85
+
+1 LINE.NUM
+  100    DELAY
+18 JUMP ;
+: 31_90
+
+1 LINE.NUM
+  ^ZERO @@   ABS
+  ^EOS_Flag_EOS @! 
+47 JUMP ;
+: 31_97
+2 LINE.NUM 0 ^Loop_Counter_EOS_1 @! 
+3 LINE.NUM 399 ^Loop_Counter_EOS_2 @! 
+5 LINE.NUM BEGIN ^Loop_Counter_EOS_1 @@ 399 <= WHILE 
+6 LINE.NUM ^Loop_Counter_EOS_2 @@ }Comp_Bucket_Data TABLE@ ^Loop_Counter_EOS_1 @@ }Comp_Bucket_Oriented TABLE! 
+7 LINE.NUM ^Loop_Counter_EOS_1  1+@! 
+8 LINE.NUM ^Loop_Counter_EOS_2  1-@! 
+9 LINE.NUM REPEAT 
+12 LINE.NUM 1 }Comp_Bucket_Oriented TABLE@ 0 }Comp_Bucket_Oriented TABLE! 
+13 LINE.NUM 398 }Comp_Bucket_Oriented TABLE@ 399 }Comp_Bucket_Oriented TABLE! 
+16 LINE.NUM 1 ^EOS_Flag1 @! 
+17 LINE.NUM ^Number_Of_Scans @@ 3 I>F F> IF 
+18 LINE.NUM 1 ^EOS_Flag @! 
+20 LINE.NUM ^EOS_Flag2 @@ 1 +  ^EOS_Flag2 @! 
+21 LINE.NUM 1 ^EOS_Flag_2 @! 
+23 LINE.NUM ^Eos_Flag_3 @@ 1 +  ^Eos_Flag_3 @! 
+25 LINE.NUM ELSE 
+26 LINE.NUM THEN 
+-2 JUMP ;
+: 31_101
+1 LINE.NUM 1 I>F  FDELAY 
+2 LINE.NUM 5 ^Loop_Counter_3 @! 
+3 LINE.NUM 100 I>F ^Profile_Y @@ F/ ^Profile_Y_Factor @! 
+4 LINE.NUM 0 I>F ^Last_Scan_Avg_1 @! 
+6 LINE.NUM BEGIN ^Loop_Counter_3 @@ 395 <= WHILE 
+7 LINE.NUM ^Loop_Counter_3 @@ }Bucket_Data_Oriented TABLE@ ^Last_Scan_Avg_1 @@ F+ ^Last_Scan_Avg_1 @! 
+8 LINE.NUM ^Loop_Counter_3  1+@! 
+9 LINE.NUM REPEAT 
+12 LINE.NUM ^Last_Scan_Avg_1 @@ 391 I>F F/ ^Last_Scan_Avg_1 @! 
+15 LINE.NUM ^Profile_Display_Avg @@ 1 = IF 
+17 LINE.NUM 400 ^Loop_Counter_3 @! 
+18 LINE.NUM BEGIN ^Loop_Counter_3 @@ 1 >= WHILE 
+19 LINE.NUM ^Loop_Counter_3 @@ }Bucket_Data_Oriented TABLE@ ^Last_Scan_Avg_1 @@ F- ^Profile_Y_Factor @@ F* 100 I>F F+ ^Loop_Counter_3 @@ }Last_Scan_Scaled TABLE! 
+20 LINE.NUM ^Loop_Counter_3  1-@! 
+21 LINE.NUM REPEAT 
+22 LINE.NUM ELSE 
+23 LINE.NUM 400 ^Loop_Counter_3 @! 
+24 LINE.NUM BEGIN ^Loop_Counter_3 @@ 1 >= WHILE 
+25 LINE.NUM ^Loop_Counter_3 @@ }Bucket_Data_Oriented TABLE@ ^Weight_TGT @@ F- ^Profile_Y_Factor @@ F* 100 I>F F+ ^Loop_Counter_3 @@ }Last_Scan_Scaled TABLE! 
+26 LINE.NUM ^Loop_Counter_3  1-@! 
+27 LINE.NUM REPEAT 
+28 LINE.NUM THEN 
+30 LINE.NUM 100 I>F 1 }Last_Scan_Scaled TABLE! 
+33 LINE.NUM 100 I>F 400 }Last_Scan_Scaled TABLE! 
+35 LINE.NUM 0 ^Loop_Counter_3 @! 
+39 LINE.NUM ^Profile_Display_Avg @@ 1 = IF 
+41 LINE.NUM ^Last_Scan_Avg_1 @@ ^Profile_Y_3 @! 
+42 LINE.NUM ^Profile_Y_2_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_2 @! 
+43 LINE.NUM ^Profile_Y_1_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_1 @! 
+44 LINE.NUM ^Profile_Y_4_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_4 @! 
+45 LINE.NUM ^Profile_Y_5_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_5 @! 
+46 LINE.NUM ELSE 
+47 LINE.NUM ^Weight_TGT @@ ^Profile_Y_3 @! 
+48 LINE.NUM ^Profile_Y_2_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_2 @! 
+49 LINE.NUM ^Profile_Y_1_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_1 @! 
+50 LINE.NUM ^Profile_Y_4_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_4 @! 
+51 LINE.NUM ^Profile_Y_5_D @@ ^Profile_Y_3 @@ F+ ^Profile_Y_5 @! 
+52 LINE.NUM THEN 
+56 LINE.NUM ^Number_Of_Bolts_Active @@F ^Profile_X_1 @! 
+57 LINE.NUM ^Profile_X_1 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- 1 I>F F+ ^Profile_X_2 @! 
+58 LINE.NUM ^Profile_X_2 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_3 @! 
+59 LINE.NUM ^Profile_X_3 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_4 @! 
+60 LINE.NUM ^Profile_X_4 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_5 @! 
+61 LINE.NUM ^Profile_X_5 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_6 @! 
+62 LINE.NUM ^Profile_X_6 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_7 @! 
+63 LINE.NUM ^Profile_X_7 @@ ^Number_Of_Bolts_Active @@ 8 / I>F F- ^Profile_X_8 @! 
+64 LINE.NUM 1 I>F ^Profile_X_9 @! 
+-20 JUMP ;
+: 31_109
+1 LINE.NUM }Comp_Bucket_Data 0 }Comp_Scan_Raw 0 402  CopyTable  
+12 LINE.NUM 5 ^Loop_Counter_3 @! 
+13 LINE.NUM BEGIN ^Loop_Counter_3 @@ 395 <= WHILE 
+14 LINE.NUM ^Loop_Counter_3 @@ }Comp_Scan_Raw TABLE@ ^Comp_Avg_1 @@ F+ ^Comp_Avg_1 @! 
+15 LINE.NUM ^Loop_Counter_3  1+@! 
+16 LINE.NUM REPEAT 
+18 LINE.NUM ^Comp_Avg_1 @@ 391 I>F F/ ^Comp_Avg_CD @! 
+19 LINE.NUM 0 I>F ^Comp_Avg_1 @! 
+21 LINE.NUM 100 I>F ^Profile_Y @@ F/ ^Profile_Y_Factor @! 
+23 LINE.NUM 400 ^Loop_Counter_3 @! 
+25 LINE.NUM ^Profile_Display_Avg @@ 1 = IF 
+27 LINE.NUM BEGIN ^Loop_Counter_3 @@ 1 >= WHILE 
+28 LINE.NUM ^Loop_Counter_3 @@ }Comp_Scan_Raw TABLE@ ^Comp_Avg @@ F- ^Profile_Y_Factor @@ F* 100 I>F F+ ^Loop_Counter_3 @@ }Comp_Scan_Scaled TABLE! 
+29 LINE.NUM ^Loop_Counter_3  1-@! 
+30 LINE.NUM REPEAT 
+31 LINE.NUM ELSE 
+32 LINE.NUM BEGIN ^Loop_Counter_3 @@ 1 >= WHILE 
+33 LINE.NUM ^Loop_Counter_3 @@ }Comp_Scan_Raw TABLE@ ^Weight_TGT @@ F- ^Profile_Y_Factor @@ F* 100 I>F F+ ^Loop_Counter_3 @@ }Comp_Scan_Scaled TABLE! 
+34 LINE.NUM ^Loop_Counter_3  1-@! 
+35 LINE.NUM REPEAT 
+36 LINE.NUM THEN 
+42 LINE.NUM 0 ^Loop_Counter_3 @! 
+44 LINE.NUM ^Profile_Display_Avg @@ 1 = IF 
+46 LINE.NUM ^Comp_Avg @@ ^Profile_Y_3_C @! 
+47 LINE.NUM ^Profile_Y_2_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_2_C @! 
+48 LINE.NUM ^Profile_Y_1_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_1_C @! 
+49 LINE.NUM ^Profile_Y_4_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_4_C @! 
+50 LINE.NUM ^Profile_Y_5_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_5_C @! 
+51 LINE.NUM ELSE 
+52 LINE.NUM ^Weight_TGT @@ ^Profile_Y_3_C @! 
+53 LINE.NUM ^Profile_Y_2_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_2_C @! 
+54 LINE.NUM ^Profile_Y_1_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_1_C @! 
+55 LINE.NUM ^Profile_Y_4_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_4_C @! 
+56 LINE.NUM ^Profile_Y_5_D @@ ^Profile_Y_3_C @@ F+ ^Profile_Y_5_C @! 
+57 LINE.NUM THEN 
+60 LINE.NUM ^Edge_Trim_L_Stat @@ ^L4 F@! 
+61 LINE.NUM ^Last_Scan_Avg @@ ^L7 @! 
+-6 JUMP ;
+: 31_116
+
+1 LINE.NUM
+  ^Total_Mean_Avg @@   FSQRT
+  ^Spread_Total @! 
+5 JUMP ;
+: 31_117
+1 LINE.NUM ^Spread_Scans @@ 0 = IF 
+4 LINE.NUM 0 I>F 89 }MD_Spread TABLE! 
+5 LINE.NUM 0 I>F 88 }MD_Spread TABLE! 
+6 LINE.NUM 0 I>F 87 }MD_Spread TABLE! 
+7 LINE.NUM 0 I>F 86 }MD_Spread TABLE! 
+8 LINE.NUM 0 I>F 85 }MD_Spread TABLE! 
+9 LINE.NUM 0 I>F 84 }MD_Spread TABLE! 
+10 LINE.NUM 0 I>F 83 }MD_Spread TABLE! 
+11 LINE.NUM 0 I>F 82 }MD_Spread TABLE! 
+12 LINE.NUM 0 I>F 81 }MD_Spread TABLE! 
+13 LINE.NUM 0 I>F 80 }MD_Spread TABLE! 
+14 LINE.NUM 0 I>F 79 }MD_Spread TABLE! 
+15 LINE.NUM 0 I>F 78 }MD_Spread TABLE! 
+16 LINE.NUM 0 I>F 77 }MD_Spread TABLE! 
+17 LINE.NUM 0 I>F 76 }MD_Spread TABLE! 
+18 LINE.NUM 0 I>F 75 }MD_Spread TABLE! 
+19 LINE.NUM 0 I>F 74 }MD_Spread TABLE! 
+20 LINE.NUM 0 I>F 73 }MD_Spread TABLE! 
+21 LINE.NUM 0 I>F 72 }MD_Spread TABLE! 
+22 LINE.NUM 0 I>F 71 }MD_Spread TABLE! 
+23 LINE.NUM 0 I>F 60 }MD_Spread TABLE! 
+24 LINE.NUM 0 I>F 69 }MD_Spread TABLE! 
+25 LINE.NUM 0 I>F 68 }MD_Spread TABLE! 
+26 LINE.NUM 0 I>F 67 }MD_Spread TABLE! 
+27 LINE.NUM 0 I>F 66 }MD_Spread TABLE! 
+28 LINE.NUM 0 I>F 65 }MD_Spread TABLE! 
+29 LINE.NUM 0 I>F 64 }MD_Spread TABLE! 
+30 LINE.NUM 0 I>F 63 }MD_Spread TABLE! 
+31 LINE.NUM 0 I>F 62 }MD_Spread TABLE! 
+32 LINE.NUM 0 I>F 61 }MD_Spread TABLE! 
+33 LINE.NUM 0 I>F 60 }MD_Spread TABLE! 
+34 LINE.NUM ELSE 
+34 LINE.NUM THEN 
+36 LINE.NUM ^Spread_Scans @@ 1 +  ^Spread_Scans @! 
+38 LINE.NUM ^Spread_Scans @@ 30 > IF 
+39 LINE.NUM 30 ^Spread_Scans @! 
+40 LINE.NUM ELSE 
+41 LINE.NUM THEN 
+45 LINE.NUM 88 }MD_Spread TABLE@ 89 }MD_Spread TABLE! 
+46 LINE.NUM 87 }MD_Spread TABLE@ 88 }MD_Spread TABLE! 
+47 LINE.NUM 86 }MD_Spread TABLE@ 87 }MD_Spread TABLE! 
+48 LINE.NUM 85 }MD_Spread TABLE@ 86 }MD_Spread TABLE! 
+49 LINE.NUM 84 }MD_Spread TABLE@ 85 }MD_Spread TABLE! 
+50 LINE.NUM 83 }MD_Spread TABLE@ 84 }MD_Spread TABLE! 
+51 LINE.NUM 82 }MD_Spread TABLE@ 83 }MD_Spread TABLE! 
+52 LINE.NUM 81 }MD_Spread TABLE@ 82 }MD_Spread TABLE! 
+53 LINE.NUM 80 }MD_Spread TABLE@ 81 }MD_Spread TABLE! 
+54 LINE.NUM 79 }MD_Spread TABLE@ 80 }MD_Spread TABLE! 
+55 LINE.NUM 78 }MD_Spread TABLE@ 79 }MD_Spread TABLE! 
+56 LINE.NUM 77 }MD_Spread TABLE@ 78 }MD_Spread TABLE! 
+57 LINE.NUM 76 }MD_Spread TABLE@ 77 }MD_Spread TABLE! 
+58 LINE.NUM 75 }MD_Spread TABLE@ 76 }MD_Spread TABLE! 
+59 LINE.NUM 74 }MD_Spread TABLE@ 75 }MD_Spread TABLE! 
+60 LINE.NUM 73 }MD_Spread TABLE@ 74 }MD_Spread TABLE! 
+61 LINE.NUM 72 }MD_Spread TABLE@ 73 }MD_Spread TABLE! 
+62 LINE.NUM 71 }MD_Spread TABLE@ 72 }MD_Spread TABLE! 
+63 LINE.NUM 70 }MD_Spread TABLE@ 71 }MD_Spread TABLE! 
+64 LINE.NUM 69 }MD_Spread TABLE@ 70 }MD_Spread TABLE! 
+65 LINE.NUM 68 }MD_Spread TABLE@ 69 }MD_Spread TABLE! 
+66 LINE.NUM 67 }MD_Spread TABLE@ 68 }MD_Spread TABLE! 
+67 LINE.NUM 66 }MD_Spread TABLE@ 67 }MD_Spread TABLE! 
+68 LINE.NUM 65 }MD_Spread TABLE@ 66 }MD_Spread TABLE! 
+69 LINE.NUM 64 }MD_Spread TABLE@ 65 }MD_Spread TABLE! 
+70 LINE.NUM 63 }MD_Spread TABLE@ 64 }MD_Spread TABLE! 
+71 LINE.NUM 62 }MD_Spread TABLE@ 63 }MD_Spread TABLE! 
+72 LINE.NUM 61 }MD_Spread TABLE@ 62 }MD_Spread TABLE! 
+73 LINE.NUM 60 }MD_Spread TABLE@ 61 }MD_Spread TABLE! 
+74 LINE.NUM ^Stat_Last_Scan_Avg @@ 60 }MD_Spread TABLE! 
+77 LINE.NUM 89 }MD_Spread TABLE@ 88 }MD_Spread TABLE@ F+ 87 }MD_Spread TABLE@ F+ 86 }MD_Spread TABLE@ F+ 85 }MD_Spread TABLE@ F+ 84 }MD_Spread TABLE@ F+ 83 }MD_Spread TABLE@ F+ 82 }MD_Spread TABLE@ F+ 81 }MD_Spread TABLE@ F+ 80 }MD_Spread TABLE@ F+ 79 }MD_Spread TABLE@ F+ 78 }MD_Spread TABLE@ F+ 77 }MD_Spread TABLE@ F+ 76 }MD_Spread TABLE@ F+ 75 }MD_Spread TABLE@ F+ 74 }MD_Spread TABLE@ F+ 73 }MD_Spread TABLE@ F+ 72 }MD_Spread TABLE@ F+ 71 }MD_Spread TABLE@ F+ 70 }MD_Spread TABLE@ F+ 69 }MD_Spread TABLE@ F+ 68 }MD_Spread TABLE@ F+ 67 }MD_Spread TABLE@ F+ 66 }MD_Spread TABLE@ F+ 65 }MD_Spread TABLE@ F+ 64 }MD_Spread TABLE@ F+ 63 }MD_Spread TABLE@ F+ 62 }MD_Spread TABLE@ F+ 61 }MD_Spread TABLE@ F+ 60 }MD_Spread TABLE@ F+ ^Spread_Scans @@F F/ ^Last_Scan_Avg_Avg @! 
+94 LINE.NUM ^Spread_Scans @@ 30 < IF 
+95 LINE.NUM ^Profile_Y_3 @@ ^Last_Scan_Avg_Avg @! 
+96 LINE.NUM ELSE 
+96 LINE.NUM THEN 
+100 LINE.NUM 89 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 29 }MD_Spread TABLE! 
+101 LINE.NUM 88 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 28 }MD_Spread TABLE! 
+102 LINE.NUM 87 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 27 }MD_Spread TABLE! 
+103 LINE.NUM 86 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 26 }MD_Spread TABLE! 
+104 LINE.NUM 85 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 25 }MD_Spread TABLE! 
+105 LINE.NUM 84 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 24 }MD_Spread TABLE! 
+106 LINE.NUM 83 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 23 }MD_Spread TABLE! 
+107 LINE.NUM 82 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 22 }MD_Spread TABLE! 
+108 LINE.NUM 81 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 21 }MD_Spread TABLE! 
+109 LINE.NUM 80 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 20 }MD_Spread TABLE! 
+110 LINE.NUM 79 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 19 }MD_Spread TABLE! 
+111 LINE.NUM 78 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 18 }MD_Spread TABLE! 
+112 LINE.NUM 77 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 17 }MD_Spread TABLE! 
+113 LINE.NUM 76 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 16 }MD_Spread TABLE! 
+114 LINE.NUM 75 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 15 }MD_Spread TABLE! 
+115 LINE.NUM 74 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 14 }MD_Spread TABLE! 
+116 LINE.NUM 73 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 13 }MD_Spread TABLE! 
+117 LINE.NUM 72 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 12 }MD_Spread TABLE! 
+118 LINE.NUM 71 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 11 }MD_Spread TABLE! 
+119 LINE.NUM 70 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 10 }MD_Spread TABLE! 
+120 LINE.NUM 69 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 9 }MD_Spread TABLE! 
+121 LINE.NUM 68 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 8 }MD_Spread TABLE! 
+122 LINE.NUM 67 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 7 }MD_Spread TABLE! 
+123 LINE.NUM 66 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 6 }MD_Spread TABLE! 
+124 LINE.NUM 65 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 5 }MD_Spread TABLE! 
+125 LINE.NUM 64 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 4 }MD_Spread TABLE! 
+126 LINE.NUM 63 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 3 }MD_Spread TABLE! 
+127 LINE.NUM 62 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 2 }MD_Spread TABLE! 
+128 LINE.NUM 61 }MD_Spread TABLE@ ^Last_Scan_Avg_Avg @@ F- 1 }MD_Spread TABLE! 
+129 LINE.NUM ^Stat_Last_Scan_Avg @@ ^Last_Scan_Avg_Avg @@ F- 0 }MD_Spread TABLE! 
+131 LINE.NUM ^Spread_Scans @@ 30 > IF 
+132 LINE.NUM 30 ^Spread_Scans @! 
+133 LINE.NUM ELSE 
+134 LINE.NUM THEN 
+135 LINE.NUM ^Spread_Scans @@ 1 = IF 
+136 LINE.NUM 0 }MD_Spread TABLE@ 1 I>F F/ ^MD_Mean @! 
+137 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+138 LINE.NUM 30 }MD_Spread TABLE@ 1 I>F F/ ^MD_Mean_Avg @! 
+139 LINE.NUM ELSE 
+139 LINE.NUM THEN 
+140 LINE.NUM ^Spread_Scans @@ 2 = IF 
+141 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 I>F F/ ^MD_Mean @! 
+142 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+143 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+144 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 1 I>F F/ ^MD_Mean_Avg @! 
+145 LINE.NUM ELSE 
+145 LINE.NUM THEN 
+146 LINE.NUM ^Spread_Scans @@ 3 = IF 
+147 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 I>F F/ ^MD_Mean @! 
+148 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+149 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+150 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+151 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 2 I>F F/ ^MD_Mean_Avg @! 
+152 LINE.NUM ELSE 
+152 LINE.NUM THEN 
+153 LINE.NUM ^Spread_Scans @@ 4 = IF 
+154 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 I>F F/ ^MD_Mean @! 
+155 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+156 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+157 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+158 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+159 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 3 I>F F/ ^MD_Mean_Avg @! 
+160 LINE.NUM ELSE 
+160 LINE.NUM THEN 
+161 LINE.NUM ^Spread_Scans @@ 5 = IF 
+162 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 I>F F/ ^MD_Mean @! 
+163 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+164 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+165 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+166 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+167 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+168 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 4 I>F F/ ^MD_Mean_Avg @! 
+169 LINE.NUM ELSE 
+169 LINE.NUM THEN 
+170 LINE.NUM ^Spread_Scans @@ 6 = IF 
+171 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 I>F F/ ^MD_Mean @! 
+172 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+173 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+174 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+175 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+176 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+177 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+178 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 5 I>F F/ ^MD_Mean_Avg @! 
+179 LINE.NUM ELSE 
+179 LINE.NUM THEN 
+180 LINE.NUM ^Spread_Scans @@ 7 = IF 
+181 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 I>F F/ ^MD_Mean @! 
+182 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+183 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+184 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+185 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+186 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+187 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+188 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+189 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 6 I>F F/ ^MD_Mean_Avg @! 
+190 LINE.NUM ELSE 
+190 LINE.NUM THEN 
+191 LINE.NUM ^Spread_Scans @@ 8 = IF 
+192 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 I>F F/ ^MD_Mean @! 
+193 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+194 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+195 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+196 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+197 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+198 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+199 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+200 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+201 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 7 I>F F/ ^MD_Mean_Avg @! 
+202 LINE.NUM ELSE 
+202 LINE.NUM THEN 
+203 LINE.NUM ^Spread_Scans @@ 9 = IF 
+204 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 I>F F/ ^MD_Mean @! 
+205 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+206 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+207 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+208 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+209 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+210 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+211 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+212 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+213 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+214 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 8 I>F F/ ^MD_Mean_Avg @! 
+215 LINE.NUM ELSE 
+215 LINE.NUM THEN 
+216 LINE.NUM ^Spread_Scans @@ 10 = IF 
+217 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 I>F F/ ^MD_Mean @! 
+218 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+219 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+220 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+221 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+222 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+223 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+224 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+225 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+226 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+227 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+228 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 9 I>F F/ ^MD_Mean_Avg @! 
+229 LINE.NUM ELSE 
+229 LINE.NUM THEN 
+230 LINE.NUM ^Spread_Scans @@ 11 = IF 
+231 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 I>F F/ ^MD_Mean @! 
+232 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+233 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+234 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+235 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+236 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+237 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+238 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+239 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+240 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+241 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+242 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+243 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 10 I>F F/ ^MD_Mean_Avg @! 
+244 LINE.NUM ELSE 
+244 LINE.NUM THEN 
+245 LINE.NUM ^Spread_Scans @@ 12 = IF 
+246 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 I>F F/ ^MD_Mean @! 
+247 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+248 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+249 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+250 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+251 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+252 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+253 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+254 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+255 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+256 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+257 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+258 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+259 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 11 I>F F/ ^MD_Mean_Avg @! 
+260 LINE.NUM ELSE 
+260 LINE.NUM THEN 
+261 LINE.NUM ^Spread_Scans @@ 13 = IF 
+262 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 I>F F/ ^MD_Mean @! 
+263 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+264 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+265 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+266 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+267 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+268 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+269 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+270 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+271 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+272 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+273 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+274 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+275 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+276 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 12 I>F F/ ^MD_Mean_Avg @! 
+277 LINE.NUM ELSE 
+277 LINE.NUM THEN 
+278 LINE.NUM ^Spread_Scans @@ 14 = IF 
+279 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 I>F F/ ^MD_Mean @! 
+280 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+281 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+282 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+283 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+284 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+285 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+286 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+287 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+288 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+289 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+290 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+291 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+292 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+293 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+294 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 13 I>F F/ ^MD_Mean_Avg @! 
+295 LINE.NUM ELSE 
+295 LINE.NUM THEN 
+296 LINE.NUM ^Spread_Scans @@ 15 = IF 
+297 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 I>F F/ ^MD_Mean @! 
+298 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+299 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+300 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+301 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+302 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+303 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+304 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+305 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+306 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+307 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+308 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+309 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+310 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+311 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+312 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+313 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 14 I>F F/ ^MD_Mean_Avg @! 
+314 LINE.NUM ELSE 
+314 LINE.NUM THEN 
+315 LINE.NUM ^Spread_Scans @@ 16 = IF 
+316 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 I>F F/ ^MD_Mean @! 
+317 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+318 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+319 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+320 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+321 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+322 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+323 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+324 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+325 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+326 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+327 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+328 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+329 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+330 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+331 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+332 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+333 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 15 I>F F/ ^MD_Mean_Avg @! 
+334 LINE.NUM ELSE 
+334 LINE.NUM THEN 
+335 LINE.NUM ^Spread_Scans @@ 17 = IF 
+336 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 I>F F/ ^MD_Mean @! 
+337 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+338 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+339 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+340 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+341 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+342 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+343 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+344 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+345 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+346 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+347 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+348 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+349 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+350 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+351 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+352 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+353 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+354 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 16 I>F F/ ^MD_Mean_Avg @! 
+355 LINE.NUM ELSE 
+355 LINE.NUM THEN 
+356 LINE.NUM ^Spread_Scans @@ 18 = IF 
+357 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 I>F F/ ^MD_Mean @! 
+358 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+359 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+360 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+361 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+362 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+363 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+364 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+365 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+366 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+367 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+368 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+369 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+370 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+371 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+372 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+373 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+374 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+375 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+376 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 17 I>F F/ ^MD_Mean_Avg @! 
+377 LINE.NUM ELSE 
+377 LINE.NUM THEN 
+378 LINE.NUM ^Spread_Scans @@ 19 = IF 
+379 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 I>F F/ ^MD_Mean @! 
+380 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+381 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+382 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+383 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+384 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+385 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+386 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+387 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+388 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+389 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+390 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+391 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+392 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+393 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+394 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+395 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+396 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+397 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+398 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+399 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 18 I>F F/ ^MD_Mean_Avg @! 
+400 LINE.NUM ELSE 
+400 LINE.NUM THEN 
+401 LINE.NUM ^Spread_Scans @@ 20 = IF 
+402 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 I>F F/ ^MD_Mean @! 
+403 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+404 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+405 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+406 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+407 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+408 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+409 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+410 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+411 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+412 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+413 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+414 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+415 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+416 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+417 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+418 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+419 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+420 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+421 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+422 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+423 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 19 I>F F/ ^MD_Mean_Avg @! 
+424 LINE.NUM ELSE 
+424 LINE.NUM THEN 
+425 LINE.NUM ^Spread_Scans @@ 21 = IF 
+426 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 I>F F/ ^MD_Mean @! 
+427 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+428 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+429 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+430 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+431 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+432 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+433 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+434 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+435 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+436 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+437 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+438 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+439 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+440 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+441 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+442 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+443 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+444 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+445 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+446 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+447 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+448 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 20 I>F F/ ^MD_Mean_Avg @! 
+449 LINE.NUM ELSE 
+449 LINE.NUM THEN 
+450 LINE.NUM ^Spread_Scans @@ 22 = IF 
+451 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 I>F F/ ^MD_Mean @! 
+452 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+453 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+454 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+455 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+456 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+457 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+458 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+459 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+460 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+461 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+462 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+463 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+464 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+465 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+466 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+467 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+468 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+469 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+470 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+471 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+472 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+473 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+474 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 21 I>F F/ ^MD_Mean_Avg @! 
+475 LINE.NUM ELSE 
+475 LINE.NUM THEN 
+476 LINE.NUM ^Spread_Scans @@ 23 = IF 
+477 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 I>F F/ ^MD_Mean @! 
+478 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+479 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+480 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+481 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+482 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+483 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+484 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+485 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+486 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+487 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+488 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+489 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+490 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+491 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+492 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+493 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+494 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+495 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+496 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+497 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+498 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+499 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+500 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+501 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 22 I>F F/ ^MD_Mean_Avg @! 
+502 LINE.NUM ELSE 
+502 LINE.NUM THEN 
+503 LINE.NUM ^Spread_Scans @@ 24 = IF 
+504 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 I>F F/ ^MD_Mean @! 
+505 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+506 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+507 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+508 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+509 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+510 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+511 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+512 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+513 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+514 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+515 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+516 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+517 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+518 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+519 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+520 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+521 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+522 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+523 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+524 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+525 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+526 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+527 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+528 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+529 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 23 I>F F/ ^MD_Mean_Avg @! 
+530 LINE.NUM ELSE 
+530 LINE.NUM THEN 
+531 LINE.NUM ^Spread_Scans @@ 25 = IF 
+532 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 I>F F/ ^MD_Mean @! 
+533 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+534 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+535 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+536 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+537 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+538 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+539 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+540 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+541 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+542 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+543 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+544 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+545 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+546 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+547 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+548 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+549 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+550 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+551 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+552 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+553 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+554 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+555 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+556 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+557 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+558 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 24 I>F F/ ^MD_Mean_Avg @! 
+559 LINE.NUM ELSE 
+559 LINE.NUM THEN 
+560 LINE.NUM ^Spread_Scans @@ 26 = IF 
+561 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 }MD_Spread TABLE@ F+ 26 I>F F/ ^MD_Mean @! 
+562 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+563 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+564 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+565 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+566 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+567 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+568 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+569 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+570 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+571 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+572 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+573 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+574 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+575 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+576 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+577 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+578 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+579 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+580 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+581 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+582 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+583 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+584 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+585 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+586 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+587 LINE.NUM 25 }MD_Spread TABLE@ ^MD_Mean @@ F- 25 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 55 }MD_Spread TABLE! 
+588 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 55 }MD_Spread TABLE@ F+ 25 I>F F/ ^MD_Mean_Avg @! 
+589 LINE.NUM ELSE 
+589 LINE.NUM THEN 
+590 LINE.NUM ^Spread_Scans @@ 27 = IF 
+591 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 }MD_Spread TABLE@ F+ 26 }MD_Spread TABLE@ F+ 27 I>F F/ ^MD_Mean @! 
+592 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+593 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+594 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+595 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+596 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+597 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+598 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+599 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+600 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+601 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+602 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+603 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+604 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+605 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+606 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+607 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+608 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+609 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+610 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+611 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+612 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+613 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+614 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+615 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+616 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+617 LINE.NUM 25 }MD_Spread TABLE@ ^MD_Mean @@ F- 25 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 55 }MD_Spread TABLE! 
+618 LINE.NUM 26 }MD_Spread TABLE@ ^MD_Mean @@ F- 26 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 56 }MD_Spread TABLE! 
+619 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 55 }MD_Spread TABLE@ F+ 56 }MD_Spread TABLE@ F+ 26 I>F F/ ^MD_Mean_Avg @! 
+620 LINE.NUM ELSE 
+620 LINE.NUM THEN 
+621 LINE.NUM ^Spread_Scans @@ 28 = IF 
+622 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 }MD_Spread TABLE@ F+ 26 }MD_Spread TABLE@ F+ 27 }MD_Spread TABLE@ F+ 28 I>F F/ ^MD_Mean @! 
+623 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+624 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+625 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+626 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+627 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+628 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+629 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+630 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+631 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+632 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+633 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+634 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+635 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+636 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+637 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+638 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+639 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+640 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+641 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+642 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+643 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+644 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+645 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+646 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+647 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+648 LINE.NUM 25 }MD_Spread TABLE@ ^MD_Mean @@ F- 25 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 55 }MD_Spread TABLE! 
+649 LINE.NUM 26 }MD_Spread TABLE@ ^MD_Mean @@ F- 26 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 56 }MD_Spread TABLE! 
+650 LINE.NUM 27 }MD_Spread TABLE@ ^MD_Mean @@ F- 27 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 57 }MD_Spread TABLE! 
+651 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 55 }MD_Spread TABLE@ F+ 56 }MD_Spread TABLE@ F+ 57 }MD_Spread TABLE@ F+ 27 I>F F/ ^MD_Mean_Avg @! 
+652 LINE.NUM ELSE 
+652 LINE.NUM THEN 
+653 LINE.NUM ^Spread_Scans @@ 29 = IF 
+654 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 }MD_Spread TABLE@ F+ 26 }MD_Spread TABLE@ F+ 27 }MD_Spread TABLE@ F+ 28 }MD_Spread TABLE@ F+ 29 I>F F/ ^MD_Mean @! 
+655 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+656 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+657 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+658 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+659 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+660 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+661 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+662 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+663 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+664 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+665 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+666 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+667 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+668 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+669 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+670 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+671 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+672 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+673 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+674 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+675 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+676 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+677 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+678 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+679 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+680 LINE.NUM 25 }MD_Spread TABLE@ ^MD_Mean @@ F- 25 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 55 }MD_Spread TABLE! 
+681 LINE.NUM 26 }MD_Spread TABLE@ ^MD_Mean @@ F- 26 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 56 }MD_Spread TABLE! 
+682 LINE.NUM 27 }MD_Spread TABLE@ ^MD_Mean @@ F- 27 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 57 }MD_Spread TABLE! 
+683 LINE.NUM 28 }MD_Spread TABLE@ ^MD_Mean @@ F- 28 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 58 }MD_Spread TABLE! 
+684 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 55 }MD_Spread TABLE@ F+ 56 }MD_Spread TABLE@ F+ 57 }MD_Spread TABLE@ F+ 58 }MD_Spread TABLE@ F+ 28 I>F F/ ^MD_Mean_Avg @! 
+685 LINE.NUM ELSE 
+685 LINE.NUM THEN 
+686 LINE.NUM ^Spread_Scans @@ 30 = IF 
+687 LINE.NUM 0 }MD_Spread TABLE@ 1 }MD_Spread TABLE@ F+ 2 }MD_Spread TABLE@ F+ 3 }MD_Spread TABLE@ F+ 4 }MD_Spread TABLE@ F+ 5 }MD_Spread TABLE@ F+ 6 }MD_Spread TABLE@ F+ 7 }MD_Spread TABLE@ F+ 8 }MD_Spread TABLE@ F+ 9 }MD_Spread TABLE@ F+ 10 }MD_Spread TABLE@ F+ 11 }MD_Spread TABLE@ F+ 12 }MD_Spread TABLE@ F+ 13 }MD_Spread TABLE@ F+ 14 }MD_Spread TABLE@ F+ 15 }MD_Spread TABLE@ F+ 16 }MD_Spread TABLE@ F+ 17 }MD_Spread TABLE@ F+ 18 }MD_Spread TABLE@ F+ 19 }MD_Spread TABLE@ F+ 20 }MD_Spread TABLE@ F+ 21 }MD_Spread TABLE@ F+ 22 }MD_Spread TABLE@ F+ 23 }MD_Spread TABLE@ F+ 24 }MD_Spread TABLE@ F+ 25 }MD_Spread TABLE@ F+ 26 }MD_Spread TABLE@ F+ 27 }MD_Spread TABLE@ F+ 28 }MD_Spread TABLE@ F+ 29 }MD_Spread TABLE@ F+ 30 I>F F/ ^MD_Mean @! 
+688 LINE.NUM 0 }MD_Spread TABLE@ ^MD_Mean @@ F- 0 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 30 }MD_Spread TABLE! 
+689 LINE.NUM 1 }MD_Spread TABLE@ ^MD_Mean @@ F- 1 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 31 }MD_Spread TABLE! 
+690 LINE.NUM 2 }MD_Spread TABLE@ ^MD_Mean @@ F- 2 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 32 }MD_Spread TABLE! 
+691 LINE.NUM 3 }MD_Spread TABLE@ ^MD_Mean @@ F- 3 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 33 }MD_Spread TABLE! 
+692 LINE.NUM 4 }MD_Spread TABLE@ ^MD_Mean @@ F- 4 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 34 }MD_Spread TABLE! 
+693 LINE.NUM 5 }MD_Spread TABLE@ ^MD_Mean @@ F- 5 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 35 }MD_Spread TABLE! 
+694 LINE.NUM 6 }MD_Spread TABLE@ ^MD_Mean @@ F- 6 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 36 }MD_Spread TABLE! 
+695 LINE.NUM 7 }MD_Spread TABLE@ ^MD_Mean @@ F- 7 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 37 }MD_Spread TABLE! 
+696 LINE.NUM 8 }MD_Spread TABLE@ ^MD_Mean @@ F- 8 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 38 }MD_Spread TABLE! 
+697 LINE.NUM 9 }MD_Spread TABLE@ ^MD_Mean @@ F- 9 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 39 }MD_Spread TABLE! 
+698 LINE.NUM 10 }MD_Spread TABLE@ ^MD_Mean @@ F- 10 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 40 }MD_Spread TABLE! 
+699 LINE.NUM 11 }MD_Spread TABLE@ ^MD_Mean @@ F- 11 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 41 }MD_Spread TABLE! 
+700 LINE.NUM 12 }MD_Spread TABLE@ ^MD_Mean @@ F- 12 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 42 }MD_Spread TABLE! 
+701 LINE.NUM 13 }MD_Spread TABLE@ ^MD_Mean @@ F- 13 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 43 }MD_Spread TABLE! 
+702 LINE.NUM 14 }MD_Spread TABLE@ ^MD_Mean @@ F- 14 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 44 }MD_Spread TABLE! 
+703 LINE.NUM 15 }MD_Spread TABLE@ ^MD_Mean @@ F- 15 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 45 }MD_Spread TABLE! 
+704 LINE.NUM 16 }MD_Spread TABLE@ ^MD_Mean @@ F- 16 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 46 }MD_Spread TABLE! 
+705 LINE.NUM 17 }MD_Spread TABLE@ ^MD_Mean @@ F- 17 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 47 }MD_Spread TABLE! 
+706 LINE.NUM 18 }MD_Spread TABLE@ ^MD_Mean @@ F- 18 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 48 }MD_Spread TABLE! 
+707 LINE.NUM 19 }MD_Spread TABLE@ ^MD_Mean @@ F- 19 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 49 }MD_Spread TABLE! 
+708 LINE.NUM 20 }MD_Spread TABLE@ ^MD_Mean @@ F- 20 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 50 }MD_Spread TABLE! 
+709 LINE.NUM 21 }MD_Spread TABLE@ ^MD_Mean @@ F- 21 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 51 }MD_Spread TABLE! 
+710 LINE.NUM 22 }MD_Spread TABLE@ ^MD_Mean @@ F- 22 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 52 }MD_Spread TABLE! 
+711 LINE.NUM 23 }MD_Spread TABLE@ ^MD_Mean @@ F- 23 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 53 }MD_Spread TABLE! 
+712 LINE.NUM 24 }MD_Spread TABLE@ ^MD_Mean @@ F- 24 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 54 }MD_Spread TABLE! 
+713 LINE.NUM 25 }MD_Spread TABLE@ ^MD_Mean @@ F- 25 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 55 }MD_Spread TABLE! 
+714 LINE.NUM 26 }MD_Spread TABLE@ ^MD_Mean @@ F- 26 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 56 }MD_Spread TABLE! 
+715 LINE.NUM 27 }MD_Spread TABLE@ ^MD_Mean @@ F- 27 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 57 }MD_Spread TABLE! 
+716 LINE.NUM 28 }MD_Spread TABLE@ ^MD_Mean @@ F- 28 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 58 }MD_Spread TABLE! 
+717 LINE.NUM 29 }MD_Spread TABLE@ ^MD_Mean @@ F- 29 }MD_Spread TABLE@ ^MD_Mean @@ F- F* 59 }MD_Spread TABLE! 
+718 LINE.NUM 30 }MD_Spread TABLE@ 31 }MD_Spread TABLE@ F+ 32 }MD_Spread TABLE@ F+ 33 }MD_Spread TABLE@ F+ 34 }MD_Spread TABLE@ F+ 35 }MD_Spread TABLE@ F+ 36 }MD_Spread TABLE@ F+ 37 }MD_Spread TABLE@ F+ 38 }MD_Spread TABLE@ F+ 39 }MD_Spread TABLE@ F+ 40 }MD_Spread TABLE@ F+ 41 }MD_Spread TABLE@ F+ 42 }MD_Spread TABLE@ F+ 43 }MD_Spread TABLE@ F+ 44 }MD_Spread TABLE@ F+ 45 }MD_Spread TABLE@ F+ 46 }MD_Spread TABLE@ F+ 47 }MD_Spread TABLE@ F+ 48 }MD_Spread TABLE@ F+ 49 }MD_Spread TABLE@ F+ 50 }MD_Spread TABLE@ F+ 51 }MD_Spread TABLE@ F+ 52 }MD_Spread TABLE@ F+ 53 }MD_Spread TABLE@ F+ 54 }MD_Spread TABLE@ F+ 55 }MD_Spread TABLE@ F+ 56 }MD_Spread TABLE@ F+ 57 }MD_Spread TABLE@ F+ 58 }MD_Spread TABLE@ F+ 59 }MD_Spread TABLE@ F+ 29 I>F F/ ^MD_Mean_Avg @! 
+719 LINE.NUM ELSE 
+719 LINE.NUM THEN 
+14 JUMP ;
+: 31_118
+1 LINE.NUM 0 ^Loop_Counter_EOS @! 
+3 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 400 <= WHILE 
+4 LINE.NUM ^Loop_Counter_EOS @@ }Comp_Bucket_Data TABLE@ ^Stat_Comp_Avg @@ F- ^Loop_Counter_EOS @@ }Bucket_Data_CD TABLE! 
+5 LINE.NUM ^Loop_Counter_EOS  1+@! 
+6 LINE.NUM REPEAT 
+8 LINE.NUM ^Edge_Trim_L_Stat @@ ^Loop_Counter_EOS F@! 
+9 LINE.NUM 0 I>F ^Comp_Mean_1 @! 
+10 LINE.NUM BEGIN ^Loop_Counter_EOS @@F ^Edge_Trim_R_Stat @@ F<= WHILE 
+11 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_CD TABLE@ ^Comp_Mean_1 @@ F+ ^Comp_Mean_1 @! 
+12 LINE.NUM ^Loop_Counter_EOS  1+@! 
+13 LINE.NUM REPEAT 
+14 LINE.NUM ^Comp_Mean_1 @@ ^Edge_Trim_Stat_No @@ F/ ^Comp_Mean @! 
+17 LINE.NUM 0 ^Loop_Counter_EOS @! 
+18 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 399 <= WHILE 
+19 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_CD TABLE@ ^Comp_Mean @@ F- ^Loop_Counter_EOS @@ }Bucket_Data_CD TABLE@ ^Comp_Mean @@ F- F* ^Loop_Counter_EOS @@ }Mean_Comp TABLE! 
+20 LINE.NUM ^Loop_Counter_EOS  1+@! 
+21 LINE.NUM REPEAT 
+24 LINE.NUM ^Edge_Trim_L_Stat @@ ^Loop_Counter_EOS F@! 
+25 LINE.NUM 0 I>F ^Last_Mean_1 @! 
+26 LINE.NUM BEGIN ^Loop_Counter_EOS @@F ^Edge_Trim_R_Stat @@ F<= WHILE 
+27 LINE.NUM ^Loop_Counter_EOS @@ }Mean_Comp TABLE@ ^Comp_Mean_1 @@ F+ ^Comp_Mean_1 @! 
+28 LINE.NUM ^Loop_Counter_EOS  1+@! 
+29 LINE.NUM REPEAT 
+30 LINE.NUM ^Comp_Mean_1 @@ ^Edge_Trim_Stat_No @@ 1 I>F F- F/ ^Comp_Mean_Avg @! 
+-2 JUMP ;
+: 31_119
+1 LINE.NUM 0 ^Loop_Counter_EOS @! 
+3 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 400 <= WHILE 
+4 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_Temp TABLE@ ^Stat_Last_Scan_Avg @@ F- ^Loop_Counter_EOS @@ }Bucket_Data_Last_1 TABLE! 
+5 LINE.NUM ^Loop_Counter_EOS  1+@! 
+6 LINE.NUM REPEAT 
+8 LINE.NUM ^Edge_Trim_L_Stat @@ ^Loop_Counter_EOS F@! 
+9 LINE.NUM 0 I>F ^Last_Mean_1 @! 
+10 LINE.NUM BEGIN ^Loop_Counter_EOS @@F ^Edge_Trim_R_Stat @@ F<= WHILE 
+11 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_Last_1 TABLE@ ^Last_Mean_1 @@ F+ ^Last_Mean_1 @! 
+12 LINE.NUM ^Loop_Counter_EOS  1+@! 
+13 LINE.NUM REPEAT 
+14 LINE.NUM ^Last_Mean_1 @@ ^Edge_Trim_Stat_No @@ F/ ^Last_Mean @! 
+17 LINE.NUM 0 ^Loop_Counter_EOS @! 
+18 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 399 <= WHILE 
+19 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_Last_1 TABLE@ ^Last_Mean @@ F- ^Loop_Counter_EOS @@ }Bucket_Data_Last_1 TABLE@ ^Last_Mean @@ F- F* ^Loop_Counter_EOS @@ }Mean_Last TABLE! 
+20 LINE.NUM ^Loop_Counter_EOS  1+@! 
+21 LINE.NUM REPEAT 
+24 LINE.NUM ^Edge_Trim_L_Stat @@ ^Loop_Counter_EOS F@! 
+25 LINE.NUM 0 I>F ^Last_Mean_1 @! 
+26 LINE.NUM BEGIN ^Loop_Counter_EOS @@F ^Edge_Trim_R_Stat @@ F<= WHILE 
+27 LINE.NUM ^Loop_Counter_EOS @@ }Mean_Last TABLE@ ^Last_Mean_1 @@ F+ ^Last_Mean_1 @! 
+28 LINE.NUM ^Loop_Counter_EOS  1+@! 
+29 LINE.NUM REPEAT 
+30 LINE.NUM ^Last_Mean_1 @@ ^Edge_Trim_Stat_No @@ 1 I>F F- F/ ^Last_Mean_Avg @! 
+-2 JUMP ;
+: 31_121
+1 LINE.NUM ^Last_Sqrt @@ ^Std_Dev_Last @! 
+2 LINE.NUM ^Comp_Sqrt @@ ^Std_Dev_Comp @! 
+4 LINE.NUM ^Comp_Mean @@ 0 I>F F> IF 
+6 LINE.NUM ^Comp_Sqrt @@ 2 I>F F* ^Comp_Mean @@ F- ^Spread_CD @! 
+7 LINE.NUM ELSE 
+8 LINE.NUM ^Comp_Sqrt @@ 2 I>F F* ^Comp_Mean @@ F+ ^Spread_CD @! 
+9 LINE.NUM THEN 
+11 LINE.NUM ^MD_Mean_Avg @@ 0 I>F F> IF 
+13 LINE.NUM ^MD_Sqrt @@ 2 I>F F* ^MD_Mean_Avg @@ F- 2 I>F F* ^Spread_MD @! 
+14 LINE.NUM ELSE 
+15 LINE.NUM ^MD_Sqrt @@ 2 I>F F* ^MD_Mean_Avg @@ F+ 2 I>F F* ^Spread_MD @! 
+16 LINE.NUM THEN 
+21 LINE.NUM ^Spread_MD @@ ^Spread_MD @@ F* ^Spread_CD @@ ^Spread_CD @@ F* F+ ^Total_Mean_Avg @! 
+-5 JUMP ;
+: 31_122
+
+1 LINE.NUM
+  ^Last_Mean_Avg @@   FSQRT
+  ^Last_Sqrt @! 
+
+2 LINE.NUM
+  ^Comp_Mean_Avg @@   FSQRT
+  ^Comp_Sqrt @! 
+
+3 LINE.NUM
+  ^MD_Mean_Avg @@   FSQRT
+  ^MD_Sqrt @! 
+-2 JUMP ;
+: 31_123
+1 LINE.NUM 1 ^EOS_Flag_4 @! 
+3 LINE.NUM ^Number_Of_Scans @@ 3 I>F F> IF 
+4 LINE.NUM 1 ^EOS_Flag @! 
+5 LINE.NUM ELSE 
+6 LINE.NUM THEN 
+-10 JUMP ;
+: 31_132
+1 LINE.NUM 0 ^EOS_Data_Number @! 
+2 LINE.NUM 0 ^Prod_Change_Flag @! 
+3 LINE.NUM 0 I>F ^Speed_Sum @! 
+4 LINE.NUM 0 ^Loop_Counter_MIS @! 
+6 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 510 <= WHILE 
+7 LINE.NUM 0 I>F ^Loop_Counter_MIS @@ }MIS_Data TABLE! 
+8 LINE.NUM ^Loop_Counter_MIS  1+@! 
+9 LINE.NUM REPEAT 
+10 LINE.NUM 0 ^MIS_Latch @! 
+11 LINE.NUM 0 ^Roll_End @! 
+12 JUMP ;
+: 31_142
+
+1 LINE.NUM
+  ^Scanned_Length   StartTimer
+31 JUMP ;
+: 31_143
+
+1 LINE.NUM
+  ^Scanned_Length   StopTimer
+1 JUMP ;
+: 31_144
+1 LINE.NUM 0 ^MIS_Latch @! 
+3 LINE.NUM ^Profile_Y_2 @@ ^MIS_Y_1 @! 
+4 LINE.NUM ^Profile_Y_3 @@ ^MIS_Y_2 @! 
+5 LINE.NUM ^Profile_Y_4 @@ ^MIS_Y_3 @! 
+6 LINE.NUM ^MIS_Roll_Number @@ 1 +  ^MIS_Roll_Number @! 
+8 LINE.NUM 1 ^Loop_Counter_MIS @! 
+9 LINE.NUM 0 ^Loop_Counter_MIS_1 @! 
+10 LINE.NUM 1 ^Loop_Counter_MIS_2 @! 
+11 LINE.NUM 2 ^Loop_Counter_MIS_3 @! 
+12 LINE.NUM 3 ^Loop_Counter_MIS_4 @! 
+14 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 100 <= WHILE 
+15 LINE.NUM ^Loop_Counter_MIS_1 @@ }MIS_Data TABLE@ ^Loop_Counter_MIS_2 @@ }MIS_Data TABLE@ F+ ^Loop_Counter_MIS_3 @@ }MIS_Data TABLE@ F+ ^Loop_Counter_MIS_4 @@ }MIS_Data TABLE@ F+ 4 I>F F/ ^EOS_Data_Number @@F F/ ^Loop_Counter_MIS @@ }MIS_Data_Old TABLE! 
+16 LINE.NUM ^Loop_Counter_MIS  1+@! 
+17 LINE.NUM ^Loop_Counter_MIS_1 @@ 4 +  ^Loop_Counter_MIS_1 @! 
+18 LINE.NUM ^Loop_Counter_MIS_2 @@ 4 +  ^Loop_Counter_MIS_2 @! 
+19 LINE.NUM ^Loop_Counter_MIS_3 @@ 4 +  ^Loop_Counter_MIS_3 @! 
+20 LINE.NUM ^Loop_Counter_MIS_4 @@ 4 +  ^Loop_Counter_MIS_4 @! 
+21 LINE.NUM REPEAT 
+23 LINE.NUM 505 }MIS_Data TABLE@ ^MIS_Roll_Max @! 
+24 LINE.NUM 506 }MIS_Data TABLE@ ^MIS_Roll_Min @! 
+26 LINE.NUM 100 ^Loop_Counter_MIS @! 
+27 LINE.NUM 400 ^Loop_Counter_MIS_1 @! 
+29 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 210 <= WHILE 
+30 LINE.NUM ^Loop_Counter_MIS_1 @@ }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^Loop_Counter_MIS @@ }MIS_Data_Old TABLE! 
+31 LINE.NUM ^Loop_Counter_MIS  1+@! 
+32 LINE.NUM ^Loop_Counter_MIS_1  1+@! 
+33 LINE.NUM REPEAT 
+35 LINE.NUM 1 ^Loop_Counter_MIS @! 
+37 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 100 <= WHILE 
+38 LINE.NUM ^Loop_Counter_MIS @@ }MIS_Data_Old TABLE@ 2 I>F F* 100 I>F F- ^Loop_Counter_MIS @@ }MIS_Scaled TABLE! 
+39 LINE.NUM ^Loop_Counter_MIS  1+@! 
+40 LINE.NUM REPEAT 
+44 LINE.NUM 201 }MIS_Data_Old TABLE@ ^Spread_MD_MIS @! 
+45 LINE.NUM 202 }MIS_Data_Old TABLE@ ^Spread_CD_MIS @! 
+46 LINE.NUM 203 }MIS_Data_Old TABLE@ ^Spread_Total_MIS @! 
+47 LINE.NUM 204 }MIS_Data_Old TABLE@ ^MIS_Roll_Avg @! 
+50 LINE.NUM ^MIS_Roll_Max @@ ^MIS_Roll_Min @@ F- ^MIS_Roll_Range @! 
+51 LINE.NUM 208 }MIS_Data_Old TABLE@ ^MIS_Roll_StdDev @! 
+53 LINE.NUM ^Web_Width @@ ^Web_Width_MIS @! 
+55 LINE.NUM ^EOS_Data_Number @@F ^Scans_In_Roll @! 
+57 LINE.NUM ^Speed_Sum @@ ^EOS_Data_Number @@F F/ ^Speed_Avg @! 
+59 LINE.NUM ^Roll_Start_Hrs_A @@ ^Roll_Start_HRS @! 
+60 LINE.NUM ^Roll_Start_Min_A @@ ^Roll_Start_MIN @! 
+62 LINE.NUM  TIME@ -ROT DROP DROP I>F  ^Roll_End_HRS @! 
+63 LINE.NUM  TIME@ DROP SWAP DROP I>F  ^Roll_End_MIN @! 
+65 LINE.NUM ^Scanned_Length @@F ^Scanned_Time @! 
+67 LINE.NUM ^Scanned_Time @@ 60 I>F F/ ^Speed_Avg @@ F* ^Roll_Length_MIS @! 
+68 LINE.NUM ^Weight_TGT @@ ^Weight_Tgt_1_MIS @! 
+69 LINE.NUM ^Web_Width_MIS @@ 1000 I>F F/ ^BW_Spec_Gravity @@ F* ^Last_Scan_Avg_Roll @@ F* ^Roll_Length_MIS @@ F* 1000 I>F F/ ^Roll_Weight_MIS @! 
+71 LINE.NUM ^Roll_Weight_MIS @@ 1000 I>F F* ^Roll_Length_MIS @@ ^Web_Width_MIS @@ 1000 I>F F/ F* F/ ^Roll_GSM_MIS @! 
+-2 JUMP ;
+: 31_146
+1 LINE.NUM 10 I>F  FDELAY 
+2 LINE.NUM 1 ^Print_Report_Flag @! 
+3 LINE.NUM 5 I>F  FDELAY 
+4 LINE.NUM 0 ^EOS_Data_Number @! 
+5 LINE.NUM 0 ^Prod_Change_Flag @! 
+6 LINE.NUM 0 I>F ^Speed_Sum @! 
+8 LINE.NUM 0 ^Loop_Counter_MIS @! 
+10 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 508 <= WHILE 
+11 LINE.NUM 0 I>F ^Loop_Counter_MIS @@ }MIS_Data TABLE! 
+12 LINE.NUM ^Loop_Counter_MIS  1+@! 
+13 LINE.NUM REPEAT 
+15 LINE.NUM 0 ^Roll_End @! 
+18 LINE.NUM 0 ^Roll_End @! 
+8 JUMP ;
+: 31_147
+1 LINE.NUM  TIME@ -ROT DROP DROP I>F  ^Roll_Start_Hrs_A @! 
+2 LINE.NUM  TIME@ DROP SWAP DROP I>F  ^Roll_Start_Min_A @! 
+3 LINE.NUM 0 ^EOS_Data_Number @! 
+4 LINE.NUM 0 ^Prod_Change_Flag @! 
+5 LINE.NUM ^BW_Spec_Gravity @@ ^BW_Spec_Gravity_MIS @! 
+6 LINE.NUM 1 ^MIS_Latch @! 
+8 LINE.NUM ^Last_Scan_Max @@ 505 }MIS_Data TABLE! 
+9 LINE.NUM ^Last_Scan_Min @@ 506 }MIS_Data TABLE! 
+-5 JUMP ;
+: 31_156
+1 LINE.NUM 0 ^Loop_Counter_MIS @! 
+3 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 400 <= WHILE 
+4 LINE.NUM ^Loop_Counter_MIS @@ }MIS_Data TABLE@ ^Loop_Counter_MIS @@ }Last_Scan_Scaled TABLE@ F+ ^Loop_Counter_MIS @@ }MIS_Data TABLE! 
+5 LINE.NUM ^Loop_Counter_MIS  1+@! 
+7 LINE.NUM REPEAT 
+9 LINE.NUM }Bucket_Data_Oriented 0 }MIS_Data_Last 0 400  CopyTable  
+11 LINE.NUM 1 }MIS_Data_Last TABLE@ 2 }MIS_Data_Last TABLE@ F+ 3 }MIS_Data_Last TABLE@ F+ 4 }MIS_Data_Last TABLE@ F+ 4 I>F F/ 1 }MIS_Data_Last_AB TABLE! 
+12 LINE.NUM 2 ^Loop_Counter_MIS @! 
+13 LINE.NUM 5 ^Loop_Counter_MIS_1 @! 
+14 LINE.NUM 6 ^Loop_Counter_MIS_2 @! 
+15 LINE.NUM 7 ^Loop_Counter_MIS_3 @! 
+16 LINE.NUM 8 ^Loop_Counter_MIS_4 @! 
+17 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 100 <= WHILE 
+18 LINE.NUM ^Loop_Counter_MIS_1 @@ }MIS_Data_Last TABLE@ ^Loop_Counter_MIS_2 @@ }MIS_Data_Last TABLE@ F+ ^Loop_Counter_MIS_3 @@ }MIS_Data_Last TABLE@ F+ ^Loop_Counter_MIS_4 @@ }MIS_Data_Last TABLE@ F+ 4 I>F F/ ^Loop_Counter_MIS @@ }MIS_Data_Last_AB TABLE! 
+19 LINE.NUM ^Loop_Counter_MIS  1+@! 
+20 LINE.NUM ^Loop_Counter_MIS_1 @@ 4 +  ^Loop_Counter_MIS_1 @! 
+21 LINE.NUM ^Loop_Counter_MIS_2 @@ 4 +  ^Loop_Counter_MIS_2 @! 
+22 LINE.NUM ^Loop_Counter_MIS_3 @@ 4 +  ^Loop_Counter_MIS_3 @! 
+23 LINE.NUM ^Loop_Counter_MIS_4 @@ 4 +  ^Loop_Counter_MIS_4 @! 
+24 LINE.NUM REPEAT 
+25 LINE.NUM 398 }MIS_Data_Last TABLE@ 398 }MIS_Data_Last TABLE@ F+ 399 }MIS_Data_Last TABLE@ F+ 399 }MIS_Data_Last TABLE@ F+ 4 I>F F/ 100 }MIS_Data_Last_AB TABLE! 
+129 LINE.NUM 500 }MIS_Data TABLE@ 500 }MIS_Data TABLE! 
+130 LINE.NUM 501 }MIS_Data TABLE@ ^Spread_MD @@ F+ 501 }MIS_Data TABLE! 
+131 LINE.NUM 502 }MIS_Data TABLE@ ^Spread_CD @@ F+ 502 }MIS_Data TABLE! 
+132 LINE.NUM 503 }MIS_Data TABLE@ ^Spread_Total @@ F+ 503 }MIS_Data TABLE! 
+133 LINE.NUM 504 }MIS_Data TABLE@ ^Stat_Last_Scan_Avg @@ F+ 504 }MIS_Data TABLE! 
+135 LINE.NUM ^Last_Scan_Max @@ 505 }MIS_Data TABLE@ F> IF 
+136 LINE.NUM ^Last_Scan_Max @@ 505 }MIS_Data TABLE! 
+137 LINE.NUM ELSE 
+137 LINE.NUM THEN 
+139 LINE.NUM ^Last_Scan_Min @@ 506 }MIS_Data TABLE@ F< IF 
+140 LINE.NUM ^Last_Scan_Min @@ 506 }MIS_Data TABLE! 
+141 LINE.NUM ELSE 
+141 LINE.NUM THEN 
+144 LINE.NUM 507 }MIS_Data TABLE@ ^Last_Scan_Range @@ F+ 507 }MIS_Data TABLE! 
+145 LINE.NUM 508 }MIS_Data TABLE@ ^Std_Dev_Last @@ F+ 508 }MIS_Data TABLE! 
+149 LINE.NUM ^Speed_Now @@ ^Speed_Sum @@ F+ ^Speed_Sum @! 
+151 LINE.NUM ^EOS_Data_Number @@ 1 +  ^EOS_Data_Number @! 
+152 LINE.NUM 0 ^EOS_Flag @! 
+153 LINE.NUM 1 ^EOS_Flag_MIS_AB @! 
+5 JUMP ;
+: 31_183
+1 LINE.NUM &Utility  ?RUNNING ^Chart_Status @! 
+2 LINE.NUM ^Chart_Status @@ 0 = IF 
+3 LINE.NUM &Utility  START.T DROP  
+4 LINE.NUM ELSE 
+4 LINE.NUM THEN 
+22 JUMP ;
+: 31_190
+23 JUMP ;
+: 31_193
+1 LINE.NUM ^Last_Mean_Avg @@ 0 I>F F< IF 
+2 LINE.NUM ^Last_Mean_Avg @@ -1 I>F F* ^Last_Mean_Avg @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+4 LINE.NUM ^Comp_Mean_Avg @@ 0 I>F F< IF 
+5 LINE.NUM ^Comp_Mean_Avg @@ -1 I>F F* ^Comp_Mean_Avg @! 
+6 LINE.NUM ELSE 
+6 LINE.NUM THEN 
+7 LINE.NUM ^MD_Mean_Avg @@ 0 I>F F< IF 
+8 LINE.NUM ^MD_Mean_Avg @@ -1 I>F F* ^MD_Mean_Avg @! 
+9 LINE.NUM ELSE 
+9 LINE.NUM THEN 
+-12 JUMP ;
+: 31_196
+23 JUMP ;
+: 31_206
+1 LINE.NUM 5 ^Loop_Counter_EOS @! 
+2 LINE.NUM BEGIN ^Loop_Counter_EOS @@ 395 <= WHILE 
+3 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_Temp TABLE@ ^Last_Scan_Avg_1 @@ F+ ^Last_Scan_Avg_1 @! 
+4 LINE.NUM ^Loop_Counter_EOS  1+@! 
+5 LINE.NUM REPEAT 
+7 LINE.NUM ^Last_Scan_Avg_1 @@ 391 I>F F/ ^Stat_Last_Scan_Avg @! 
+8 LINE.NUM ^Stat_Last_Scan_Avg @@ ^Last_Scan_Avg @! 
+9 LINE.NUM 0 I>F ^Last_Scan_Avg_1 @! 
+13 LINE.NUM 5 ^Loop_Counter_3 @! 
+14 LINE.NUM BEGIN ^Loop_Counter_3 @@ 395 <= WHILE 
+15 LINE.NUM ^Loop_Counter_3 @@ }Comp_Scan_Raw TABLE@ ^Comp_Avg_1 @@ F+ ^Comp_Avg_1 @! 
+16 LINE.NUM ^Loop_Counter_3  1+@! 
+17 LINE.NUM REPEAT 
+19 LINE.NUM ^Comp_Avg_1 @@ 391 I>F F/ ^Stat_Comp_Avg @! 
+20 LINE.NUM ^Stat_Comp_Avg @@ ^Comp_Avg @! 
+21 LINE.NUM 0 I>F ^Comp_Avg_1 @! 
+-20 JUMP ;
+: 31_211
+1 LINE.NUM 1 ^Loop_Counter_MIS @! 
+2 LINE.NUM 1 ^Loop_Counter_MIS_1 @! 
+3 LINE.NUM 2 ^Loop_Counter_MIS_2 @! 
+4 LINE.NUM 3 ^Loop_Counter_MIS_3 @! 
+5 LINE.NUM 4 ^Loop_Counter_MIS_4 @! 
+9 LINE.NUM BEGIN ^Loop_Counter_MIS @@ 100 <= WHILE 
+10 LINE.NUM ^Loop_Counter_MIS_1 @@ }MIS_Data TABLE@ ^Loop_Counter_MIS_2 @@ }MIS_Data TABLE@ F+ ^Loop_Counter_MIS_3 @@ }MIS_Data TABLE@ F+ ^Loop_Counter_MIS_4 @@ }MIS_Data TABLE@ F+ 4 I>F F/ ^EOS_Data_Number @@F F/ ^Loop_Counter_MIS @@ }MIS_Data_Old TABLE! 
+11 LINE.NUM ^Loop_Counter_MIS  1+@! 
+12 LINE.NUM ^Loop_Counter_MIS_1 @@ 4 +  ^Loop_Counter_MIS_1 @! 
+13 LINE.NUM ^Loop_Counter_MIS_2 @@ 4 +  ^Loop_Counter_MIS_2 @! 
+14 LINE.NUM ^Loop_Counter_MIS_3 @@ 4 +  ^Loop_Counter_MIS_3 @! 
+15 LINE.NUM ^Loop_Counter_MIS_4 @@ 4 +  ^Loop_Counter_MIS_4 @! 
+16 LINE.NUM REPEAT 
+17 LINE.NUM 398 }MIS_Data TABLE@ 398 }MIS_Data TABLE@ F+ 399 }MIS_Data TABLE@ F+ 399 }MIS_Data TABLE@ F+ 4 I>F F/ ^EOS_Data_Number @@F F/ 100 }MIS_Data_Old TABLE! 
+19 LINE.NUM 501 }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^Spread_MD_MIS @! 
+20 LINE.NUM 502 }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^Spread_CD_MIS @! 
+21 LINE.NUM 503 }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^Spread_Total_MIS @! 
+22 LINE.NUM 504 }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^MIS_Roll_Avg @! 
+23 LINE.NUM 505 }MIS_Data TABLE@ ^MIS_Roll_Max @! 
+24 LINE.NUM 506 }MIS_Data TABLE@ ^MIS_Roll_Min @! 
+25 LINE.NUM ^MIS_Roll_Max @@ ^MIS_Roll_Min @@ F- ^MIS_Roll_Range @! 
+26 LINE.NUM 508 }MIS_Data TABLE@ ^EOS_Data_Number @@F F/ ^MIS_Roll_StdDev @! 
+0 JUMP ;
+: 31_218
+1 LINE.NUM 1 ^EOS_Flag_MIS_AB @! 
+-26 JUMP ;
+: 31_241
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 14 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 14 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 14 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 14 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 14 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM ELSE 
+24 LINE.NUM THEN 
+26 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_242
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 15 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 15 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 15 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 15 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 15 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM ELSE 
+25 LINE.NUM THEN 
+27 LINE.NUM 0 ^Loop_Counter_9 @! 
+0 JUMP ;
+: 31_243
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 16 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_16_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 16 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 16 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_16_Bucket_Data TABLE@ 16 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 16 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM }Comp_Bucket_Data 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+26 LINE.NUM ELSE 
+26 LINE.NUM THEN 
+28 LINE.NUM 0 ^Loop_Counter_9 @! 
+6 JUMP ;
+: 31_244
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 13 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 13 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 13 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 13 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 13 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM ELSE 
+23 LINE.NUM THEN 
+25 LINE.NUM 0 ^Loop_Counter_9 @! 
+-4 JUMP ;
+: 31_245
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 12 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 12 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 12 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 12 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 12 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM ELSE 
+22 LINE.NUM THEN 
+24 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_246
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 11 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 11 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 11 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 11 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 11 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM ELSE 
+21 LINE.NUM THEN 
+23 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_251
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 20 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_20_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 20 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 20 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_16_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_17_Bucket_Data TABLE@ 20 I>F F/ F+ 
+^Loop_Counter_9 @@ }Comp_18_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_19_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_20_Bucket_Data TABLE@ 20 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 20 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM }Comp_Bucket_Data 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+26 LINE.NUM }Comp_Bucket_Data 0 }Comp_16_Bucket_Data 0 402  CopyTable  
+27 LINE.NUM }Comp_Bucket_Data 0 }Comp_17_Bucket_Data 0 402  CopyTable  
+28 LINE.NUM }Comp_Bucket_Data 0 }Comp_18_Bucket_Data 0 402  CopyTable  
+29 LINE.NUM }Comp_Bucket_Data 0 }Comp_19_Bucket_Data 0 402  CopyTable  
+30 LINE.NUM ELSE 
+30 LINE.NUM THEN 
+32 LINE.NUM 0 ^Loop_Counter_9 @! 
+-10 JUMP ;
+: 31_252
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 19 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_19_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 19 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 19 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_16_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_17_Bucket_Data TABLE@ 19 I>F F/ F+ 
+^Loop_Counter_9 @@ }Comp_18_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_19_Bucket_Data TABLE@ 19 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 19 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM }Comp_Bucket_Data 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+26 LINE.NUM }Comp_Bucket_Data 0 }Comp_16_Bucket_Data 0 402  CopyTable  
+27 LINE.NUM }Comp_Bucket_Data 0 }Comp_17_Bucket_Data 0 402  CopyTable  
+28 LINE.NUM }Comp_Bucket_Data 0 }Comp_18_Bucket_Data 0 402  CopyTable  
+29 LINE.NUM ELSE 
+29 LINE.NUM THEN 
+31 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_253
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 18 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_18_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 18 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 18 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_16_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_17_Bucket_Data TABLE@ 18 I>F F/ F+ 
+^Loop_Counter_9 @@ }Comp_18_Bucket_Data TABLE@ 18 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 18 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM }Comp_Bucket_Data 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+26 LINE.NUM }Comp_Bucket_Data 0 }Comp_16_Bucket_Data 0 402  CopyTable  
+27 LINE.NUM }Comp_Bucket_Data 0 }Comp_17_Bucket_Data 0 402  CopyTable  
+28 LINE.NUM ELSE 
+28 LINE.NUM THEN 
+30 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_254
+1 LINE.NUM ^Number_Of_Comp_Scans @@ 17 I>F F= IF 
+2 LINE.NUM }Bucket_Data_Temp 0 }Comp_17_Bucket_Data 0 402  CopyTable  
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM BEGIN ^Number_Of_Comp_Scans @@ 17 I>F F= ^Loop_Counter_9 @@ 402 <= LAND  WHILE 
+6 LINE.NUM ^Loop_Counter_9 @@ }Comp_1_Bucket_Data TABLE@ 17 I>F F/ ^Loop_Counter_9 @@ }Comp_2_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_3_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_4_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_5_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_6_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_7_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_8_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_9_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_10_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_11_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_12_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_13_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_14_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_15_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_16_Bucket_Data TABLE@ 17 I>F F/ F+ ^Loop_Counter_9 @@ }Comp_17_Bucket_Data TABLE@ 17 I>F F/ F+ 
+^Loop_Counter_9 @@ }Comp_Bucket_Data TABLE! 
+7 LINE.NUM ^Loop_Counter_9  1+@! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM ^Number_Of_Comp_Scans @@ 17 I>F F= IF 
+11 LINE.NUM }Comp_Bucket_Data 0 }Comp_1_Bucket_Data 0 402  CopyTable  
+12 LINE.NUM }Comp_Bucket_Data 0 }Comp_2_Bucket_Data 0 402  CopyTable  
+13 LINE.NUM }Comp_Bucket_Data 0 }Comp_3_Bucket_Data 0 402  CopyTable  
+14 LINE.NUM }Comp_Bucket_Data 0 }Comp_4_Bucket_Data 0 402  CopyTable  
+15 LINE.NUM }Comp_Bucket_Data 0 }Comp_5_Bucket_Data 0 402  CopyTable  
+16 LINE.NUM }Comp_Bucket_Data 0 }Comp_6_Bucket_Data 0 402  CopyTable  
+17 LINE.NUM }Comp_Bucket_Data 0 }Comp_7_Bucket_Data 0 402  CopyTable  
+18 LINE.NUM }Comp_Bucket_Data 0 }Comp_8_Bucket_Data 0 402  CopyTable  
+19 LINE.NUM }Comp_Bucket_Data 0 }Comp_9_Bucket_Data 0 402  CopyTable  
+20 LINE.NUM }Comp_Bucket_Data 0 }Comp_10_Bucket_Data 0 402  CopyTable  
+21 LINE.NUM }Comp_Bucket_Data 0 }Comp_11_Bucket_Data 0 402  CopyTable  
+22 LINE.NUM }Comp_Bucket_Data 0 }Comp_12_Bucket_Data 0 402  CopyTable  
+23 LINE.NUM }Comp_Bucket_Data 0 }Comp_13_Bucket_Data 0 402  CopyTable  
+24 LINE.NUM }Comp_Bucket_Data 0 }Comp_14_Bucket_Data 0 402  CopyTable  
+25 LINE.NUM }Comp_Bucket_Data 0 }Comp_15_Bucket_Data 0 402  CopyTable  
+26 LINE.NUM }Comp_Bucket_Data 0 }Comp_16_Bucket_Data 0 402  CopyTable  
+27 LINE.NUM ELSE 
+27 LINE.NUM THEN 
+29 LINE.NUM 0 ^Loop_Counter_9 @! 
+-2 JUMP ;
+: 31_265
+3 LINE.NUM ^L7 @@ ^Weight_TGT @@ 9.500000e-001 F* F< ^L12 @@ ^Weight_TGT @@ 1.050000e+000 F* F> LOR  IF 
+4 LINE.NUM 1 ^Weight_Alarm @! 
+5 LINE.NUM ELSE 
+5 LINE.NUM 0 ^Weight_Alarm @! 
+6 LINE.NUM 0 ~Weight_Alarm_OP @! 
+7 LINE.NUM 0 ^Weight_Alarm_Ack @! 
+8 LINE.NUM THEN 
+6 JUMP ;
+: 31_274
+3 LINE.NUM BEGIN ^Loop_Counter_EOS @@ ^Loop_Counter_3 @@ 10 *  5 +  < WHILE 
+4 LINE.NUM ^Loop_Counter_EOS @@ }Bucket_Data_Temp TABLE@ ^Loop_Counter_3 @@ }Last_Scan_Inches TABLE@ F+ ^Loop_Counter_3 @@ }Last_Scan_Inches TABLE! 
+5 LINE.NUM ^Loop_Counter_EOS  1+@! 
+6 LINE.NUM REPEAT 
+8 LINE.NUM ^Loop_Counter_3 @@ }Last_Scan_Inches TABLE@ 10 I>F F/ ^Loop_Counter_3 @@ }Last_Scan_Inches TABLE! 
+9 LINE.NUM ^Loop_Counter_3  1+@! 
+15 LINE.NUM ^L4 @@ }Last_Scan_Inches TABLE@ 0 I>F F> ^L4 @@ }Last_Scan_Inches TABLE@ ^L7 @@ F< LAND  IF 
+16 LINE.NUM ^L4 @@ }Last_Scan_Inches TABLE@ ^L7 @! 
+18 LINE.NUM ELSE 
+19 LINE.NUM THEN 
+22 LINE.NUM ^L4 @@ }Last_Scan_Inches TABLE@ ^L12 @@ F> IF 
+23 LINE.NUM ^L4 @@ }Last_Scan_Inches TABLE@ ^L12 @! 
+25 LINE.NUM ELSE 
+26 LINE.NUM THEN 
+28 LINE.NUM ^L4 @@ 1 +  ^L4 @! 
+12 JUMP ;
+: 31_56
+TRUE
+
+1 LINE.NUM
+  ^L4 @@F 
+  ^Edge_Trim_R_Stat @@   F>=
+LAND
+IF -46 ELSE -47 THEN JUMP ;
+: 31_62
+TRUE
+
+1 LINE.NUM
+  ^L4 @@F 
+  ^Edge_Trim_R_Stat @@   F>=
+LAND
+IF -45 ELSE -46 THEN JUMP ;
+: 31_70
+TRUE
+
+1 LINE.NUM
+  ^L4 @@F 
+  ^Edge_Trim_R_Stat @@   F>=
+LAND
+IF -45 ELSE -44 THEN JUMP ;
+: 31_74
+TRUE
+
+1 LINE.NUM
+  ^L4 @@F 
+  ^Edge_Trim_R_Stat @@   F>=
+LAND
+IF -44 ELSE -43 THEN JUMP ;
+: 31_84
+TRUE
+
+1 LINE.NUM
+  ^EOS_Flag_EOS @@ 
+  ^ONE @@   =
+LAND
+IF -40 ELSE -43 THEN JUMP ;
+: 31_125
+TRUE
+
+1 LINE.NUM
+  ^Number_Of_Comp_Scans @@ 
+  3 I>F   F>
+LAND
+IF -36 ELSE -33 THEN JUMP ;
+: 31_136
+TRUE
+
+1 LINE.NUM
+  ^EOS_Data_Number @@ 
+  ^TEN @@   >=
+LAND
+IF -30 ELSE -33 THEN JUMP ;
+: 31_158
+TRUE
+
+1 LINE.NUM
+  ^Roll_End @@ 
+  ^ONE @@   =
+LAND
+IF -2 ELSE -28 THEN JUMP ;
+: 31_160
+TRUE
+
+1 LINE.NUM
+  ^MIS_ON @@ 
+  ^ONE @@   =
+LAND
+IF 0 ELSE 1 THEN JUMP ;
+: 31_175
+TRUE
+
+1 LINE.NUM
+  ^MIS_Latch @@ 
+  1    =
+LAND
+IF -3 ELSE -31 THEN JUMP ;
+: 31_187
+TRUE
+
+1 LINE.NUM
+  ^MIS_Latch @@ 
+  1    =
+LAND
+IF -29 ELSE -49 THEN JUMP ;
+: 31_201
+TRUE
+
+1 LINE.NUM
+  ^Number_Of_Comp_Scans @@ 
+  ^THREE @@F   F>=
+LAND
+IF -28 ELSE -4 THEN JUMP ;
+: 31_272
+TRUE
+
+1 LINE.NUM
+  ^Loop_Counter_3 @@ 
+  40    >=
+LAND
+IF -15 ELSE -14 THEN JUMP ;
+T: T31
+DUMMY
+31_0
+31_4
+31_33
+31_34
+31_35
+31_36
+31_42
+31_43
+31_44
+31_45
+31_46
+31_47
+31_48
+31_49
+31_54
+31_55
+31_60
+31_61
+31_67
+31_75
+31_76
+31_77
+31_85
+31_90
+31_97
+31_101
+31_109
+31_116
+31_117
+31_118
+31_119
+31_121
+31_122
+31_123
+31_132
+31_142
+31_143
+31_144
+31_146
+31_147
+31_156
+31_183
+31_190
+31_193
+31_196
+31_206
+31_211
+31_218
+31_241
+31_242
+31_243
+31_244
+31_245
+31_246
+31_251
+31_252
+31_253
+31_254
+31_265
+31_274
+31_56
+31_62
+31_70
+31_74
+31_84
+31_125
+31_136
+31_158
+31_160
+31_175
+31_187
+31_201
+31_272
+T;
+&EOS_Data ' T31 SETTASK

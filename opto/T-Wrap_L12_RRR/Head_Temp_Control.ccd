@@ -1,0 +1,224 @@
+: 41_0
+2 JUMP ;
+: 41_1
+1 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F< IF 
+1 LINE.NUM 1 ^Temp_Control_Override @! 
+1 LINE.NUM ELSE 
+1 LINE.NUM THEN 
+3 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F> IF 
+3 LINE.NUM -1 ^Temp_Control_Override @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F> ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F< LAND  IF 
+5 LINE.NUM 0 ^Temp_Control_Override @! 
+5 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+21 JUMP ;
+: 41_4
+1 LINE.NUM 0 ~Ion_Heater @! 
+5 LINE.NUM BEGIN ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 9.000000e-002 F+ F> WHILE 
+6 LINE.NUM ^RX_Head_Temp_Time @@ ^Temp_RX_Head_SP @@ ^Temp_RX_Head @@ F- ^RX_Head_Temp_SP_FF @@ F* 5.000000e-001 F* F+ ^RX_Head_Temp_Time @! 
+7 LINE.NUM 1 I>F  FDELAY 
+9 LINE.NUM REPEAT 
+11 JUMP ;
+: 41_5
+1 LINE.NUM 1 I>F ^RX_Head_Temp_Time @! 
+3 LINE.NUM 2 I>F  FDELAY 
+-3 JUMP ;
+: 41_6
+1 LINE.NUM 1 ~Ion_Heater @! 
+3 LINE.NUM ^RX_Head_Temp_Time @@ ^Temp_RX_Head_SP @@ ^Temp_RX_Head @@ F- ^RX_Head_Temp_SP_FF @@ F* F+ ^RX_Head_Temp_Time @! 
+6 LINE.NUM BEGIN ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 5.900000e-001 F- F< WHILE 
+7 LINE.NUM 1 ~Ion_Heater @! 
+8 LINE.NUM REPEAT 
+10 LINE.NUM 0 ~Ion_Heater @! 
+0 JUMP ;
+: 41_13
+1 LINE.NUM ^Temp_RX_Head @@ ^Temp_RX_Head_SP @@ ^Temp_RX_Head_DB @@ F- F< IF 
+2 LINE.NUM ^RX_Head_Temp_Time @@ ^Temp_RX_Head_SP @@ ^Temp_RX_Head @@ F- ^RX_Head_Temp_SP_FF @@ F* F+ ^RX_Head_Temp_Time @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM ^RX_Head_Temp_Time @@ 3 I>F F> IF 
+5 LINE.NUM 3 I>F ^RX_Head_Temp_Time @! 
+5 LINE.NUM THEN 
+7 LINE.NUM ^RX_Head_Temp_Time @@ 2.500000e-001 F< IF 
+7 LINE.NUM 2.500000e-001 ^RX_Head_Temp_Time @! 
+7 LINE.NUM THEN 
+9 LINE.NUM 1 ~Ion_Heater @! 
+0 JUMP ;
+: 41_14
+
+1 LINE.NUM
+  ^RX_Head_Temp_Time @@ 
+  ^RX_Head_Timer   SetTimer
+
+2 LINE.NUM
+  6.0  
+  ^RX_Head_Cycle   SetTimer
+
+3 LINE.NUM
+  ^RX_Head_Timer   StartTimer
+
+4 LINE.NUM
+  ^RX_Head_Cycle   StartTimer
+12 JUMP ;
+: 41_17
+
+1 LINE.NUM
+  10    DELAY
+11 JUMP ;
+: 41_18
+
+1 LINE.NUM
+  10    DELAY
+11 JUMP ;
+: 41_30
+1 LINE.NUM 0 ~Ion_Heater @! 
+10 JUMP ;
+: 41_35
+1 LINE.NUM 0 ~Ion_Heater @! 
+10 JUMP ;
+: 41_42
+
+1 LINE.NUM
+  10    DELAY
+9 JUMP ;
+: 41_43
+
+1 LINE.NUM
+  10    DELAY
+9 JUMP ;
+: 41_46
+
+1 LINE.NUM
+  ^RX_Head_Temp_Time @@ 
+  ^RX_Head_Timer   SetTimer
+
+2 LINE.NUM
+  6.0  
+  ^RX_Head_Cycle   SetTimer
+
+3 LINE.NUM
+  ^RX_Head_Timer   StartTimer
+
+4 LINE.NUM
+  ^RX_Head_Cycle   StartTimer
+8 JUMP ;
+: 41_47
+1 LINE.NUM ^RX_Head_Temp_Time @@ ^Temp_RX_Head_SP @@ ^Temp_RX_Head @@ F- ^RX_Head_Temp_SP_FF @@ F* F+ ^RX_Head_Temp_Time @! 
+3 LINE.NUM ^RX_Head_Temp_Time @@ 3 I>F F> IF 
+3 LINE.NUM 3 I>F ^RX_Head_Temp_Time @! 
+3 LINE.NUM THEN 
+5 LINE.NUM ^RX_Head_Temp_Time @@ 2.500000e-001 F< IF 
+5 LINE.NUM 2.500000e-001 ^RX_Head_Temp_Time @! 
+5 LINE.NUM THEN 
+7 LINE.NUM 1 ~Ion_Heater @! 
+-2 JUMP ;
+: 41_49
+1 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F< IF 
+1 LINE.NUM 1 ^Temp_Control_Override @! 
+1 LINE.NUM ELSE 
+1 LINE.NUM THEN 
+3 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F> IF 
+3 LINE.NUM -1 ^Temp_Control_Override @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F> ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F< LAND  IF 
+5 LINE.NUM 0 ^Temp_Control_Override @! 
+5 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+-15 JUMP ;
+: 41_51
+1 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F< IF 
+1 LINE.NUM 1 ^Temp_Control_Override @! 
+1 LINE.NUM ELSE 
+1 LINE.NUM THEN 
+3 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F> IF 
+3 LINE.NUM -1 ^Temp_Control_Override @! 
+3 LINE.NUM ELSE 
+3 LINE.NUM THEN 
+5 LINE.NUM ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 6.000000e-001 F- F> ^Temp_RX_Head @@ ^RX_Head_Temp_SP @@ 1.000000e-001 F+ F< LAND  IF 
+5 LINE.NUM 0 ^Temp_Control_Override @! 
+5 LINE.NUM ELSE 
+5 LINE.NUM THEN 
+-16 JUMP ;
+: 41_2
+TRUE
+
+1 LINE.NUM
+  ^Temp_Control_Override @@ 
+  -1    =
+LAND
+IF -16 ELSE -4 THEN JUMP ;
+: 41_3
+TRUE
+
+1 LINE.NUM
+  ^Temp_Control_Override @@ 
+  1    =
+LAND
+IF -15 ELSE -14 THEN JUMP ;
+: 41_15
+TRUE
+
+1 LINE.NUM
+  ^RX_Head_Timer   T0=
+LAND
+IF -11 ELSE -13 THEN JUMP ;
+: 41_16
+TRUE
+
+1 LINE.NUM
+  ^RX_Head_Cycle   T0=
+LAND
+IF -5 ELSE -13 THEN JUMP ;
+: 41_44
+TRUE
+
+1 LINE.NUM
+  ^RX_Head_Cycle   T0=
+LAND
+IF -7 ELSE -11 THEN JUMP ;
+: 41_45
+TRUE
+
+1 LINE.NUM
+  ^RX_Head_Timer   T0=
+LAND
+IF -13 ELSE -11 THEN JUMP ;
+: 41_60
+TRUE
+
+1 LINE.NUM
+  ^Temp_RX_Head @@ 
+  ^RX_Head_Temp_SP @@   F<=
+LAND
+IF -6 ELSE -7 THEN JUMP ;
+T: T41
+DUMMY
+41_0
+41_1
+41_4
+41_5
+41_6
+41_13
+41_14
+41_17
+41_18
+41_30
+41_35
+41_42
+41_43
+41_46
+41_47
+41_49
+41_51
+41_2
+41_3
+41_15
+41_16
+41_44
+41_45
+41_60
+T;
+&Head_Temp_Control ' T41 SETTASK

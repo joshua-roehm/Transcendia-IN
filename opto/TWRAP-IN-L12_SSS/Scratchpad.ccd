@@ -1,0 +1,43 @@
+: 42_0
+1 JUMP ;
+: 42_1
+
+1 LINE.NUM
+  %Line12_SSIU_110 
+  125  
+  0  
+  0  
+  }Opto_Table_Out   IO.SP.T.WRITE
+  ^Status_Scratchpad_Out @! 
+
+2 LINE.NUM
+  %Line12_SSIU_110 
+  125  
+  125  
+  0  
+  }Opto_Table_In   IO.SP.READ
+  ^Status_Scratchpad_IN @! 
+
+3 LINE.NUM
+  %Line12_SSIU_110 
+  125  
+  250  
+  125  
+  }Opto_Table_Out   IO.SP.T.WRITE
+  ^Status_Scratchpad_Out @! 
+1 JUMP ;
+: 42_2
+
+1 LINE.NUM
+  1.0    FDELAY
+-2 JUMP ;
+: 42_3
+-2 JUMP ;
+T: T42
+DUMMY
+42_0
+42_1
+42_2
+42_3
+T;
+&Scratchpad ' T42 SETTASK

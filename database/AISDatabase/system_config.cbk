@@ -1,0 +1,8 @@
+:IngredientName,IngredientType,Unit,Recipe
+:Names,,"Config","System"
+"Line Speed",Analog,"sys_setup\lineEncConvFctr",0.087
+"S1_Profile_Range",Analog,"S1_Profile_ScaleRange_Config",30
+"Profile Reverse",Discrete,"gbl_Prof_Rev_Config",0
+"APC HI Limit",Analog,"apc_BoltHi_Alm_Config",90
+"APC LO Limit",Analog,"apc_BoltLo_Alm_Config",10
+"Line Spd Conv 1",Analog,"sys_setup\lineEncConv1",1
